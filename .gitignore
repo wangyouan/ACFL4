@@ -1,0 +1,35 @@
+# LaTeX intermediate files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.nav
+*.snm
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.synctex.gz
+*.synctex(busy)
+
+# PDF output
+*.pdf
+
+# Backup files
+*~
+*.bak
+*.backup
+
+# VS Code settings (if using VS Code)
+.vscode/
+
+# Git metadata
+.git/
+
+# OS generated files
+.DS_Store
+Thumbs.db
