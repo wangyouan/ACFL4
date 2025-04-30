@@ -1,0 +1,171 @@
+\documentclass[xcolor=table]{beamer}
+\usepackage{caption}
+\usepackage{subfig}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{rotating}
+\usepackage{outlines}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usetikzlibrary{positioning, shapes, arrows}
+\usepackage[normalem]{ulem}
+\usepackage{subfig}
+\usepackage{pifont}
+\usepackage{makecell} 
+\usepackage{fontawesome5}
+\usepackage[backend=biber,style=apa,sorting=nyt]{biblatex}
+\addbibresource{ref.bib}
+% \usepackage[table,xcdraw]{xcolor}
+
+\hypersetup{
+	pdfauthor={WANG Youan},
+	pdftitle={Capital Structure and Dividend Policy},
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    citecolor=blue,
+    bookmarksopen=true
+    }
+    
+\setbeamercovered{transparent}
+
+\mode<presentation> {
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below is a list
+% of all the themes. Uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these, in turn, to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\setbeamertemplate{footline} % To remove the footer line in all slides, uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count, uncomment this line
+
+%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides, uncomment this line
+}
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+\title[csdp]{Lecture 4: Capital Structure and Dividend Policy} % The short title appears at the bottom of every slide, the full title is only on the title page
+
+\author[WYA] % (optional, for multiple authors)
+{Youan~Wang}
+
+\institute[XMU] % (optional)
+{
+    WISE \& SOE, Xiamen University
+}
+\date[Spring, 2025]{
+	Spring, 2025
+} % Date, can be changed to a custom date
+
+\AtBeginSection[]
+{
+	\begin{frame}
+		\frametitle{Outline}
+		\tableofcontents[currentsection,hideothersubsections]
+	\end{frame}
+}
+\newcommand{\backupbegin}{
+	\newcounter{framenumberappendix}
+	\setcounter{framenumberappendix}{\value{framenumber}}
+}
+\newcommand{\backupend}{
+	\addtocounter{framenumberappendix}{-\value{framenumber}}
+	\addtocounter{framenumber}{\value{framenumberappendix}} 
+}
+
+\begin{document}
+
+\begin{frame}
+\titlepage % Print the title page as the first slide
+\end{frame}
+
+\begin{frame}
+\frametitle{Outline} % Table of contents slide, comment this block out to remove it
+
+\tableofcontents[hideallsubsections] % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+
+\end{frame}
+
+\section{Efficient Capital Markets and Behavioral Challenges}
+\input{EMH.tex}
+
+% \section{Long‐Term Financing}
+% \input{ltf.tex}
+
+% \section{Capital Structure: Basic Concepts}
+% \input{cs.tex}
+
+% \section{Capital Structure: Limits to the Use of Debt}
+% \input{csII.tex}
+
+% \section{Valuation and Capital Budgeting for the Levered Firm}
+% \input{valuation}
+
+% \section{Dividends and Other Payouts}
+% \input{dp}
+
+\begin{frame}
+	\Huge{\centerline{The End}}
+\end{frame}
+\backupbegin
+
+\section*{Reference}
+\begin{frame}[allowframebreaks]{References}
+	\printbibliography[heading=none]
+\end{frame}
+
+\backupend
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
