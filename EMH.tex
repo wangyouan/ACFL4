@@ -62,7 +62,7 @@
 		\textbf{Mechanics of Collapse\parencite{healy2003fall}}:
 		\begin{itemize}
 			\item Hidden debt via SPEs: \$1.2B off-balance-sheet
-			\item Stock price drop: \$90.75 (2000) → \$0.26 (2001)
+			\item Stock price drop: \$90.75 (2000) $\rightarrow$ \$0.26 (2001)
 		\end{itemize}
 		\column{0.4\textwidth}
 		\includegraphics[width=\textwidth]{images/section1/enron_stock_chart.png}
@@ -144,4 +144,864 @@
 	\item \textcolor{green}{\textbf{Strategic imperative}}: Integrate financial engineering with superior operational execution.
 \end{itemize}
 \end{block}
+\end{frame}
+
+\subsection{Efficient Capital Markets}
+
+\begin{frame}{Historical Foundations of the Efficient Market Hypothesis}
+	
+	\begin{columns}[T]
+		\begin{column}{0.52\textwidth}
+			\textbf{Foundational Milestones:}
+			\begin{itemize}
+				\item \textbf{1900}: \textcite{bachelier1900} introduces probabilistic asset price modeling
+				\item \textbf{1965}: \textcite{fama1965random} presents empirical support for price randomness
+				\item \textbf{1970}: \textcite{fama1970efficient} formalizes EMH and classifies it into three forms
+			\end{itemize}
+		\end{column}
+		
+		\begin{column}{0.44\textwidth}
+			\textbf{Further Contributions:}
+			\begin{itemize}
+				\item \textbf{1970s–80s}:
+				\begin{itemize}
+					\item Paul Samuelson — theoretical validation
+					\item \textcite{jensen1978anomalous} on performance evaluation under EMH
+					\item \textcite{malkiel1973random} popularizes EMH among retail investors
+				\end{itemize}
+				\item \textbf{2013}: Fama receives Nobel Prize for EMH development
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	
+	\vspace{4mm}
+	\begin{block}{Key Milestones Timeline}
+		1900 (Bachelier) $\rightarrow$ 1965 (Fama) $\rightarrow$ 1970 (Formalization) $\rightarrow$ 2013 (Nobel Recognition)
+	\end{block}
+	
+\end{frame}
+
+\begin{frame}{Understanding Efficient Capital Markets}
+	
+	\begin{block}{\textbf{Definition (Efficient Market Hypothesis)}}
+		A financial market is said to be \textbf{efficient} if security prices \alert{fully and instantaneously reflect all available information}.
+	\end{block}
+	
+	\vspace{0.4cm}
+	
+	\begin{itemize}
+		\item \textbf{Mechanism:} Prices adjust \textit{immediately} to new information — no predictable patterns remain.
+		\vspace{0.3cm}
+		\item \textbf{Implications:}
+		\begin{itemize}
+			\item[$\triangleright$] \textbf{Investors:} Cannot systematically outperform the market using public information
+			\item[$\triangleright$] \textbf{Firms:} Securities are fairly priced — cost of capital reflects fundamentals
+			\item[$\triangleright$] \textbf{Regulators:} Focus shifts to transparency and timely disclosure
+		\end{itemize}
+	\end{itemize}
+	
+\end{frame}
+
+\begin{frame}{Market Reaction Pattern to "Good News"}
+	\centering
+	\begin{figure}
+		\includegraphics[width=0.8\textwidth]{images/section1/emh}
+	\end{figure}
+	
+\end{frame}
+
+\begin{frame}{Market Reaction Pattern to "Bad News"}
+\centering
+\begin{figure}
+	\includegraphics[width=0.8\textwidth]{images/section1/emhbad}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Foundations Underlying Market Efficiency}
+	
+	\begin{enumerate}
+		\item \textbf{Rational Investors}
+		\begin{itemize}
+			\item Agents act to maximize expected utility
+			\item Beliefs updated via Bayes' rule upon arrival of new information
+		\end{itemize}
+		
+		\vspace{0.2cm}
+		\item \textbf{Limited Impact of Irrationality}
+		\begin{itemize}
+			\item Behavioral biases exist but are uncorrelated and cancel in aggregate
+			\item Bounded rationality does not lead to systematic mispricing
+		\end{itemize}
+		
+		\vspace{0.2cm}
+		\item \textbf{Presence of Arbitrage Forces}
+		\begin{itemize}
+			\item Rational arbitrageurs exploit mispricing opportunities
+			\item Their trading ensures prices return to fundamental values
+		\end{itemize}
+	\end{enumerate}
+	
+	\vspace{0.3cm}
+	\begin{alertblock}{Key Insight}
+		Market efficiency does not require every investor to be rational — only that \textit{irrationality is limited and arbitraged away}.
+	\end{alertblock}
+	
+\end{frame}
+
+\begin{frame}{Forms of Market Efficiency: Nested Information Sets}
+	
+	\begin{columns}
+		\column{0.4\textwidth}
+		\includegraphics[width=\linewidth]{images/section1/informationset.png}
+		
+		\column{0.6\textwidth}
+		\textbf{Three Forms of EMH:}
+		\begin{itemize}
+			\item \textbf{Weak Form}: Prices reflect all \textit{past price and volume information}
+			\begin{itemize}
+				\item $\rightarrow$ Technical analysis is ineffective
+			\end{itemize}
+			
+			\item \textbf{Semi-Strong Form}: Prices reflect all \textit{publicly available information}
+			\begin{itemize}
+				\item $\rightarrow$ Fundamental analysis cannot yield abnormal returns
+			\end{itemize}
+			
+			\item \textbf{Strong Form}: Prices reflect \textit{all information}, including private or insider info
+			\begin{itemize}
+				\item $\rightarrow$ Even insiders cannot consistently beat the market
+			\end{itemize}
+		\end{itemize}
+	\end{columns}
+	
+	\begin{block}{Interpretation}
+		\small
+		Each broader form of efficiency \textit{subsumes} the weaker one — the informational assumptions become stronger as we move outward in the diagram.
+	\end{block}
+	
+\end{frame}
+
+\begin{frame}{Comparison of the Three Forms of Market Efficiency}
+	
+	\begin{table}[h]
+		\centering
+		\resizebox{\textwidth}{!}{
+			\begin{tabular}{lccc}
+				\toprule
+				\textbf{Feature} & \textbf{Weak Form} & \textbf{Semi-Strong Form} & \textbf{Strong Form} \\
+				\midrule
+				\textbf{Information Reflected} 
+				& Past prices and volume 
+				& All publicly available information 
+				& All information (public + private) \\
+				\addlinespace[0.2em]
+				
+				\textbf{Implication for Technical Analysis} 
+				& Cannot consistently generate alpha 
+				& Ineffective 
+				& Ineffective \\
+				
+				\textbf{Implication for Fundamental Analysis} 
+				& May work 
+				& Cannot consistently generate alpha 
+				& Ineffective \\
+				
+				\textbf{Implication for Insider Trading} 
+				& Profitable 
+				& Profitable 
+				& Not profitable \\
+				
+				\textbf{Empirical Support} 
+				& Strong in most markets 
+				& Mixed — supported in large markets 
+				& Largely rejected \\
+				
+				\bottomrule
+			\end{tabular}
+		}
+	\end{table}
+	
+	\vspace{0.3cm}
+	\begin{block}{Key Takeaway}
+		The forms of EMH are nested: each stronger form implies the weaker ones. Strong-form efficiency sets a high bar — rarely met in reality.
+	\end{block}
+	
+\end{frame}
+
+
+\begin{frame}{Common Misconceptions about Market Efficiency}
+	
+	\begin{columns}[T]
+		\begin{column}{0.5\textwidth}
+			\textbf{Misconceptions}
+			\begin{itemize}
+				\item \textbf{“Markets are random”} — implies chaos or lack of structure
+				\item \textbf{“No one can make money”} — implies inefficiency punishes skill
+				\item \textbf{“Prices have no cause”} — implies disconnection from fundamentals
+			\end{itemize}
+		\end{column}
+		
+		\begin{column}{0.5\textwidth}
+			\textbf{Clarifications}
+			\begin{itemize}
+				\item \textbf{EMH $\neq$ randomness}: Prices follow a stochastic process but reflect information
+				\item \textbf{EMH $\neq$ zero profit}: Investors earn risk-adjusted expected returns
+				\item \textbf{EMH $\neq$ no causality}: Prices respond to new information efficiently
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	
+	\vspace{4mm}
+	\begin{block}{Key Insight}
+		\small
+		The Efficient Market Hypothesis does not deny structure or rationality — it asserts that \textbf{information is rapidly and correctly incorporated into prices}.
+	\end{block}
+	
+\end{frame}
+
+\subsection{Evidence Supporting the EMH}
+\begin{frame}{Empirical Foundations of Market Efficiency}
+	
+	\textbf{Three empirical approaches} have been widely used to evaluate the validity of the Efficient Market Hypothesis:
+	
+	\vspace{0.4cm}
+	\begin{enumerate}
+		\item \textbf{Random Walk Studies}  
+		\begin{itemize}
+			\item Test for unpredictability of asset returns
+			\item Weak-form EMH: past prices should not forecast future prices
+		\end{itemize}
+		
+		\item \textbf{Event Studies}  
+		\begin{itemize}
+			\item Examine how quickly prices adjust to new public information
+			\item Semi-strong form EMH: markets react fully and rapidly to announcements
+		\end{itemize}
+		
+		\item \textbf{Active Manager Performance}  
+		\begin{itemize}
+			\item Assess whether skilled managers can consistently beat the market
+			\item Benchmarks semi-strong form via fund performance
+		\end{itemize}
+	\end{enumerate}
+	
+\end{frame}
+
+%\begin{frame}{Evidence Supporting the EMH}
+%	\begin{itemize}
+	%		\item Extensive empirical research across three methodological approaches substantiates EMH's validity:
+	%		
+	%		\begin{enumerate}
+		%			\item \textbf{Random Walk Hypothesis} 
+		%			\begin{itemize}
+			%				\item Seminal work by \textcite{fama1965behavior} established stock price changes follow Martingale patterns
+			%				\item \textcite{malkiel1973random} demonstrated technical trading rules fail to consistently beat buy-and-hold strategy
+			%				\item Modern extensions show prediction errors \parencite{fama1991} exhibit serial independence
+			%			\end{itemize}
+		%			
+		%			\item \textbf{Event Study Methodology}
+		%			\begin{itemize}
+			%				\item Foundational framework by \textcite{ball1968} showed 85\% earnings information absorbed within 1 day
+			%				\item Dividend announcements study \parencite{fama1969adjustment} revealed full price adjustment within 10 minutes
+			%				\item M\&A analysis \textcite{jensen1983} documented complete value incorporation in 3 trading days
+			%			\end{itemize}
+		%			
+		%			\item \textbf{Active Management Performance}
+		%			\begin{itemize}
+			%				\item \textcite{jensen1968} seminal study found 70\% funds underperformed market portfolio
+			%				\item Post-expense alpha distribution \parencite{sharpe1966} showed mean -1.2\% annually
+			%				\item Survivorship bias-adjusted analysis \textcite{malkiel1995} revealed persistent negative risk-adjusted returns
+			%			\end{itemize}
+		%		\end{enumerate}
+	%		
+	%		\item Consensus from \parencite{fama1970} three-form classification remains empirically robust
+	%	\end{itemize}
+%\end{frame}
+
+\subsubsection{Random Walk Theory}
+\begin{frame}{Are Stock Price Changes Predictable?}
+	
+	\begin{block}{Cognitive Illusion in Markets}
+		Humans are pattern-seeking creatures. We often perceive structure even in random sequences.
+	\end{block}
+	
+	\begin{itemize}
+		\item Analysts and traders frequently claim to “see” trends in price charts.
+		\item But many such patterns may be statistical noise — akin to optical illusions.
+		\item Even if short-term patterns exist, they must yield risk-adjusted returns net of transaction costs.
+	\end{itemize}
+	
+	\vspace{0.3cm}
+	\begin{alertblock}{Implication}
+		Apparent predictability does not equal exploitable inefficiency.
+	\end{alertblock}
+	
+\end{frame}
+
+\begin{frame}{Can You See the Pattern?}
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.6\textwidth]{images/section1/aapl}
+	\end{figure}
+	\vspace{-3mm}
+	\begin{block}{Key Point}
+		\small
+		Visual patterns often emerge in hindsight — but fail to predict future prices systematically.
+	\end{block}
+	
+\end{frame}
+
+\begin{frame}{Serial Correlation in Stock Returns}
+	
+	\begin{columns}
+		\begin{column}{0.45\textwidth}
+			\begin{itemize}
+				\item Weak-form EMH implies that price changes should be uncorrelated over time.
+				\item Empirical studies test whether past returns predict future returns using serial correlation.
+			\end{itemize}
+		\end{column}
+		\begin{column}{0.55\textwidth}
+			
+			\begin{table}[h]
+				\centering
+				\resizebox{0.8\textwidth}{!}{
+					\begin{tabular}{@{}lc@{}}
+						\toprule
+						\textbf{Company}    & \textbf{Serial Correlation (2020)} \\ \midrule
+						Tesla      & 0.0095 \\
+						Kellogg's  & 0.0054 \\
+						GM         & -0.0087 \\
+						JM Smucker & -0.0099 \\
+						Albemarle  & -0.0201 \\
+						Equifax    & -0.0237 \\
+						Clorox     & -0.0565 \\ \bottomrule
+					\end{tabular}
+				}
+				\caption{Near-zero serial correlation supports weak-form efficiency.}
+			\end{table}
+		\end{column}
+	\end{columns}
+	
+	\vspace{0.3cm}
+
+	\begin{block}{Conclusion}
+		\small
+		Price changes behave like white noise — consistent with a random walk.
+	\end{block}
+	
+\end{frame}
+
+\subsubsection{Event Studies}
+\begin{frame}{Event Studies: What and Why}
+	
+	\begin{block}{Definition}
+		Event studies evaluate how quickly and accurately stock prices incorporate new public information — a test of \textbf{semi-strong form efficiency}.
+	\end{block}
+	
+	\vspace{0.2cm}
+	\begin{itemize}
+		\item Examine returns around the timing of a clearly defined event (e.g., earnings release).
+		\item Look for price patterns indicating underreaction, overreaction, or delayed adjustment.
+		\item If markets are efficient, abnormal returns should be concentrated around the event day and quickly dissipate.
+	\end{itemize}
+	
+	\vspace{0.2cm}
+	\begin{alertblock}{Key Assumption}
+		Markets react rationally and rapidly to publicly available news.
+	\end{alertblock}
+	
+\end{frame}
+
+\begin{frame}{Calculating Abnormal Returns}
+	
+	\begin{itemize}
+		\item \textbf{Goal:} Isolate the effect of the event from market-wide movements.
+		\item \textbf{Method 1: Market-Adjusted Model}
+		\[
+		AR_t = R_t - R_{M,t}
+		\]
+		
+		\item \textbf{Method 2: Market Model (preferred)}
+		\[
+		AR_t = R_t - (\alpha + \beta R_{M,t})
+		\]
+		\item $\alpha$ and $\beta$ are estimated over a pre-event estimation window.
+	\end{itemize}
+	
+	\vspace{0.2cm}
+	\begin{block}{Interpretation}
+		If $AR_t$ is statistically significant around the event, it implies market misreaction or delayed adjustment.
+	\end{block}
+	
+\end{frame}
+
+\begin{frame}{Illustration: Dividend Omission Reaction}
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/section1/divomission}
+		\caption*{\tiny Source: \textcite{szewczyk1997dividend}}
+	\end{figure}
+	\vspace{-5mm}
+	\small
+		Prices typically drop sharply immediately following a dividend omission — consistent with semi-strong form efficiency.
+\end{frame}
+
+\begin{frame}{Event Study Evidence}
+	
+	\begin{itemize}
+		\item Widely applied to study market reactions to:
+		\begin{itemize}
+			\item Earnings announcements \parencite{ball1968}
+			\item Dividend changes \parencite{fama1969adjustment,michaely1995}
+			\item Mergers \& acquisitions \parencite{jensen1983,andrade2001}
+			\item Stock splits or repurchases \parencite{ikenberry1995}
+			\item Seasoned equity offerings \parencite{loughran1995,asquith1986}
+		\end{itemize}
+		
+		\item \textbf{General Findings}:
+		\begin{itemize}
+			\item Abnormal returns tend to cluster tightly around the event
+			\item Markets typically adjust within minutes to hours
+			\item Some evidence of anticipation (i.e., price moves before public release)
+		\end{itemize}
+	\end{itemize}
+	
+	\vspace{0.2cm}
+	\begin{alertblock}{Conclusion}
+		Event studies strongly support the semi-strong form of the EMH: public information is quickly reflected in prices.
+	\end{alertblock}
+	
+\end{frame}
+
+\subsubsection{Mutual Fund Performance}
+\begin{frame}{Do Active Mutual Funds Beat the Market?}
+	
+	\begin{block}{EMH Prediction}
+		Under the \textbf{semi-strong form} of market efficiency, no investor using publicly available information should consistently earn excess risk-adjusted returns.
+	\end{block}
+	\small
+	\begin{itemize}
+		\item Actively managed mutual funds employ analyst skill and public data to select “undervalued” stocks.
+		\item Benchmark: Passive market index (e.g., S\&P 500 or Vanguard 500 Index Fund).
+		\item Empirical tests compare long-term returns (net of fees) between active funds and index performance.
+		\item Evidence shows: \textbf{most active funds underperform} their benchmark after costs.
+	\end{itemize}
+	
+	\begin{alertblock}{Implication}
+		\footnotesize
+		Consistent underperformance of active funds provides strong support for semi-strong form efficiency.
+	\end{alertblock}
+	
+\end{frame}
+
+\begin{frame}{Active Fund Underperformance: Long-Term Trends}
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/section1/active}
+		\caption*{\tiny Source: Jordan, Miller, and Dolvin, *Fundamentals of Investments*, 9th ed., McGraw Hill (2020)}
+	\end{figure}
+	\vspace{-5mm}
+		{\small
+		The percentage of actively managed equity funds outperforming the Vanguard 500 Index Fund is consistently low — often below 30\% across multiple years.}
+\end{frame}
+
+
+
+\subsubsection{Strong-form EMH}
+\begin{frame}{Strong-form EMH: Key Points}
+	\begin{block}{Core Proposition}
+		All information (public \& private) reflected in prices $\Rightarrow$ \alert{No insider profits} possible
+	\end{block}
+	
+	\begin{columns}[T]
+		\begin{column}{0.55\textwidth}
+			Empirical Evidences:
+			\begin{itemize}
+				\item \textcite{bhattacharya2002world}: Weak enforcement $\rightarrow$ 3\%+ alpha
+				\item \textcite{lakonishok2001are}: Insider buys $\rightarrow$ +5\% returns
+				\item \textcite{seyhun1986insiders}: Small firms $\rightarrow$ 12\% edge
+			\end{itemize}
+		\end{column}
+		
+		\begin{column}{0.45\textwidth}
+			Key Implications:
+				\begin{itemize}
+					\item Strong-form efficiency is theoretical
+					\item Regulation critical for fairness
+					\item Small caps more vulnerable
+				\end{itemize}
+		\end{column}
+	\end{columns}
+	
+	\begin{alertblock}{Consensus Conclusion}
+		Strong-form efficiency remains a theoretical ideal rather than empirical reality
+	\end{alertblock}
+\end{frame}
+
+\subsubsection{EMH in China}
+\begin{frame}{EMH in China: Weak-Form Efficiency}
+	
+	\begin{block}{What is being tested?}
+		Weak-form efficiency implies that stock returns should not be predictable based on past price or volume information.
+	\end{block}
+	
+	\vspace{0.3cm}
+	\textbf{Evidence from Chinese Markets:}
+	\begin{itemize}
+		\item Early studies using autocorrelation and runs tests:
+		\begin{itemize}
+			\item \textcite{laurence1997weak}, \textcite{liu1997market} find weak evidence of autocorrelation in Shanghai and Shenzhen markets.
+			\item Suggest limited weak-form efficiency in early years.
+		\end{itemize}
+		
+		\item Contrasting results:
+		\begin{itemize}
+			\item \textcite{mookerjee1999efficiency}, \textcite{ma2004testing} report significant serial dependence, rejecting weak-form EMH.
+		\end{itemize}
+	\end{itemize}
+	
+	\vspace{0.2cm}
+	\begin{alertblock}{Conclusion}
+		The weak-form efficiency of Chinese markets remains inconclusive and time-varying.
+	\end{alertblock}
+	
+\end{frame}
+
+
+\begin{frame}{Challenges in Testing EMH in China}
+	
+	\begin{itemize}
+		\item Conflicting findings may stem from:
+		\begin{itemize}
+			\item Short sample periods and market immaturity
+			\item Infrequent trading (“thin trading”) biases autocorrelation tests
+		\end{itemize}
+		
+		\item \textcite{groenewold2004market} suggest apparent predictability may reflect structural market issues, not inefficiency.
+		
+		\item \textcite{zhang2008variance} and \textcite{charles2009variance} apply variance ratio (VR) tests with mixed outcomes.
+	\end{itemize}
+	
+	\vspace{0.3cm}
+	\begin{block}{Interpretation}
+		In emerging markets like China, market microstructure effects (e.g., liquidity, institutional reform) complicate efficiency testing.
+	\end{block}
+	
+\end{frame}
+
+\begin{frame}{Toward Adaptive Efficiency in China}
+	
+	\begin{itemize}
+		\item Some researchers propose that efficiency in China is \textit{time-varying} or \textit{adaptive}.
+		
+		\item Supporting evidence:
+		\begin{itemize}
+			\item As reforms progressed, return predictability weakened (suggesting increasing efficiency)
+			\item VR and time-varying parameter models detect gradual evolution toward weak-form efficiency
+		\end{itemize}
+		
+		\item \textcite{lim2011evolution} emphasize that efficiency should be viewed as evolving with market development.
+	\end{itemize}
+	
+	\vspace{0.3cm}
+	\begin{alertblock}{Takeaway}
+		China’s markets may be better understood under an \textbf{adaptive efficiency} framework rather than a static EMH view.
+	\end{alertblock}
+	
+\end{frame}
+
+\begin{frame}{Mutual Fund Performance in China: Overview}
+	\begin{itemize}
+		\item Since 1998, China's mutual fund industry has grown rapidly, reaching over RMB 1 trillion AUM by 2012.
+		\item \textbf{\textcite{chi2013china}} documents:
+		\begin{itemize}
+			\item Strong evidence of positive alpha among Chinese mutual funds (up to 9.6\% annually gross)
+			\item Significant skill in stock-picking, confirmed by bootstrap simulations
+			\item Outperformance mostly driven by holdings rather than timing
+		\end{itemize}
+	\end{itemize}
+	
+	\vspace{4mm}
+	\begin{alertblock}{EMH Implication}
+		Results suggest improving semi-strong form efficiency—mutual fund outperformance has diminished over time.
+	\end{alertblock}
+\end{frame}
+
+\begin{frame}{Mutual Fund Performance in China: Visual Trends}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/section1/chncar}
+	\end{figure}
+	\vspace{-3mm}
+	\tiny{SOURCE: \textcite{chi2013china}}
+\end{frame}
+
+\begin{frame}{China's Evolving Efficiency: 2003–2012}
+	\begin{itemize}
+		\item Mutual fund alpha declined from \textbf{17.8\%} (2003–04) to \textbf{−0.5\%} (2011–12)
+		\item Institutional ownership increased from 12\% to 66\%
+		\item Insider trade abnormal returns decayed faster in later years
+	\end{itemize}
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/section1/chncar0812}
+	\end{figure}
+	\tiny{SOURCE: \textcite{chi2013china}}
+\end{frame}
+
+\begin{frame}{Limitations: China and Strong-form Efficiency}
+	\begin{itemize}
+		\item \textcite{chi2013china} documents evidence of \textbf{information asymmetry}:
+		\begin{itemize}
+			\item Large shareholders (e.g., mutual funds) trade in sync with insiders
+			\item Insider trades generate significant abnormal returns (up to 4.5\% over 6 months)
+		\end{itemize}
+		\item These findings contradict the \textbf{strong-form EMH}
+	\end{itemize}
+	
+	\begin{block}{Conclusion}
+		China’s stock market exhibits improving semi-strong form efficiency, but strong-form efficiency does not hold.
+	\end{block}
+\end{frame}
+
+\subsection{Challenges for EMH}
+\begin{frame}{Challenges to the EMH: Foundations Under Scrutiny}
+	
+	\begin{block}{Three Core Assumptions of EMH}
+		The Efficient Market Hypothesis relies on the following key foundations:
+		\begin{enumerate}
+			\item \textbf{Rational Investors} \\
+			Investors process information logically and make utility-maximizing decisions.
+			
+			\item \textbf{Independent Deviations from Rationality} \\
+			If irrational behavior exists, it is assumed to be random and uncorrelated across individuals.
+			
+			\item \textbf{Unlimited and Effective Arbitrage} \\
+			Rational traders can quickly correct mispricings through arbitrage activity.
+		\end{enumerate}
+	\end{block}
+	
+	\begin{alertblock}{Behavioral and Empirical Challenges}
+		\small
+		Behavioral finance questions each of these assumptions — demonstrating systematic biases, correlated misbeliefs, and limited arbitrage in real markets.
+	\end{alertblock}
+	
+\end{frame}
+
+\begin{frame}{Foundations of EMH – Under Challenge}
+	\centering
+	\begin{tikzpicture}[node distance=0.5cm]
+		\node (pillar1) [rounded corners, fill=blue!15, text width=3.5cm, align=center] {
+			\textbf{Rational Investors} \\
+			\footnotesize Overconfidence, Disposition Effect, Home Bias \\
+			\tiny \textcite{barber2001boys}, \textcite{odean1998volume}
+		};
+		\node (pillar2) [right=of pillar1, rounded corners, fill=green!15, text width=3.5cm, align=center] {
+			\textbf{Independent Irrationality} \\
+			\footnotesize Representativeness, Conservatism, Herding \\
+			\tiny \textcite{barberis1998model}, \textcite{banerjee1992simple}
+		};
+		\node (pillar3) [right=of pillar2, rounded corners, fill=red!15, text width=3.5cm, align=center] {
+			\textbf{Unlimited Arbitrage} \\
+			\footnotesize Limits to Arbitrage, Noise Trader Risk \\
+			\tiny \textcite{shleifer1997limits}
+		};
+	\end{tikzpicture}
+	
+	\vspace{0.5cm}
+	\begin{itemize}
+		\item \textcolor{blue}{Psychological}: Human behavior systematically deviates from rationality
+		\item \textcolor{green}{Correlated Errors}: Biases are not random, but often aggregate and amplify
+		\item \textcolor{red}{Implementation Barriers}: Arbitrage is risky, costly, and capital-constrained
+	\end{itemize}
+\end{frame}
+
+\subsubsection{Rationality}
+\begin{frame}{Challenges to Rationality in Investor Behavior}
+	
+	\begin{block}{Behavioral Biases Undermining Rationality}
+		Traditional EMH assumes that investors process information logically and make optimal decisions. Behavioral finance identifies systematic deviations from this assumption:
+	\end{block}
+	
+	\vspace{0.3cm}
+	\begin{columns}
+		\begin{column}{0.48\textwidth}
+			\textbf{Cognitive Biases}
+			\begin{itemize}
+				\item Overconfidence
+				\item Representativeness (Overreaction)
+				\item Conservatism (Underreaction)
+			\end{itemize}
+		\end{column}
+		
+		\begin{column}{0.48\textwidth}
+			\textbf{Emotional and Contextual Biases}
+			\begin{itemize}
+				\item Disposition Effect
+				\item Familiarity and Home Bias
+				\item Risk-Taking After Gains or Losses
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	
+	\vspace{0.3cm}
+	\begin{alertblock}{Key Insight}
+		Investor psychology introduces predictable, systematic departures from rationality — inconsistent with EMH.
+	\end{alertblock}
+	
+\end{frame}
+
+\begin{frame}{Overconfidence Bias}
+	
+	\begin{block}{Definition}  
+		Overconfidence refers to the tendency to overestimate one's own abilities, knowledge, or predictive accuracy.
+	\end{block}
+	
+	\vspace{0.3cm}
+	\textbf{Behavioral Manifestation}
+	\begin{itemize}
+		\item Investors believe their analysis is superior to others
+		\item Excessive trading and portfolio turnover
+		\item Neglect of contradictory evidence
+	\end{itemize}
+	
+	\vspace{0.3cm}
+	\textbf{Market Consequences}
+	\begin{itemize}
+		\item Increased volatility
+		\item Lower net returns after fees
+		\item Mispricing due to overreaction
+	\end{itemize}
+	
+	\vspace{0.2cm}
+	\tiny{\textcite{odean1998volume}, \textcite{barber2001boys}}
+\end{frame}
+
+\begin{frame}{Disposition Effect}
+	
+	\begin{block}{Definition}  
+		Investors tend to sell winning stocks too early and hold losing stocks too long.
+	\end{block}
+	
+	
+	\vspace{0.3cm}
+	\textbf{Behavioral Mechanism}
+	\begin{itemize}
+		\item Selling winners brings pride ("I was right")
+		\item Holding losers avoids admitting mistakes (regret aversion)
+	\end{itemize}
+	
+	\vspace{0.3cm}
+	\textbf{Market Consequences}
+	\begin{itemize}
+		\item Return drag from suboptimal realization patterns
+		\item Reversal patterns contradicting momentum
+		\item Tax inefficiencies: paying gains, deferring losses
+	\end{itemize}
+	
+	\vspace{0.2cm}
+	\tiny{\textcite{shefrin1985disposition}}
+\end{frame}
+
+\begin{frame}{Familiarity and Home Bias}
+	
+	\begin{block}{Definition}  
+		Investors tend to overweight assets they are familiar with — such as domestic markets or well-known companies.
+	\end{block}
+	
+	
+	\vspace{0.3cm}
+	\textbf{Behavioral Mechanism}
+	\begin{itemize}
+		\item Preference for known over unknown ("ambiguity aversion")
+		\item Loyalty to local or national institutions
+	\end{itemize}
+	
+	\vspace{0.3cm}
+	\textbf{Market Consequences}
+	\begin{itemize}
+		\item Under-diversification of portfolios
+		\item Missed opportunities in global markets
+		\item Potential mispricing of familiar stocks
+	\end{itemize}
+	
+	\vspace{0.2cm}
+	\tiny{\textcite{huberman2001familiarity}}
+\end{frame}
+
+\begin{frame}{Representativeness Heuristic (Overreaction)}
+	\begin{block}{Definition}  
+		Investors incorrectly assume that recent trends are representative of long-run outcomes.
+	\end{block}
+	
+	
+	\vspace{0.3cm}
+	\textbf{Behavioral Mechanism}
+	\begin{itemize}
+		\item Over-extrapolation from short-term patterns
+		\item Ignoring base rates and statistical reasoning
+	\end{itemize}
+	
+	\vspace{0.3cm}
+	\textbf{Market Consequences}
+	\begin{itemize}
+		\item Overreaction to earnings surprises and market news
+		\item Formation of price bubbles and crashes
+		\item Reversal in long-term stock returns
+	\end{itemize}
+	
+	\vspace{0.2cm}
+	\tiny{\textcite{kahneman1972subjective}, \textcite{barberis1998model}}
+\end{frame}
+
+\begin{frame}{Conservatism Bias (Underreaction)}
+	\begin{block}{Definition}  
+		Investors update their beliefs too slowly in response to new information.
+	\end{block}
+	
+	\vspace{0.3cm}
+	\textbf{Behavioral Mechanism}
+	\begin{itemize}
+		\item Anchoring on prior beliefs
+		\item Cognitive inertia and inattentiveness
+	\end{itemize}
+	
+	\vspace{0.3cm}
+	\textbf{Market Consequences}
+	\begin{itemize}
+		\item Drift in stock prices after earnings announcements
+		\item Predictable return patterns over medium horizon
+		\item Opportunities for momentum strategies
+	\end{itemize}
+	
+	\vspace{0.2cm}
+	\tiny{\textcite{barberis1998model}, \textcite{hong1999underreaction}}
+\end{frame}
+
+\begin{frame}{Risk-Taking After Gains or Losses}
+	\begin{block}{Definition}  
+		Investor risk preferences are influenced by recent portfolio performance.
+	\end{block}
+	
+	\vspace{0.3cm}
+	\textbf{Behavioral Mechanism}
+	\begin{itemize}
+		\item \textbf{House Money Effect}: Investors take more risk after gains
+		\item \textbf{Snakebite Effect}: Investors become overly risk-averse after losses
+	\end{itemize}
+	
+	\vspace{0.3cm}
+	\textbf{Market Consequences}
+	\begin{itemize}
+		\item Cyclical over- and under-risking of portfolios
+		\item Return momentum and mean reversion
+		\item Market volatility driven by psychological framing
+	\end{itemize}
+	
+	\vspace{0.2cm}
+	\tiny{\textcite{thaler1990mental}}
 \end{frame}
