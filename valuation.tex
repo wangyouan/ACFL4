@@ -1,0 +1,704 @@
+\begin{frame}{Valuation and Capital Budgeting for the Levered Firm}
+	
+	\textbf{Core Question:}  
+	How do we value investment projects when the firm uses both debt and equity financing?
+	
+	\vspace{0.3cm}
+	\begin{itemize}
+		\item \textbf{Why It Matters:}  
+		Capital budgeting and valuation must reflect financing choices — taxes, interest, risk all change with leverage.
+		
+		\item \textbf{Challenges with Leverage:}
+		\begin{itemize}
+			\item Project risk is no longer the same as firm risk
+			\item Discount rates must account for debt usage
+			\item Tax shields and financial distress impact value
+		\end{itemize}
+		
+		\item \textbf{This Section Covers Three Valuation Methods:}
+		\begin{enumerate}
+			\item \textbf{Adjusted Present Value (APV)} — separates project value from financing side effects
+			\item \textbf{Flow to Equity (FTE)} — values equity cash flows directly
+			\item \textbf{WACC} — most commonly used, integrates risk and capital costs
+		\end{enumerate}
+		
+		\item \textbf{Application:}  
+		We’ll also discuss how to estimate discount rates and betas when direct comparables are unavailable.
+	\end{itemize}
+	
+\end{frame}
+
+\subsection{Adjusted Present Value}
+\begin{frame}{Adjusted Present Value (APV)}
+	
+	\begin{block}{Formula}
+		\[
+		\text{APV} = \text{NPV (unlevered)} + \text{NPV of Financing Effects (NPVF)}
+		\]
+	\end{block}
+	
+	\begin{itemize}
+		\item \textbf{Core Idea:}  
+		Start with an unlevered project valuation, then add/subtract effects from financing choices.
+		
+		\item \textbf{Why use APV?}
+		\begin{itemize}
+			\item Financing effects (e.g., tax shields) can be valued separately.
+			\item Especially useful when leverage is changing or financing is non-standard.
+		\end{itemize}
+		
+		\item \textbf{Common NPVF Components:}
+		\begin{itemize}
+			\item Tax shield from debt
+			\item Issuance costs of equity or debt
+			\item Subsidized debt (e.g., government lending)
+			\item Expected distress costs
+		\end{itemize}
+	\end{itemize}
+	
+\end{frame}
+\begin{frame}{APV Example: Step 1 – Unlevered NPV}
+	
+	\textbf{Project: Nio Inc.}
+	
+	\begin{itemize}
+		\item Perpetual project with:
+		\begin{itemize}
+			\item Revenue = ¥5,000,000 per year
+			\item Costs = ¥3,830,380 per year
+			\item Initial Investment = ¥4,750,000
+			\item Tax rate: \( T_C = 21\% \), Cost of capital: \( R_0 = 20\% \)
+		\end{itemize}
+		
+		\item \textbf{Unlevered After-Tax Cash Flow}:
+		\[
+		\text{UCF} = (5,000,000 - 3,830,380) \times (1 - 0.21) = \text{\textyen}924,000
+		\]
+		
+		\item \textbf{NPV (Unlevered)}:
+		\[
+		NPV = -4,750,000 + \frac{924,000}{0.20} = -\text{\textyen}130,000
+		\]
+		
+		\item → Without financing help, project should be \textcolor{red}{rejected}.
+	\end{itemize}
+	
+\end{frame}
+\begin{frame}{APV Example: Step 2 – Add Subsidized Financing Effect}
+	
+	\begin{itemize}
+		\item Assume Hefei government provides a permanent debt subsidy of ¥1,219,000
+		\item Tax shield from debt:
+		\[
+		\text{NPVF} = T_C \times \text{Debt} = 0.21 \times 1,219,000 = \text{\textyen}255,990
+		\]
+		
+		\item \textbf{Adjusted Present Value:}
+		\[
+		\text{APV} = -\text{\textyen}130,000 + \text{\textyen}255,990 = \text{\textyen}125,990
+		\]
+		
+		\item → \textbf{Accept} the project: government support turned a negative NPV project into a positive one.
+	\end{itemize}
+	
+\end{frame}
+
+\subsection{Flow to Equity Approach}
+\begin{frame}{Flow to Equity (FTE) Valuation Method}
+	
+	\textbf{Core Idea:}  
+	Value a project by forecasting cash flows to equity holders and discounting at the cost of levered equity \( R_S \).
+	
+	\vspace{0.3cm}
+	\begin{block}{Formula}
+		\[
+		\text{Value}_{\text{Equity}} = \frac{\text{Levered Cash Flows (LCF)}}{R_S}
+		\]
+	\end{block}
+	
+	\vspace{0.2cm}
+	\textbf{Three Steps:}
+	\begin{enumerate}
+		\item Estimate LCF: Project cash flows after interest and taxes
+		\item Estimate \( R_S \): Cost of equity using levered beta or MM II
+		\item Discount LCFs using \( R_S \)
+	\end{enumerate}
+	
+	\vspace{0.2cm}
+	\textbf{When to Use:}
+	\begin{itemize}
+		\item Useful when capital structure is fixed and financing effects are embedded in cash flows.
+	\end{itemize}
+	
+\end{frame}
+
+\begin{frame}{Step 1: Estimate Levered Cash Flows (LCF)}
+	
+	\textbf{Nio Project Assumptions (Perpetuity):}
+	\begin{itemize}
+		\item Revenues: ¥5,000,000, Costs: ¥3,830,380
+		\item Debt: ¥1,219,000 at 10\% → Interest = ¥121,900
+		\item Tax rate: \( T_C = 21\% \)
+	\end{itemize}
+	
+	\textbf{Step-by-step LCF:}
+	\begin{table}[]
+		\centering
+		\begin{tabular}{lr}
+			\toprule
+			Revenue             & ¥5,000,000 \\
+			Operating Cost      & ¥3,830,380 \\
+			EBIT                & ¥1,169,620 \\
+			Interest Payment    & ¥121,900 \\
+			\midrule
+			EBT                 & ¥1,047,720 \\
+			Taxes (21\%)        & ¥220,021 \\
+			\midrule
+			\textbf{LCF}        & ¥827,699 \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	
+\small
+	Alternatively:  
+	\[
+	\text{LCF} = \text{UCF} - (1 - T_C) \cdot R_B \cdot B = \text{\textyen}827,699
+	\]
+	
+\end{frame}
+
+\begin{frame}{Step 2: Compute Levered Cost of Equity \( R_S \)}
+	
+	\textbf{MM Proposition II (with taxes):}
+	\[
+	R_S = R_0 + \frac{B}{S}(1 - T_C)(R_0 - R_B)
+	\]
+	
+	\vspace{0.2cm}
+	\textbf{In our example:}
+	\begin{itemize}
+		\item \( R_0 = 20\%, R_B = 10\%, T_C = 21\% \)
+		\item Total project value = ¥4,876,000 → Equity = ¥3,657,000
+		\item \( B/S = 1,219,000 / 3,657,000 \approx \frac{1}{3} \)
+	\end{itemize}
+	
+	\vspace{0.2cm}
+	\[
+	R_S = 0.20 + \frac{1}{3} \cdot (1 - 0.21) \cdot (0.20 - 0.10) = 0.2263
+	\]
+	
+\end{frame}
+
+\begin{frame}{Step 3: Valuation Using FTE}
+	
+	\begin{itemize}
+		\item \textbf{Value of equity (project):}
+		\[
+		\text{PV}_{\text{Equity}} = \frac{LCF}{R_S} = \frac{\text{\textyen}827,699}{0.2263} = \text{\textyen}3,656,990
+		\]
+		
+		\item \textbf{Equity outlay:}
+		\[
+		\text{Equity Invested} = \text{\textyen} 4,750,000 - \text{\textyen}1,219,000 = \text{\textyen}3,531,000
+		\]
+		
+		\item \textbf{NPV to equityholders:}
+		\[
+		\text{\textyen}3,656,990 - \text{\textyen}3,531,000 = \text{\textyen}125,990
+		\]
+		
+		\item → Project should be \textbf{accepted} from the equityholders’ point of view.
+	\end{itemize}
+	
+\end{frame}
+\subsection{WACC}
+\begin{frame}{WACC Method: Weighted Average Cost of Capital}
+	
+	\textbf{Definition:}  
+	WACC reflects the firm's blended cost of capital, accounting for both debt and equity, after taxes.
+	
+	\vspace{0.3cm}
+	\begin{block}{Formula}
+		\[
+		WACC = \frac{S}{S + B} \cdot R_S + \frac{B}{S + B} \cdot (1 - T_C) \cdot R_B
+		\]
+	\end{block}
+	
+	\textbf{Key Concept:}
+	\begin{itemize}
+		\item Use \textbf{unlevered cash flows} (UCFs) from the project.
+		\item Discount them at the firm’s WACC to obtain total firm/project value.
+	\end{itemize}
+	
+	\vspace{0.3cm}
+	\textbf{In our Nio example:}
+	\begin{itemize}
+		\item \( R_S = 22.63\% \), \( R_B = 10\% \), \( T_C = 21\% \)
+		\item Capital structure: \( S:B = 3:1 \Rightarrow w_E = 0.75, w_D = 0.25 \)
+		\item \[
+		WACC = 0.75 \cdot 0.2263 + 0.25 \cdot 0.79 \cdot 0.10 = 18.95\%
+		\]
+	\end{itemize}
+	
+\end{frame}
+
+\begin{frame}{WACC Valuation Example}
+	
+	\textbf{Recall:} Unlevered after-tax cash flow (UCF) = ¥924,000 per year (perpetuity)
+	
+	\vspace{0.2cm}
+	\textbf{Project Value (using WACC):}
+	\[
+	V = \frac{\text{\textyen}924,000}{0.1895} = \text{\textyen}4,876,000
+	\]
+	
+	\textbf{Initial investment = ¥4,750,000}
+	
+	\vspace{0.3cm}
+	\textbf{Net Present Value (NPV):}
+	\[
+	NPV = \text{\textyen}4,876,000 - \text{\textyen}4,750,000 = \text{\textyen}125,990
+	\]
+	
+	\vspace{0.2cm}
+	\textbf{Conclusion:}  
+	Same result as APV and FTE — all methods should yield consistent NPV if inputs are used correctly.
+	
+\end{frame}
+\begin{frame}{Comparing APV, FTE, and WACC}
+	
+	\textbf{Goal:} All three methods aim to value a project with leverage.
+	
+	\vspace{0.3cm}
+	\textbf{How They Differ:}
+	\begin{itemize}
+		\item \textbf{WACC:} Incorporates tax shield into the discount rate
+		\item \textbf{FTE:} Values equity cash flows directly
+		\item \textbf{APV:} Separates project value from financing effects
+	\end{itemize}
+	
+	\vspace{0.3cm}
+	\textbf{Which to Use?}
+	\begin{itemize}
+		\item Use \textbf{WACC} or \textbf{FTE} if firm maintains a constant target D/V ratio over time
+		\item Use \textbf{APV} when the financing side is nonstandard (e.g., fixed debt schedule, subsidies, restructuring)
+	\end{itemize}
+	
+	\vspace{0.3cm}
+	\textbf{Practice Tip:}  
+	In industry, \textbf{WACC is the most widely used} due to simplicity and convention.
+	
+\end{frame}
+\begin{frame}{Summary: APV vs. FTE vs. WACC}
+	
+	\begin{table}
+		\resizebox{\textwidth}{!}{\begin{tabular}{llll}
+				\toprule
+				\textbf{Feature} & \textbf{APV} & \textbf{WACC} & \textbf{FTE} \\
+				\midrule
+				Initial Investment & Total project cost & Total project cost & Equity only \\
+				
+				Cash Flows Used & Unlevered cash flows (UCF) & UCF & Levered cash flows (LCF) \\
+				
+				Discount Rate & \( R_0 \) (unlevered) & \( WACC \) (after-tax) & \( R_S \) (levered equity) \\
+				
+				Tax Shield Treatment & Separate cash flow item (added) & Built into discount rate & Built into LCFs \\
+				
+				Best When & Debt schedule is known & D/V ratio is constant & Focus is on equity returns \\
+				
+				Popularity in Practice & Common in academia & Most used in practice & Less common \\
+				\bottomrule
+		\end{tabular}}
+	
+	\end{table}
+	
+	
+	\vspace{0.3cm}
+	\textbf{Bottom Line:}  
+	All three methods should give the same result if used consistently.
+	
+\end{frame}
+
+\subsection{Applications of Levered Valuation Techniques}
+\subsubsection{World-Wide Enterprises}
+\begin{frame}{Estimating a Discount Rate: WWE Widget Example}
+	
+	\begin{block}{Context}
+		World-Wide Enterprises (WWE) is evaluating entry into the widget business. It plans to use a 25\% debt-to-value ratio for all widget projects.
+	\end{block}
+	
+	\vspace{0.2cm}
+	\textbf{Industry Benchmark: American Widgets (AW)}
+	\begin{itemize}
+		\item Capital structure: 40\% debt / 60\% equity
+		\item Equity beta: \( \beta_E = 1.5 \)
+		\item Borrowing rate: 12\%
+	\end{itemize}
+	
+	\vspace{0.2cm}
+	\textbf{Assumptions:}
+	\begin{itemize}
+		\item WWE's widget borrowing rate: 10\%
+		\item Risk-free rate: 8\%
+		\item Market risk premium: 8.5\%
+		\item Corporate tax rate: 21\%
+	\end{itemize}
+	
+	\vspace{0.2cm}
+	\textbf{Goal:}  
+	Estimate WWE’s appropriate discount rate for its widget venture.
+	
+\end{frame}
+\begin{frame}{Step 1: Estimate Unlevered Return \( R_0 \) from Industry Proxy}
+	
+	\textbf{Step 1a: Compute AW’s cost of equity using CAPM}
+	\[
+	R_S^{AW} = R_F + \beta_E \cdot (R_M - R_F) = 0.08 + 1.5 \cdot 0.085 = \textbf{20.75\%}
+	\]
+	
+	\vspace{0.3cm}
+	\textbf{Step 1b: Solve for unlevered cost of capital \( R_0 \)}  
+	Using MM Proposition II (with taxes):
+	\[
+	R_S = R_0 + \frac{B}{S}(1 - T_C)(R_0 - R_B)
+	\]
+	
+	\[
+	0.2075 = R_0 + \frac{0.4}{0.6} \cdot 0.79 \cdot (R_0 - 0.12)
+	\]
+	
+	Solving gives:  
+	\[
+	\boxed{R_0 = 17.73\%}
+	\]
+	
+	\textbf{Interpretation:}  
+	This is WWE's project cost of capital if financed entirely with equity.
+	
+\end{frame}
+\begin{frame}{Step 2: Estimate WWE's \( R_S \) and WACC}
+	
+	\textbf{Step 2a: Cost of equity for WWE’s capital structure (25\% debt)}
+	\[
+	R_S^{WWE} = R_0 + \frac{B}{S}(1 - T_C)(R_0 - R_B)
+	\]
+	
+	\[
+	= 0.1773 + \frac{0.25}{0.75} \cdot 0.79 \cdot (0.1773 - 0.10) = \boxed{19.77\%}
+	\]
+	
+	\vspace{0.3cm}
+	\textbf{Step 2b: Compute WACC for WWE's widget projects}
+	\[
+	WACC = w_D \cdot R_B (1 - T_C) + w_E \cdot R_S
+	\]
+	
+	\[
+	= 0.25 \cdot 0.10 \cdot 0.79 + 0.75 \cdot 0.1977 = \boxed{16.80\%}
+	\]
+	
+	\vspace{0.2cm}
+	\textbf{Conclusion:}  
+	Use \textbf{16.80\%} to discount unlevered project cash flows in capital budgeting.
+	
+\end{frame}
+
+\subsubsection{Bicksler Enterprises}
+\begin{frame}{Bicksler Enterprises: Project Setup (All-Equity Baseline)}
+	
+	\begin{block}{Project Details}
+		\begin{itemize}
+			\item Initial investment: \$10,000,000
+			\item Project life: 5 years
+			\item Straight-line depreciation: \$2,000,000/year
+			\item Cash revenues – expenses: \$3,500,000/year
+			\item Corporate tax rate: 21\%
+			\item Risk-free rate: 10\%, Unlevered cost of capital: 20\%
+		\end{itemize}
+	\end{block}
+	
+	\textbf{Cash Flow Estimates (in \$ thousands):}
+	\vspace{-3mm}
+	\begin{table}[]
+		\centering
+		\resizebox{\textwidth}{!}{
+			\begin{tabular}{lrrrrrr}
+				\toprule
+				& Year 0 & Year 1 & Year 2 & Year 3 & Year 4 & Year 5 \\
+				\midrule
+				Initial Outlay & -10,000 &       &       &       &       &       \\
+				Depreciation Tax Shield &        & 420   & 420   & 420   & 420   & 420 \\
+				Net After-Tax Revenue &          & 2,765 & 2,765 & 2,765 & 2,765 & 2,765 \\
+				\bottomrule
+			\end{tabular}
+		}
+	\end{table}
+	
+\end{frame}
+
+\begin{frame}{Step 1: All-Equity Project Valuation}
+	
+	\textbf{Present Value Calculations (in \$):}
+	\begin{itemize}
+		\item Depreciation tax shield (risk-free):
+		\[
+		PV_{\text{Dep}} = \frac{420{,}000}{0.10} \cdot \left[1 - \frac{1}{1.10^5}\right] = \text{\$1,592,130}
+		\]
+		\item After-tax operating CF:
+		\[
+		PV_{\text{Revenue}} = \frac{2,765{,}000}{0.20} \cdot \left[1 - \frac{1}{1.20^5}\right] = \text{\$8,269,043}
+		\]
+	\end{itemize}
+	
+	\vspace{2mm}
+	\textbf{All-Equity NPV:}
+	\[
+	NPV = -10,000,000 + 1,592,130 + 8,269,043 = \textcolor{red}{-\$138,827}
+	\]
+	
+	\textbf{Conclusion:} Project would be rejected under all-equity financing.
+	
+\end{frame}
+
+\begin{frame}{Step 2: Debt Flotation Costs and Tax Shield}
+	
+	\textbf{Debt Raised:} \$7,500,000 net after flotation  
+	\textbf{Gross proceeds:}
+	\[
+	\text{Gross} = \frac{7,500,000}{1 - 0.01} = 7,575,758
+	\]
+	
+	\textbf{Flotation cost = \$75,758; amortized over 5 years (straight line)}
+	
+	\vspace{1mm}
+	\textbf{Annual Tax Shield:}
+	\[
+	\text{Tax Shield} = 21\% \cdot 15,152 = 3,182
+	\]
+	
+	\textbf{PV of Tax Shield on Flotation Costs:}
+	\[
+	PV = \frac{3,182}{0.10} \cdot \left[1 - \frac{1}{1.10^5}\right] = 12,062
+	\]
+	
+	\textbf{Net flotation cost:}
+	\[
+	-75,758 + 12,062 = \textcolor{red}{-\$63,696}
+	\]
+	
+\end{frame}
+
+\begin{frame}{Step 3: Tax Shield from Interest Payments}
+	
+	\textbf{Loan amount:} \$7,575,758 at 10\% interest  
+	\textbf{Annual Interest = \$757,576; After-tax = \$598,485}
+	
+	\vspace{2mm}
+	\textbf{PV of Interest Tax Shield:}
+	\[
+	PV = 7,575,758 - \frac{598,485}{0.10} \cdot \left[1 - \frac{1}{1.10^5}\right] - \frac{7,575,758}{1.10^5}
+	\]
+	\[
+	= \textcolor{blue}{\$603,080}
+	\]
+	
+	\textbf{Interpretation:} This is the value of subsidized debt net of interest burden.
+	
+\end{frame}
+
+\begin{frame}{Step 4: Adjusted Present Value (with Debt)}
+	
+	\textbf{Summary:}
+	\begin{itemize}
+		\item All-Equity NPV = \textcolor{red}{-\$138,827}
+		\item Net flotation cost = \textcolor{red}{-\$63,696}
+		\item Debt value (NPV of tax subsidy) = \textcolor{blue}{\$603,080}
+	\end{itemize}
+	
+	\vspace{2mm}
+	\[
+	APV = -138,827 - 63,696 + 603,080 = \boxed{\text{\$400,557}}
+	\]
+	
+	\textbf{Conclusion:}  
+	→ Project should be \textbf{accepted} if debt financing is available.
+	
+\end{frame}
+
+\begin{frame}{Step 5: Subsidized Financing — State Loan at 8\%}
+	
+	\textbf{Loan = \$7,500,000 at 8\% interest, no flotation costs}
+	
+	\textbf{Annual after-tax interest:}
+	\[
+	\$600,000 \cdot (1 - 0.21) = \$474,000
+	\]
+	
+	\textbf{NPV of subsidized loan:}
+	\[
+	NPV = 7,500,000 - \frac{474,000}{0.10} \cdot \left[1 - \frac{1}{1.10^5}\right] - \frac{7,500,000}{1.10^5}
+	= \boxed{\$1,046,257}
+	\]
+	
+\end{frame}
+
+\begin{frame}{Final APV with Subsidized Loan}
+	
+	\textbf{All-Equity NPV:} \textcolor{red}{-\$138,827}  
+	\textbf{+ Subsidized Loan NPV:} \textcolor{blue}{\$1,046,257}
+	
+	\[
+	\text{APV} = -138,827 + 1,046,257 = \boxed{\$907,430}
+	\]
+	
+	\textbf{Conclusion:}  
+	→ Subsidized financing significantly enhances project value.  
+	→ Governments can make socially beneficial projects financially viable.
+	
+\end{frame}
+\subsection{Beta and Leverage}
+\begin{frame}{Beta and Leverage with Corporate Taxes}
+	
+	\begin{block}{Beta of Levered Equity (with risk-free debt)}
+		If debt is risk-free ($\beta_B = 0$), the levered equity beta is:
+		\begin{equation}
+			\beta_S = \left[1 + \frac{B}{S}(1 - T_C)\right] \beta_0
+			\label{eq:betalever}
+		\end{equation}
+	\end{block}
+	
+	\vspace{0.3cm}
+	\textbf{Intuition:} Financial leverage increases the equity beta due to the magnification of operating risk.
+	
+	\vspace{0.2cm}
+	\textbf{Assumption:} This holds when the firm's debt is risk-free and perpetual.
+	
+\end{frame}
+
+\begin{frame}{Decomposing Firm Beta under Leverage}
+	
+	\begin{itemize}
+		\item Total firm beta is a weighted average of security betas:
+		\begin{equation}
+			\beta_L = \frac{B}{V_L} \beta_B + \frac{S}{V_L} \beta_S
+			\label{eq:betal}
+		\end{equation}
+		
+		\item It can also be expressed in terms of asset value and tax shield:
+		\begin{equation}
+			\beta_L = \frac{V_0}{V_L} \beta_0 + \frac{T_C B}{V_L} \beta_B
+			\label{eq:betatc}
+		\end{equation}
+	\end{itemize}
+	
+	\pause
+	\textbf{Where:}
+	\begin{itemize}
+		\item $\beta_0$: unlevered (asset) beta
+		\item $\beta_B$: beta of debt
+		\item $V_0$: unlevered firm value; $V_L$: levered firm value
+	\end{itemize}
+	
+\end{frame}
+
+\begin{frame}{Derivation: When $\beta_B = 0$}
+	
+	\begin{itemize}
+		\item Equating \eqref{eq:betal} and \eqref{eq:betatc}, and assuming $\beta_B = 0$:
+		\begin{align*}
+			\frac{S}{V_L} \beta_S &= \frac{V_0}{V_L} \beta_0\\
+			\Rightarrow \beta_S &= \frac{V_0}{S} \beta_0 = \left[1 + \frac{B}{S}(1 - T_C)\right] \beta_0
+		\end{align*}
+		
+		\item \textbf{Result:} $\beta_S > \beta_0$, i.e., leverage increases equity risk.
+		
+		\pause
+		\item When debt is risky ($\beta_B \neq 0$):
+		\begin{equation*}
+			\beta_S = \beta_0 + \frac{B}{S}(1 - T_C)(\beta_0 - \beta_B)
+		\end{equation*}
+	\end{itemize}
+	
+\end{frame}
+
+\begin{frame}{Example: Unlevering Equity Beta}
+	
+	\begin{block}{Example Setup}
+		C. F. Lee, Inc. has \$100M in debt and \$200M in equity. Debt is risk-free. Equity beta is 2. Corporate tax rate is 21\%.
+		
+		\vspace{0.2cm}
+		What is the appropriate discount rate for a new project if it were financed with equity only?
+	\end{block}
+	
+	\vspace{0.2cm}
+	\textbf{Given:}
+	\begin{itemize}
+		\item $\beta_S = 2$, $B = 100$, $S = 200$, $T_C = 0.21$
+		\item $R_F = 10\%$, $E(R_M) - R_F = 8.5\%$
+	\end{itemize}
+	
+\end{frame}
+
+\begin{frame}{Solution: Unlevered Discount Rate}
+	
+	\begin{itemize}
+		\item Step 1: Compute unlevered beta
+		\begin{align*}
+			\beta_0 &= \frac{S}{S + (1 - T_C) B} \cdot \beta_S \\
+			&= \frac{200}{200 + 0.79 \times 100} \cdot 2 = 1.43
+		\end{align*}
+		
+		\pause
+		\item Step 2: Compute unlevered cost of equity
+		\begin{align*}
+			R_0 &= R_F + \beta_0 \cdot [E(R_M) - R_F] \\
+			&= 0.10 + 1.43 \times 0.085 = 22.19\%
+		\end{align*}
+	\end{itemize}
+	\pause
+	\textbf{Conclusion:} Use 22.19\% to discount unlevered project cash flows.
+	
+\end{frame}
+
+\subsection*{Summary}
+\begin{frame}{Summary: Levered Valuation Techniques}
+	\begin{itemize}
+		\item \textbf{Goal}: Value investment projects in the presence of leverage.
+		\item \textbf{Key Challenges}:
+		\begin{itemize}
+			\item Financing affects risk, discount rates, and tax exposure.
+			\item Need to account for interest tax shields and distress costs.
+		\end{itemize}
+		\item \textbf{Methods Covered}:
+		\begin{itemize}
+			\item \textbf{Adjusted Present Value (APV)}: Unlevered NPV + PV of financing effects.
+			\item \textbf{Flow to Equity (FTE)}: Discount levered cash flows to equity at $R_S$.
+			\item \textbf{WACC}: Discount unlevered cash flows at weighted average cost of capital.
+		\end{itemize}
+		\item \textbf{Application Topics}:
+		\begin{itemize}
+			\item Estimating discount rates using comparables
+			\item Incorporating flotation costs, subsidies, and beta adjustment
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Key Formulas for Levered Firm Valuation}
+	\small
+	\begin{itemize}
+		\item \textbf{APV:} $ \displaystyle APV = \text{NPV}_{\text{unlevered}} + \text{NPV}_{\text{financing effects}} $
+		
+		\item \textbf{FTE:} $ \displaystyle \text{Equity Value} = \frac{\text{Levered Cash Flows (LCF)}}{R_S} $
+		
+		\item \textbf{WACC:} $ \displaystyle WACC = \frac{S}{S + B} R_S + \frac{B}{S + B}(1 - T_C) R_B $
+		
+		\item \textbf{MM Proposition II (with taxes):} 
+		$ \displaystyle R_S = R_0 + \frac{B}{S}(1 - T_C)(R_0 - R_B) $
+		
+		\item \textbf{Levered Beta (with riskless debt):} 
+		$ \displaystyle \beta_S = \left[1 + \frac{B}{S}(1 - T_C)\right] \beta_0 $
+		
+		\item \textbf{Firm Value (WACC or FTE):} 
+		$ \displaystyle V = \sum \frac{\text{UCF or LCF}}{\text{Appropriate Rate}} $
+	\end{itemize}
+\end{frame}
