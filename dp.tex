@@ -1,0 +1,737 @@
+\begin{frame}{Types of Payouts to Shareholders}
+\footnotesize
+\begin{itemize}
+    \item \textbf{Cash Dividends} — The most common form:
+    \begin{itemize}
+        \item \textit{Regular cash dividend}: Typically paid quarterly in the U.S.
+        \item \textit{Extra dividend}: Paid occasionally when the firm has surplus cash.
+        \item \textit{Liquidating dividend}: A one-time payout as the firm winds down.
+    \end{itemize}
+
+    \item \textbf{Stock Dividends} — Paid in the form of additional shares:
+    \begin{itemize}
+        \item No cash leaves the firm.
+        \item Dilutes the ownership percentage but not value.
+    \end{itemize}
+
+    \item \textbf{Dividends in Kind} — Non-cash distribution (rare):
+    \begin{itemize}
+        \item Example: Wrigley’s Gum once sent chewing gum to shareholders.
+    \end{itemize}
+
+    \item \textbf{Stock Buybacks} — An alternative to dividends:
+    \begin{itemize}
+        \item Reduces the number of shares outstanding.
+        \item Can signal undervaluation or distribute temporary cash flows flexibly.
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+\subsection{Cash Dividend}
+\subsubsection{Timeline}
+\begin{frame}{Timeline of a Cash Dividend Payment}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/section5/dividendprocess}
+\end{figure}
+\vspace{-5mm}
+\footnotesize
+\begin{itemize}
+    \item \textbf{Declaration Date}: The board announces the dividend (a legal liability is created).
+    \item \textbf{Record Date}: Shareholders on record at this date are entitled to receive the dividend.
+    \item \textbf{Ex-Dividend Date}: Typically two business days before the record date. Buyers on or after this date will \textit{not} receive the dividend.
+    \item \textbf{Cum-Dividend Date}: The last day when a buyer of the stock still receives the dividend.
+    \item \textbf{Payment Date}: The date when dividend checks are mailed or direct deposits made.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Apple Inc. (AAPL) Dividend History: 2022–2024}
+\footnotesize
+\begin{table}[h]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{cccccc}
+\toprule
+\textbf{Ex-Date} & \textbf{Type} & \textbf{Amount} & \textbf{Declaration Date} & \textbf{Record Date} & \textbf{Payment Date} \\
+\midrule
+05/10/2024 & Cash & \$0.25 & 05/02/2024 & 05/13/2024 & 05/16/2024 \\
+02/09/2024 & Cash & \$0.24 & 02/01/2024 & 02/12/2024 & 02/15/2024 \\
+11/10/2023 & Cash & \$0.24 & 11/02/2023 & 11/13/2023 & 11/16/2023 \\
+08/11/2023 & Cash & \$0.24 & 08/03/2023 & 08/14/2023 & 08/17/2023 \\
+05/12/2023 & Cash & \$0.24 & 05/04/2023 & 05/15/2023 & 05/18/2023 \\
+02/10/2023 & Cash & \$0.23 & 02/02/2023 & 02/13/2023 & 02/16/2023 \\
+11/04/2022 & Cash & \$0.23 & 10/27/2022 & 11/07/2022 & 11/10/2022 \\
+08/05/2022 & Cash & \$0.23 & 07/28/2022 & 08/08/2022 & 08/11/2022 \\
+05/06/2022 & Cash & \$0.23 & 04/28/2022 & 05/09/2022 & 05/12/2022 \\
+02/04/2022 & Cash & \$0.22 & 01/27/2022 & 02/07/2022 & 02/10/2022 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+\vspace{-2mm}
+{\tiny Source: NASDAQ}
+\end{frame}
+\subsubsection{Price Behavior}
+\begin{frame}{Price Behavior Around the Ex-Dividend Date}
+
+\small
+\textbf{In theory:}  
+\vspace{1mm}
+\begin{itemize}
+    \item In a frictionless market, a stock's price should drop by exactly the amount of the dividend on the \textbf{ex-dividend date}.
+\end{itemize}
+
+\vspace{-2mm}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.75\textwidth]{images/section5/pricebehavior}
+\end{figure}
+\vspace{-7mm}
+\textbf{In practice:}
+\begin{itemize}
+    \item The price drop is typically \textit{less than the dividend}.
+    \item The adjustment usually occurs within minutes of the market opening.
+    \item This deviation is primarily due to \textbf{tax preferences} and market microstructure.
+\end{itemize}
+\end{frame}
+
+\subsubsection{The Irrelevance of Dividend Policy}
+\begin{frame}{The Irrelevance of Dividend Policy}
+
+\begin{itemize}
+    \item In a perfect capital market, \textbf{dividend policy is irrelevant} to firm value.
+    \vspace{2mm}
+    \item Investors can create their preferred cash flow stream through \textbf{homemade dividends}:
+    \begin{itemize}
+        \item Need cash? Sell shares.
+        \item Don’t want cash? Reinvest dividends.
+    \end{itemize}
+    \vspace{2mm}
+    \item As long as the firm's \textbf{investment policy and total cash flow} remain unchanged, payout decisions do not affect value.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Benchmark Case: Bristol Corporation}
+
+\begin{itemize}
+    \item Consider a firm with no growth and no investment opportunities.
+    \item Bristol Corp. has \$10,000 in cash today and expects \$10,000 more next year, after which it will liquidate.
+\end{itemize}
+
+\vspace{3mm}
+\begin{center}
+\begin{tikzpicture}[x=1.5cm, y=1cm]
+    \draw[-] (0,0) -- (5.5,0);
+    \foreach \x in {0,5.5} {
+        \draw (\x,0.1) -- (\x,-0.1);
+    }
+    \node[below] at (0,-0.2) {Date 0};
+    \node[below] at (5.5,-0.2) {Date 1};
+    \node[above] at (0,0.2) {\$10,000};
+    \node[above] at (5.5,0.2) {\$10,000};
+\end{tikzpicture}
+\end{center}
+
+\begin{itemize}
+    \item Discount rate: 10\%
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Current Policy: Dividend Equals Current Cash Flow}
+
+\begin{itemize}
+    \item The firm pays out \$10,000 immediately, and \$10,000 next year.
+    \item Present value of the firm:
+    \[
+        V_0 = \$10,000 + \frac{\$10,000}{1.1} = \$19,090.91
+    \]
+    \item With 1,000 shares outstanding:
+    \[
+        P_0 = \$10 + \frac{\$10}{1.1} = \$19.09
+    \]
+    \item After the dividend, the share price falls to:
+    \[
+        P_{\text{ex-div}} = \$19.09 - 10 = \$9.09
+    \]
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Alternative Policy: Dividends Greater Than Cash Flow}
+
+\begin{itemize}
+    \item Suppose the firm pays a dividend of \$11 per share today.
+    \item To finance the extra \$1,000, it issues new equity at \$19.09/share.
+    \item New investors expect:
+    \[
+        \$1,000 \times 1.1 = \$1,100 \text{ return at Date 1}
+    \]
+    \item Remaining \$8,900 goes to old shareholders:
+    \[
+        P_0 = \$11 + \frac{\$8.90}{1.1} = \$19.09
+    \]
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{The Dividend Indifference Proposition}
+
+\begin{itemize}
+    \item Dividend policy does not affect share value if:
+    \begin{itemize}
+        \item The firm pays out all cash eventually
+        \item Capital markets are perfect (no taxes, no transaction costs)
+    \end{itemize}
+    
+    \vspace{2mm}
+    \item Investors are indifferent between:
+    \begin{itemize}
+        \item \textbf{Dividends vs. Capital Gains}: Delayed payouts $\approx$ capital gains
+        \item \textbf{Dividends vs. Retained Earnings}: Retained earnings must eventually be distributed
+    \end{itemize}
+    
+    \vspace{2mm}
+    \item Homemade dividends replicate any desired cash flow stream
+\end{itemize}
+
+\end{frame}
+
+\subsubsection{Homemade Dividends}
+\begin{frame}{Homemade Dividends: Investor Preferences}
+
+\begin{itemize}
+    \item Investors can adjust their own cash flows to suit their preferences — regardless of the firm’s dividend policy.
+    \vspace{3mm}
+    
+    \item \textbf{Case 1: Investor X prefers smooth dividends of \$10 at Date 0 and Date 1.}
+    \begin{itemize}
+        \item The firm pays \$11 at Date 0 and \$8.90 at Date 1.
+        \item Investor X reinvests the excess \$1 at 10\% return → receives \$1.10 at Date 1.
+    \end{itemize}
+    
+    \pause
+    \item \textbf{Case 2: Investor Z prefers more income at Date 0 — e.g., \$11 now and \$8.90 later.}
+    \begin{itemize}
+        \item Firm pays only \$10 per share today.
+        \item Share price after dividend is \$9.09.
+        \item To increase current income by \$100, Investor Z sells $\frac{\$100}{\$9.09} \approx 11$ shares.
+        \item The remaining 89 shares yield \$8.90 each next year → desired total income stream achieved.
+    \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Homemade Dividends: Indifference Curve}
+\begin{center}
+    \resizebox{0.8\textwidth}{!}{
+\begin{tikzpicture}[x=1.5cm, y=1cm]
+    % Axes
+    \draw[->] (0,0) -- (6.2,0) node[below right] {Date 1};
+    \draw[->] (0,0) -- (0,6.2) node[above left, rotate=90] {Date 0};
+
+    % Budget constraint line
+    \draw[thick] (0,6) -- (6,0);
+
+    % Key points
+    \filldraw (3,3) circle (2pt) node[above right] {A: (\$10, \$10)};
+    \filldraw (4.5,1.5) circle (2pt) node[above right] {C: (\$11.10, \$8.90)};
+    \filldraw (1.5,4.5) circle (2pt) node[above left] {B: (\$9, \$11)};
+    
+    % Slope annotation
+    \node at (3.3,1.5) {\scriptsize Slope = $-\frac{1}{1.1}$};
+
+    % Ticks and labels
+    \foreach \x/\xlabel in {1.5/\$8.90, 3/\$10.00, 4.5/\$11.10} {
+        \draw (\x,0.1) -- (\x,-0.1) node[below] {\xlabel};
+    }
+    \foreach \y/\ylabel in {1.5/\$9.00, 3/\$10.00, 4.5/\$11.00} {
+        \draw (0.1,\y) -- (-0.1,\y) node[left] {\ylabel};
+    }
+
+\end{tikzpicture}
+}
+\end{center}
+
+\begin{itemize}
+    \item Investors can freely move along the \textbf{budget line} by buying or selling shares to adjust the timing of cash flows.
+    \item Point A: Firm policy → \$10 now and \$10 later.
+    \item Point C: Preference for more cash now, offset by lower future income.
+\end{itemize}
+
+\end{frame}
+
+\subsubsection{Cash Dividend Summary}
+\begin{frame}{Dividends and Investment Policy: Key Insight}
+
+\begin{itemize}
+    \item Increasing dividends by issuing new equity \textbf{does not create value} for shareholders.
+    
+    \item Reducing dividends through share repurchases \textbf{also does not destroy value}, assuming no change in total cash flow.
+
+    \vspace{3mm}
+    \item \textbf{Core Assumption:}
+    \begin{itemize}
+        \item The firm’s overall cash flow level is fixed.
+        \item The firm continues to accept all available \textbf{positive NPV projects}.
+    \end{itemize}
+
+    \vspace{3mm}
+    \item \textbf{Golden Rule:}
+    \begin{block}{}
+        \centering
+        \textit{A firm should never sacrifice a positive NPV investment just to increase or initiate a dividend.}
+    \end{block}
+\end{itemize}
+
+\end{frame}
+
+\subsection{Repurchase of Stock}
+\begin{frame}{Repurchase of Stock: An Alternative to Dividends}
+
+\begin{itemize}
+    \item Instead of paying cash dividends, firms may choose to return excess cash via \textbf{share repurchases}.
+    \item In a repurchase, the firm buys back its own shares, reducing the number of shares outstanding.
+    
+    \vspace{2mm}
+    \item \textbf{Methods of Share Repurchase}:
+    \begin{itemize}
+        \item \textit{Open Market Repurchase}: Buy shares on the market like any investor.
+        \item \textit{Tender Offer}: Offer to buy a specific number of shares at a premium.
+        \item \textit{Dutch Auction}: Shareholders state prices; firm accepts the lowest prices that fulfill its target.
+        \item \textit{Private Negotiation} (Greenmail): Buy back from large investors under negotiated terms.
+    \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Earnings, Dividends, and Buybacks for Large U.S. Firms}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{images/section5/eds}
+\end{figure}
+
+\tiny{Source: Federal Reserve, via CFA Institute (through 03/31/2020)}
+
+\end{frame}
+\begin{frame}{Dividend vs. Stock Repurchase}{Original Balance Sheet}
+	Consider a firm that wishes to distribute \$100,000 to its shareholders.
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[]
+	\begin{tabular}{@{}lrlr@{}}
+		\multicolumn{2}{l}{\textit{\textbf{Assets}}} & \multicolumn{2}{l}{\textit{\textbf{Liabilities   \& Equity}}} \\
+		\multicolumn{2}{l}{A. Original   balance sheet} &  & \multicolumn{1}{l}{} \\ \midrule
+		Cash & \multicolumn{1}{r|}{\$150,000} & Debt & 0 \\
+		Other Assets & \multicolumn{1}{r|}{\$850,000} & Equity & \$1,000,000 \\
+		Value of Firm & \multicolumn{1}{r|}{\$1,000,000} & Value of Firm & \$1,000,000 \\ \bottomrule
+	\end{tabular}
+\end{table}
+\begin{itemize}
+	\item Shares outstanding = 100,000
+	\item Price per share = \$1,000,000 / 100,000 = \$10
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Dividend vs. Stock Repurchase}{After Dividend Payment (Stock Price Falls)}
+	If they distribute the \$100,000 as a cash dividend, the balance sheet will look like this:
+	% Please add the following required packages to your document preamble:
+	% \usepackage{booktabs}
+	\begin{table}[]
+		\begin{tabular}{@{}lrlr@{}}
+			\multicolumn{2}{l}{\textit{\textbf{Assets}}} & \multicolumn{2}{l}{\textit{\textbf{Liabilities   \& Equity}}} \\
+			\multicolumn{2}{l}{B. After \$1 per share cash dividend} &  & \multicolumn{1}{l}{} \\ \midrule
+			Cash & \multicolumn{1}{r|}{\$50,000} & Debt & 0 \\
+			Other Assets & \multicolumn{1}{r|}{\$850,000} & Equity & \$900,000 \\
+			Value of firm & \multicolumn{1}{r|}{\$900,000} & Value of firm & \$900,000 \\ \bottomrule
+		\end{tabular}
+	\end{table}
+\begin{itemize}
+\item Shares outstanding = 100,000
+\item Price per share = \$900,000 / 100,000 = \$9
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Dividend vs. Stock Repurchase}{After Stock Repurchase (Stock Price Stable, Shares Reduce)}
+If they distribute the \$100,000 through a stock repurchase, the balance sheet will look like this:
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[]
+	\begin{tabular}{@{}lrlr@{}}
+		\multicolumn{2}{l}{\textit{\textbf{Assets}}} & \multicolumn{2}{l}{\textit{\textbf{Liabilities   \& Equity}}} \\
+		\multicolumn{2}{l}{C.  After stock repurchase} &  & \multicolumn{1}{l}{} \\ \midrule
+		Cash & \multicolumn{1}{r|}{\$50,000} & Debt & 0 \\
+		Other Assets & \multicolumn{1}{r|}{\$850,000} & Equity & \$900,000 \\
+		Value of firm & \multicolumn{1}{r|}{\$900,000} & Value of firm & \$900,000 \\ \bottomrule
+	\end{tabular}
+\end{table}
+\begin{itemize}
+	\item Shares outstanding = 90,000
+	\item Price per share = \$900,000 / 90,000 = \$10
+\end{itemize}
+\end{frame}
+\begin{frame}{Dividend vs. Repurchase: Key Insight}
+
+\begin{itemize}
+    \item In a perfect market (no taxes, transaction costs, or signaling effects), \textbf{dividends and repurchases are equivalent}.
+    \item Key difference:
+    \begin{itemize}
+        \item \textbf{Dividends} reduce cash and equity; share price falls.
+        \item \textbf{Repurchases} reduce cash and shares; share price stays the same.
+    \end{itemize}
+    \item Choice between them depends on taxes, signaling, flexibility, and incentives.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Why Do Firms Prefer Repurchases?}
+
+\textbf{1. Flexibility}
+\begin{itemize}
+    \item Dividends are viewed as commitments; cuts are penalized.
+    \item Repurchases offer temporary, non-binding payouts.
+\end{itemize}
+
+\vspace{2mm}
+\textbf{2. Managerial Incentives}
+\begin{itemize}
+    \item Repurchases increase EPS and stock price — both favorable to option-holding executives.
+    \item Firms use repurchases to offset dilution from equity compensation.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Why Do Firms Prefer Repurchases? (cont’d)}
+
+\textbf{3. Signaling}
+\begin{itemize}
+    \item Repurchase announcements often interpreted as \textit{“we believe our stock is undervalued”}.
+\end{itemize}
+
+\vspace{2mm}
+\textbf{4. Tax Efficiency}
+\begin{itemize}
+    \item Capital gains from repurchases are taxed more favorably than dividends in many jurisdictions.
+\end{itemize}
+
+\vspace{2mm}
+\textbf{5. Takeover Defense}
+\begin{itemize}
+    \item Repurchases reduce shares available to potential hostile acquirers.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Summary: Dividend vs. Share Repurchase}
+
+\begin{table}[ht]
+\centering
+\resizebox{\linewidth}{!}{
+\begin{tabular}{l p{4.5cm} p{6.5cm}}
+\toprule
+\textbf{Dimension} & \textbf{Dividends} & \textbf{Share Repurchases} \\
+\midrule
+\textbf{Flexibility} & Typically viewed as a long-term commitment & More flexible, can be adjusted based on cash flows \\
+\textbf{Signal to Market} & May signal confidence if increased & Often viewed as a signal of undervaluation \\
+\textbf{Tax Treatment} & Taxed as dividend income (often higher) & Taxed as capital gains (usually lower) \\
+\textbf{Effect on Share Price} & Share price drops on ex-dividend date & Share price often unchanged, but EPS increases \\
+\textbf{Impact on Share Count} & No change in shares outstanding & Reduces shares outstanding, increases ownership concentration \\
+\textbf{Effect on Management Incentives} & Less direct impact on stock options & May increase value of outstanding stock options \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\end{frame}
+
+\subsection{Personal Taxes and Payout Policy}
+\begin{frame}{Personal Taxes and Payout Policy}
+    \begin{itemize}
+        \item The irrelevance of dividend policy relies on idealized assumptions:
+        \begin{itemize}
+            \item No taxes
+            \item No transaction costs
+            \item No uncertainty
+        \end{itemize}
+        \item In practice, taxes introduce important frictions:
+        \begin{itemize}
+            \item In \textbf{China}:
+            \begin{itemize}
+                \item Cash dividends are taxed at \textbf{20\%}.
+                \item Capital gains tax exists but is not always enforced.
+            \end{itemize}
+            \item In the \textbf{U.S.}:
+            \begin{itemize}
+                \item Both dividends and capital gains are taxed at \textbf{15\%}.
+                \item \textit{Capital gains are deferrable}—effective tax rate is lower.
+            \end{itemize}
+        \end{itemize}
+        \item Bottom line: \textbf{Dividends are typically taxed more heavily than capital gains}.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Payouts with No Taxes}
+    \begin{itemize}
+        \item Suppose a firm distributes dividends but lacks sufficient cash.
+        \item The firm raises funds via stock issuance and returns those funds as dividends.
+        \item \textbf{Result:} A complete wash — no change in shareholder wealth.
+    \end{itemize}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.65\textwidth]{images/section5/firmwithout1.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Payouts with Taxes: Destroying Value}
+    \begin{itemize}
+        \item Now assume a \textbf{15\% tax} on dividends.
+        \item Issuing shares to pay dividends incurs a tax burden on shareholders.
+        \item \textbf{Conclusion:} This strategy reduces overall value and is dominated by doing nothing.
+    \end{itemize}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.65\textwidth]{images/section5/firmwithout2.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Payouts with Taxes + Transaction Costs}
+    \begin{itemize}
+        \item In addition to tax inefficiency, \textbf{stock issuance incurs fees}.
+        % \item Investment banks and legal expenses reduce the firm's remaining value.
+        % \item \textbf{Lesson:} Never issue equity just to pay dividends.
+    \end{itemize}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.65\textwidth]{images/section5/firmwithout3.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{When Firms Have Excess Cash}
+    \begin{itemize}
+        \item Tax arguments apply differently when the firm has extra cash \textbf{after investing in all positive NPV projects}.
+        \item Options for excess funds:
+        \begin{itemize}
+            \item Take on negative NPV projects (value destroying)
+            \item Acquire firms or buy financial assets
+            \item Distribute cash via \textbf{dividends or share repurchases}
+        \end{itemize}
+        \item \textbf{Best practice:} return excess capital to shareholders unless a superior use exists.
+    \end{itemize}
+\end{frame}
+\begin{frame}{Dividend Timing and Tax Efficiency}
+    \begin{block}{Example: Regional Electric Company}
+        Regional Electric has \$1,000 of excess cash. It can either:
+        \begin{enumerate}
+            \item Pay the amount as a \textbf{dividend now}, or
+            \item \textbf{Retain and invest} it in 10\% Treasury bills, paying a dividend after 5 years.
+        \end{enumerate}
+        \vspace{0.2cm}
+        \textbf{Assumptions:}
+        \begin{itemize}
+            \item Corporate tax rate: 21\%
+            \item Personal tax rate on interest: 28\%
+            \item Dividend tax rate: 15\%
+            \item Investors can also invest in 10\% Treasury bills directly
+        \end{itemize}
+        \textbf{Question:} Which policy leaves investors better off after 5 years?
+    \end{block}
+\end{frame}
+\begin{frame}{After-Tax Wealth: Immediate vs Deferred Dividend}
+    \begin{itemize}
+        \item \textbf{Option 1: Pay dividend now}
+        \begin{itemize}
+            \item Dividend received: \$1,000 × (1 - 15\%) = \$850
+            \item Invest at 10\% for 5 years, taxed at 28\%:
+            \[
+            \$850 \times \left[1 + 0.10 \times (1 - 0.28)\right]^5 = \text{\$1,203.35}
+            \]
+        \end{itemize}
+
+        \vspace{0.3cm}
+        \item \textbf{Option 2: Retain cash, invest in T-bills, pay dividend in Year 5}
+        \begin{itemize}
+            \item Corporate investment grows at after-tax return:
+            \[
+            \$1,000 \times \left[1 + 0.10 \times (1 - 0.21)\right]^5 = \text{\$1,462.54}
+            \]
+            \item Dividend taxed at 15\% in Year 5:
+            \[
+            \$1,462.54 \times (1 - 0.15) = \text{\$1,243.16}
+            \]
+        \end{itemize}
+
+        \vspace{0.3cm}
+        \item \textbf{Conclusion:} Deferring the dividend results in greater after-tax wealth:  
+        \textbf{\$1,243.16 vs. \$1,203.35}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Summary: Personal Taxes and Payout Policy}
+	\begin{itemize}
+		\item \textbf{In a world with personal taxes:}
+		\begin{itemize}
+			\item Firms should \textbf{not issue equity to pay dividends} — this is inefficient due to double taxation.
+			\item Managers have incentives to minimize dividend payments by seeking alternative uses for cash:
+			\begin{itemize}
+				\item Invest in capital expenditures (CAPEX)
+				\item Pursue M\&A opportunities
+				\item Accumulate financial assets (e.g., T-bills)
+			\end{itemize}
+			\item However, \textbf{practical limits} on these activities often leave firms with excess cash — resulting in residual dividend payments.
+		\end{itemize}
+		\vspace{0.2cm}
+		\item \textbf{Key tension:}  
+		Personal taxes reduce the attractiveness of dividends, yet most firms continue to pay them.
+		
+		\item \textbf{Open puzzle:}  
+		Why do firms \textit{prefer dividends} over tax-efficient share repurchases?
+	\end{itemize}
+\end{frame}
+
+\subsection{Real-World Factors Favoring High Dividends}
+\begin{frame}{Why Firms Might Favor High Dividends}
+	\begin{itemize}
+		\item \textbf{Investor Preference for Current Income} — Especially retirees or income-focused investors.
+		\item \textbf{Behavioral Factors} — Dividends act as a self-control device for spending.
+		\item \textbf{Agency Costs} — Paying dividends reduces managerial discretion over free cash flow.
+		\item \textbf{Information Content and Signaling} — Dividend changes convey management’s private information.
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Investor Preference for Current Income}
+\footnotesize
+\begin{itemize}
+    \item \textbf{Some investors — particularly retirees — value stable, predictable cash flows} to meet living expenses without selling assets.
+    
+    \item \textbf{In theory}: With no transaction costs, taxes, or frictions, investors could replicate dividends by selling shares (“homemade dividends”).
+
+    \item \textbf{In practice}:
+    \begin{itemize}
+        \item Selling shares involves \textit{transaction fees}, \textit{capital gains taxes}, and \textit{market timing risk}.
+        \item These frictions make high-dividend stocks more attractive for income-oriented investors.
+    \end{itemize}
+    
+    \item \textbf{Implication:} Investor demand for income may drive up prices of dividend-paying stocks, creating a “dividend clientele.”
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Behavioral Finance: The Role of Self-Control}
+\footnotesize
+\begin{itemize}
+    \item \textbf{Investors often struggle with self-control when planning long-term consumption.}
+    
+    \item Two contrasting strategies:
+    \begin{itemize}
+        \item \textbf{Dividend-based consumption:} Spend only what is received as dividend income.
+        \item \textbf{Self-liquidation:} Sell shares periodically — risks \textit{overspending} or \textit{depleting assets too early}.
+    \end{itemize}
+    
+    \item \textbf{Behavioral insight:} 
+    \begin{itemize}
+        \item Regular dividends provide a natural \textit{consumption anchor}.
+        \item Helps investors implement discipline without constant decision-making.
+    \end{itemize}
+
+    \item \textbf{Implication:} Some investors may \textit{rationally prefer dividends} — not for return maximization, but for behavioral commitment.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{The Dividend Clientele Effect}
+	\begin{itemize}
+		\item Different investor groups prefer different dividend policies based on their tax and income needs:
+	\end{itemize}
+
+	\begin{table}[h]
+		\centering
+		\small
+		\begin{tabular}{ll}
+			\toprule
+			\textbf{Investor Group} & \textbf{Preferred Payout Policy} \\
+			\midrule
+			High-Tax Individuals & Low or No Dividends \\
+			Retirees / Fixed Income & Moderate to High Dividends \\
+			Tax-Exempt Institutions & Indifferent or High Dividends \\
+			Corporations & Prefer High Dividends (due to dividend exclusion) \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+
+	\begin{itemize}
+		\item Firms may adjust payout policies to match the preferences of their dominant shareholders.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Retail Investor Preferences}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\textwidth]{images/section5/dividendyield}
+	\end{figure}
+	\tiny{Source: \textcite{graham2006dividend}. Retail investors show a preference for high dividend yield stocks.}
+\end{frame}
+
+\begin{frame}{Dividends Reduce Agency Costs}
+	\begin{itemize}
+		\item Agency conflict: Managers may waste excess cash (empire building, perks, etc.).
+		\item Paying out dividends reduces \textbf{free cash flow}, tightening discipline.
+		\item Dividends also:
+		\begin{itemize}
+			\item Reduce bondholder wealth during distress
+			\item Signal that management is accountable to shareholders
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Information Content of Dividends}
+	\begin{itemize}
+		\item Dividend announcements convey management’s private assessment of future performance.
+		\begin{itemize}
+			\item \textbf{Increase} → signal of strong future cash flow
+			\item \textbf{Cut} → signal of financial weakness
+		\end{itemize}
+		\item Market reaction to dividend changes reflects this informational value.
+		\item This is referred to as the \textbf{dividend signaling hypothesis}.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Dividend Signaling: Credibility and Cost}
+	\begin{itemize}
+		\item Could firms raise dividends just to "fake" strong performance?
+		\item Yes — but:
+		\begin{itemize}
+			\item Higher dividends require real cash flow
+			\item Sustained payout increases are \textbf{costly} if fundamentals don’t support them
+		\end{itemize}
+		\item Implication:  
+		\begin{itemize}
+			\item Only firms with true earnings strength can afford to signal via higher payouts
+			\item This makes the signal \textbf{credible}
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Summary: Real-World Factors Favoring High Dividends}
+\footnotesize
+\begin{itemize}
+    \item \textbf{Investor Demand for Income}  
+    Certain groups — such as retirees — value regular cash payouts due to consumption needs or investment constraints.
+
+    \item \textbf{Behavioral Self-Control}  
+    Dividends act as a commitment device, helping investors avoid the temptation to overspend from capital.
+
+    \item \textbf{Agency Cost Reduction}  
+    Dividends reduce managerial discretion over free cash flow, curbing overinvestment or wasteful spending.
+
+    \item \textbf{Information Signaling}  
+    Dividend increases often signal management’s confidence in future earnings; cuts may be perceived negatively.
+
+    \item \textbf{Clientele Effects}  
+    Different investor groups (e.g., individuals, institutions) sort into stocks based on preferred payout policies — affecting demand and firm behavior.
+\end{itemize}
+\vspace{2mm}
+\textbf{Takeaway:} While dividend irrelevance holds under strict assumptions, real-world frictions explain persistent dividend use.
+\end{frame}
