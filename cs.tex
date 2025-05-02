@@ -368,7 +368,7 @@
 	
 \end{frame}
 
-\subsubsection{Case I}
+\subsubsection{M\&M Theory (No Taxes)}
 \begin{frame}{MM Proposition I (No Taxes): Value Irrelevance}
 	
 	\begin{block}{M\&M Proposition I}
@@ -475,6 +475,530 @@
 	\vspace{0.2cm}
 	\begin{alertblock}{Conclusion}
 		More leverage $\rightarrow$ more financial risk $\rightarrow$ higher required return on equity.
+	\end{alertblock}
+	
+\end{frame}
+
+\begin{frame}{MM Propositions I and II: Setup}
+	
+	\textbf{Luteran Motors} is an all-equity firm:
+	
+	\begin{itemize}
+		\item Expected perpetual earnings = \$10 million
+		\item Entirely paid as dividends → \$1/share (10M shares)
+		\item Cost of equity capital: 10\%
+		\item Market value of equity = \$10M / 0.10 = \$100M
+	\end{itemize}
+	
+	\begin{table}
+		\centering
+		\begin{tabular}{@{}ll@{}}
+			\toprule
+			\multicolumn{2}{c}{\textbf{Balance Sheet (All Equity)}} \\ \midrule
+			Assets = \$100M (PV of earnings) & Equity = \$100M \\ \bottomrule
+		\end{tabular}
+	\end{table}
+	
+\end{frame}
+
+\begin{frame}{A New Investment Opportunity}
+	
+	\textbf{Luteran Motors plans to build a new plant:}
+	
+	\begin{itemize}
+		\item Cost: \$4 million
+		\item Expected annual cash flow: \$1 million in perpetuity
+		\item PV of new plant = \$1M / 0.10 = \$10M → NPV = \$6M
+	\end{itemize}
+	
+	\begin{table}
+		\centering
+		\resizebox{\textwidth}{!}{
+			\begin{tabular}{@{}ll@{}}
+				\toprule
+				Current Company                  & New Plant                               \\ \midrule
+				Cash Flow: \$10M                 & Initial Cost: \$4M                      \\
+				Shares Outstanding: 10M         & Cash Flow Addition: \$1M annually      \\ \bottomrule
+			\end{tabular}
+		}
+	\end{table}
+	
+	\vspace{0.2cm}
+	\begin{block}{Capital Raising Options}
+		How does \textbf{equity financing} vs \textbf{debt financing} affect firm value, share price, and expected returns?
+	\end{block}
+\end{frame}
+
+\begin{frame}{Equity Financing: Market Response}
+	
+	\begin{itemize}
+		\item Under EMH, stock price incorporates NPV immediately.
+		\item NPV = \$6M → equity value increases to \$106M
+		\item Price per share = \$106M / 10M = \$10.60
+	\end{itemize}
+	
+	\begin{table}
+		\centering
+		\begin{tabular}{lrlr}
+			\toprule
+			\multicolumn{4}{c}{\textbf{Balance Sheet (in millions)}} \\ \midrule
+			Old Assets        & \$100 & Equity   & \$106 \\
+			NPV of New Plant  & \$6   &          &       \\
+			Total Assets      & \$106 &          &       \\ \bottomrule
+		\end{tabular}
+	\end{table}
+	
+\end{frame}
+
+\begin{frame}{Equity Financing: Share Issuance and Investment}
+	
+	\textbf{Step 1:} Firm raises \$4M by issuing new equity at \$10.60/share  
+	→ New shares issued = \$4M / \$10.60 ≈ 377,359
+	
+	\textbf{Step 2:} Cash is used to build the plant → Total assets = \$110M
+	
+	\begin{table}
+		\centering
+		\begin{tabular}{lrlr}
+			\toprule
+			\multicolumn{4}{c}{\textbf{Post-Issuance Balance Sheet}} \\ \midrule
+			Old Assets        & \$100 & Equity & \$110 \\
+			Plant Value (PV)  & \$10  &        & (10.377M shares) \\
+			Total Assets      & \$110 &        &       \\ \bottomrule
+		\end{tabular}
+	\end{table}
+	
+	\textbf{New Expected Return:}  
+	\[
+	R_S = \frac{\$11M}{\$110M} = 10\%
+	\]
+\end{frame}
+
+\begin{frame}{Debt Financing: Market Response}
+	
+	\begin{itemize}
+		\item Firm announces it will borrow \$4M at 6\% interest
+		\item Yearly interest expense = \$240,000
+		\item Market again incorporates NPV = \$6M → equity rises to \$106M
+	\end{itemize}
+	
+	\begin{table}
+		\centering
+		\begin{tabular}{lrlr}
+			\toprule
+			\multicolumn{4}{c}{\textbf{Balance Sheet (Debt Financing)}} \\ \midrule
+			Old Assets        & \$100 & Debt   & \$4   \\
+			NPV of New Plant  & \$6   & Equity & \$106 \\
+			Total Assets      & \$106 &        &       \\ \bottomrule
+		\end{tabular}
+	\end{table}
+	
+\end{frame}
+
+\begin{frame}{Debt Financing: Investment and Equity Returns}
+	
+	\textbf{Step 1:} Firm issues \$4M debt, builds plant immediately  
+	→ PV of plant = \$10M → total assets = \$110M
+	
+	\begin{table}
+		\centering
+		\begin{tabular}{lrlr}
+			\toprule
+			\multicolumn{4}{c}{\textbf{Final Balance Sheet (Post Investment)}} \\ \midrule
+			Old Assets        & \$100 & Debt   & \$4   \\
+			PV of New Plant   & \$10  & Equity & \$106 \\
+			Total Assets      & \$110 &        &       \\ \bottomrule
+		\end{tabular}
+	\end{table}
+	
+	\textbf{Equityholder cash flow:}  
+	\[
+	\$10M + \$1M - \$0.24M = \$10.76M
+	\]
+	
+	\textbf{Return on equity:}
+	\[
+	R_S = \frac{10.76M}{106M} = 10.15\%
+	\]
+	
+	\textbf{Verify with MM II:}
+	\[
+	R_S = R_0 + \frac{B}{S}(R_0 - R_B) = 10\% + \frac{4}{106} \cdot 4\% = 10.15\%
+	\]
+\end{frame}
+
+\begin{frame}{Summary: Debt vs. Equity Financing under MM (No Taxes)}
+	
+	\begin{columns}[T]
+		\column{0.5\textwidth}
+		\textbf{Equity Financing}
+		\begin{itemize}
+			\item Firm issues \$4M new equity at \$10.60/share
+			\item Total shares: 10.377M
+			\item Firm value increases from \$100M to \$110M
+			\item EPS unchanged; equity return: \textbf{10\%}
+			\item No change in leverage or risk
+		\end{itemize}
+		
+		\column{0.5\textwidth}
+		\textbf{Debt Financing}
+		\begin{itemize}
+			\item Firm borrows \$4M at 6\% interest
+			\item Interest expense = \$240K/year
+			\item Equity increases to \$106M (NPV of new project = \$6M)
+			\item Expected equity return:
+			\[
+			R_S = \frac{10.76}{106} = \textbf{10.15\%}
+			\]
+		\end{itemize}
+	\end{columns}
+	
+	\begin{alertblock}{Conclusion}
+		\small
+		Debt increases expected equity return due to higher financial risk, but \textbf{firm value is unchanged} — consistent with MM Proposition I (no taxes).
+	\end{alertblock}
+	
+\end{frame}
+
+\subsubsection{M\&M Theory (with Corporate Taxes)}
+\begin{frame}{The Basic Insight: Taxes and the Capital Structure Pie}
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{images/section2/taxpie.png}
+	\end{figure}
+	
+	\begin{itemize}
+		\item Under corporate income tax, interest payments on debt are tax-deductible.
+		\item \textbf{Result:} Levered firms pay less in taxes than otherwise identical unlevered firms.
+		\item \textbf{Implication:} More cash flow is left for investors — both debt and equity holders.
+	\end{itemize}
+	
+%	\vspace{0.3cm}
+%	\begin{alertblock}{Key Idea}
+%		Debt financing creates a \textbf{tax shield}, which increases firm value:  
+%		\[
+%		V_L = V_U + \text{PV(Tax Shield)}
+%		\]
+%	\end{alertblock}
+	
+\end{frame}
+
+\begin{frame}{Taxes and Capital Structure: A Cash Flow Illustration}
+	
+	\textbf{Case: Water Products Company}
+	
+	\begin{itemize}
+		\item EBIT = \$1,000,000 per year
+		\item Corporate tax rate = 21\%
+		\item Two capital structure plans:
+		\begin{itemize}
+			\item \textbf{Plan I}: All-equity financing
+			\item \textbf{Plan II}: \$4M debt at 10\% interest
+		\end{itemize}
+	\end{itemize}
+	
+	\vspace{0.3cm}
+	\begin{table}
+		\centering
+		\begin{tabular}{@{}lrr@{}}
+			\toprule
+			& \textbf{Plan I} & \textbf{Plan II} \\ \midrule
+			EBIT              & \$1,000,000     & \$1,000,000      \\
+			Interest          & 0               & \$400,000        \\
+			EBT               & \$1,000,000     & \$600,000        \\
+			Taxes (21\%)      & \$210,000       & \$126,000        \\
+			Net Income        & \$790,000       & \$474,000        \\
+			\textbf{Total CF to Investors} & \$790,000       & \textbf{\$874,000} \\ \bottomrule
+		\end{tabular}
+	\end{table}
+	
+	\vspace{0.2cm}
+	\textbf{Observation:} Debt financing increases total after-tax cash flow by \$84,000 due to tax savings.
+\end{frame}
+
+\begin{frame}{Present Value of the Tax Shield}
+	
+	\textbf{Step 1: Interest Expense}
+	\[
+	\text{Interest} = R_B \times B = 10\% \times 4{,}000{,}000 = 400{,}000
+	\]
+	
+	\textbf{Step 2: Tax Shield Value (Annual)}
+	\[
+	\text{Tax Shield} = T_C \times \text{Interest} = 21\% \times 400{,}000 = 84{,}000
+	\]
+	
+	\textbf{Step 3: Present Value of Perpetual Tax Shield}
+	\[
+	\text{PV(Tax Shield)} = \frac{84{,}000}{R_B} = \frac{T_C \times R_B \times B}{R_B} = T_C \times B
+	\]
+	
+	\vspace{0.3cm}
+	\textbf{Assumption:}  
+	Tax shield is as risky as debt → discount at cost of debt.
+	
+\end{frame}
+
+\begin{frame}{MM Proposition I (with Corporate Taxes)}
+	
+	\textbf{Unlevered Firm Value:}
+	\[
+	V_U = \frac{EBIT \times (1 - T_C)}{R_0}
+	\]
+	
+	\textbf{Levered Firm Value:}
+	\[
+	V_L = V_U + \text{PV(Tax Shield)} = V_U + T_C \times B
+	\]
+	
+	\vspace{0.3cm}
+	\begin{itemize}
+		\item Tax-deductible interest makes debt valuable.
+		\item Firm value increases linearly with the amount of permanent debt.
+	\end{itemize}
+	
+	\vspace{0.2cm}
+	\textbf{Implication:}  
+	In the presence of corporate taxes, \textbf{the optimal capital structure is 100\% debt} (in this simplified model).
+	
+\end{frame}
+
+\begin{frame}{MM with Corporate Taxes}
+	\begin{block}{Example}
+		Divided Airlines is currently an unlevered firm. The company expects to generate \$126.6 in EBIT in perpetuity. The corporate tax rate is 21\%, implying aftertax earnings of \$100. All earnings after tax are paid out as dividends.
+		The firm is considering a capital restructuring to allow \$200 of debt. Its cost of debt capital is 10 percent. Unlevered firms in the same industry have a cost of equity capital of 20\%. What is the new value of Divided Airlines?
+	\end{block}
+	\pause \textbf{Solution}:
+	\begin{itemize}
+		\item The value of Divided Airlines will be equal to:
+		\begin{equation*}
+			V_L = \$100 / 0.2 + 0.21 \times \$200 = \$542
+		\end{equation*}
+		\item The value of levered equity, $S$, is equal to \$542 - 200 = \$342.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{MM with Corporate Taxes}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/section2/firmvaluetax}
+	\end{figure}
+	Debt reduces Divided's tax burden. As a result, the value of the firm is positively related to debt.
+\end{frame}
+
+\begin{frame}{MM Propositions I \& II (With Taxes)}
+	\begin{itemize}
+		\item Proposition I (with Corporate Taxes):
+		\begin{itemize}
+			\item Firm value increases with leverage due to the tax shield:
+			\begin{equation}
+				V_L = V_U + T_C B
+			\end{equation}
+		\end{itemize}
+		\item Proposition II (with Corporate Taxes):
+		\begin{itemize}
+			\item The increase in equity risk and return is partially offset by the interest tax shield:
+			\begin{equation}
+				R_S = R_0 + \frac{B}{S} \times (1 - T_C) \times (R_0 - R_B)
+				\label{eq:mmiitax}
+			\end{equation}
+		\end{itemize}		
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}{MM Proposition II (With Taxes)}
+	\begin{itemize}
+		\item Starting with the equation
+		\begin{equation*}
+			V_L = S + B = V_U + T_C B \Rightarrow V_U = S + B(1 - T_C)
+		\end{equation*}
+		\item The cash flows from each side of the balance sheet must equal:
+		\begin{equation*}
+			S R_S + B R_B = V_U R_0 + T_C B R_B = [S + B(1 - T_C)]R_0 + T_C B R_B
+		\end{equation*}
+		\item Dividing both sides by $S$:
+		\begin{equation*}
+			R_S + \frac{B}{S} R_B = \left[1 + \frac{B}{S} (1 - T_C)\right]R_0 + \frac{B}{S} T_C R_B
+		\end{equation*}
+		\item Which simplifies to Equation~\eqref{eq:mmiitax}.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{WACC and Corporate Taxes}
+	\begin{itemize}
+		\item The Weighted Average Cost of Capital (WACC) with corporate taxes is defined as
+		\begin{equation}
+			WACC = \frac{S}{V_L} R_S + \frac{B}{V_L}R_B (1-T_C)
+		\end{equation}
+		\item Interest is tax-deductible at the corporate level.
+		\item Consequently, WACC declines with leverage in a world with corporate taxes.
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}{The Effect of Financial Leverage}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.9\textwidth]{images/section2/wacctax}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{MM with Corporate Taxes}
+	\begin{itemize}
+		\item Go back to the Divided Airlines, the cost of equity is
+		\begin{equation*}
+			R_S = 0.2 + \frac{\$200}{\$342} \times (1 - 21\%) \times (0.20 - 0.10) = 0.2462
+		\end{equation*}
+		\item The WACC is
+		\begin{equation*}
+			WACC = \frac{\$342}{\$542} \times 0.2462 + \frac{\$200}{\$542} \times 0.10 \times 0.79 = 0.1845
+		\end{equation*}
+		\item Divided Airlines has reduced its WACC from 20\% to 18.45\% with reliance on debt. 
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Stock Price and Leverage Under Corporate Taxes}
+	\begin{itemize}
+		\item The balance sheet for all-equity firm
+		% Please add the following required packages to your document preamble:
+		% \usepackage{booktabs}
+		\begin{table}[]
+			\centering
+			\begin{tabular}{@{}llll@{}} \toprule
+				Physical assets & \$500 & Equity & \$500 (100 shares)  \\ \bottomrule
+			\end{tabular}
+		\end{table}
+		\item Suppose the company announces that it will issue \$200 of debt to buy back \$200 of stock.
+		\item The value of the firm will rise to reflect the tax shield of debt
+		% Please add the following required packages to your document preamble:
+		% \usepackage{booktabs}
+		\begin{table}[]
+			\centering
+			\begin{tabular}{@{}llll@{}} \toprule
+				Physical assets  & \$500 & Equity & \$542 (100 shares) \\
+				PV of tax shield & \$42  &        &                    \\
+				Total Assets     & \$542 &        &  \\ \bottomrule
+			\end{tabular}
+		\end{table}
+		\item The equityholders gain because they are the owners of a firm that has improved its financial policy.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Stock Price and Leverage Under Corporate Taxes}
+	\begin{itemize}
+		\item At some point, the exchange of debt for equity occurs. 
+	\end{itemize}
+	% Please add the following required packages to your document preamble:
+	% \usepackage{booktabs}
+	\begin{table}[]
+		\centering
+		\begin{tabular}{@{}llll@{}} \toprule
+			Physical assets  & \$500 & Equity           & \$342 (63.1 shares) \\
+			PV of tax shield & \$42  & Debt             & \$200               \\
+			Total Assets     & \$542 & Debt plus equity & \$542  \\ \bottomrule
+		\end{tabular}
+	\end{table}
+	\begin{itemize}
+		\item The number of shares that the firm acquires is 36.90 $= \$200 / \$5.42$
+		\item This leaves 63.10 (= 100 - 36.90) shares of stock outstanding.
+	\end{itemize}
+\end{frame}
+
+\subsection*{Summary: Capital Structure Basics}
+\begin{frame}{Summary: What Does Capital Structure Study?}
+	
+	\textbf{The Capital Structure Question:}
+	\begin{itemize}
+		\item Can a firm increase its total value by changing its mix of debt and equity?
+		\item If yes, what is the optimal debt-to-equity ratio?
+	\end{itemize}
+	
+	\vspace{0.4cm}
+	\textbf{Why It Matters for Shareholders:}
+	\begin{itemize}
+		\item Capital structure affects shareholder value only if it increases total firm value.
+		\item Goal: Find the structure that \textbf{maximizes the size of the “pie”}, not just redistributes it.
+	\end{itemize}
+	
+	\vspace{0.2cm}
+	\begin{alertblock}{Core Idea}
+		Value creation from financing requires increasing total firm value — not just changing the capital mix.
+	\end{alertblock}
+	
+\end{frame}
+
+\begin{frame}{Summary: Financial Leverage and Firm Value}
+	
+	\textbf{Effects of Leverage:}
+	\begin{itemize}
+		\item Leverage increases the sensitivity of equity returns to operating profits (EBIT).
+		\item It amplifies both upside (EPS ↑) and downside (EPS ↓) outcomes.
+	\end{itemize}
+	
+	\vspace{0.3cm}
+	\textbf{Break-Even EBIT:}
+	\begin{itemize}
+		\item Leverage improves shareholder value only if EBIT exceeds a certain threshold.
+		\item Below that point, interest costs outweigh the benefits of share repurchase.
+	\end{itemize}
+	
+	\vspace{0.3cm}
+	\textbf{Homemade Leverage:}
+	\begin{itemize}
+		\item Investors can replicate leverage themselves if markets are perfect.
+		\item Under ideal conditions, capital structure becomes irrelevant.
+	\end{itemize}
+	
+\end{frame}
+
+\begin{frame}{Summary: The Basic Modigliani–Miller Model (No Taxes)}
+	
+	\textbf{MM Proposition I: Capital Structure Irrelevance}
+	\[
+	V_L = V_U
+	\]
+	\begin{itemize}
+		\item Firm value depends on its assets and cash flows — not on how it is financed.
+		\item Capital structure does not create value in a frictionless world.
+	\end{itemize}
+	
+	\vspace{0.3cm}
+	\textbf{MM Proposition II: Cost of Equity Rises with Leverage}
+	\[
+	R_S = R_0 + \frac{B}{S}(R_0 - R_B)
+	\]
+	\begin{itemize}
+		\item As leverage increases, so does equity risk and expected return.
+		\item But WACC remains constant → no change in firm value.
+	\end{itemize}
+	
+\end{frame}
+
+\begin{frame}{Summary: M\&M with Corporate Taxes}
+	
+	\textbf{Key Result: Debt Creates Value Through Tax Shields}
+	
+	\begin{block}{MM Proposition I (with taxes)}
+		\[
+		V_L = V_U + T_C \times B
+		\]
+		\vspace{-5mm}
+		\begin{itemize}
+			\item The present value of interest tax shields adds to firm value.
+			\item The more permanent debt the firm has, the larger the tax benefit.
+		\end{itemize}
+	\end{block}
+	
+	\textbf{Implications:}
+	\begin{itemize}
+		\item Under this model, the firm’s value increases linearly with leverage.
+		\item In a world with only corporate taxes, the \textbf{optimal capital structure is 100\% debt}.
+	\end{itemize}
+	
+	\begin{alertblock}{Next}
+		Realistic capital structure decisions must account for financial distress costs — this leads us to \textbf{MM Case III}.
 	\end{alertblock}
 	
 \end{frame}
