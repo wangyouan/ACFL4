@@ -126,7 +126,7 @@
 \begin{table}[h]
     \centering
     \resizebox{\textwidth}{!}{
-	\begin{tabular}{lccp{6cm}}
+	\begin{tabular}{lcc >{\raggedright\arraybackslash}p{6cm}}
 		\toprule
 		\textbf{Strategy} & \textbf{Persistence} & \textbf{Value Impact} & \textbf{Critical Considerations} \\
 		\midrule
@@ -434,17 +434,18 @@
 \end{frame}
 
 \begin{frame}{Can You See the Pattern?}
-	
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.6\textwidth]{images/section1/aapl}
-	\end{figure}
-	\vspace{-3mm}
-	\begin{block}{Key Point}
-		\small
-		Visual patterns often emerge in hindsight — but fail to predict future prices systematically.
-	\end{block}
-	
+	\begin{columns}
+		\begin{column}{0.6\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=\textwidth]{images/section1/aapl}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.3\textwidth}
+		\textbf{Key Point:}\\
+			Visual patterns often emerge in hindsight — but fail to predict future prices systematically.
+		\end{column}
+	\end{columns}
 \end{frame}
 
 \begin{frame}{Serial Correlation in Stock Returns}
@@ -576,6 +577,7 @@
 	\begin{block}{EMH Prediction}
 		Under the \textbf{semi-strong form} of market efficiency, no investor using publicly available information should consistently earn excess risk-adjusted returns.
 	\end{block}
+	\vspace{-3mm}
 	\small
 	\begin{itemize}
 		\item Actively managed mutual funds employ analyst skill and public data to select “undervalued” stocks.
@@ -583,7 +585,7 @@
 		\item Empirical tests compare long-term returns (net of fees) between active funds and index performance.
 		\item Evidence shows: \textbf{most active funds underperform} their benchmark after costs.
 	\end{itemize}
-	
+	\vspace{-3mm}
 	\begin{alertblock}{Implication}
 		\footnotesize
 		Consistent underperformance of active funds provides strong support for semi-strong form efficiency.
@@ -610,7 +612,7 @@
 	\begin{block}{Core Proposition}
 		All information (public \& private) reflected in prices $\Rightarrow$ \alert{No insider profits} possible
 	\end{block}
-	
+	\vspace{-3mm}
 	\begin{columns}[T]
 		\begin{column}{0.55\textwidth}
 			Empirical Evidences:
@@ -630,7 +632,7 @@
 				\end{itemize}
 		\end{column}
 	\end{columns}
-	
+	\vspace{-3mm}
 	\begin{alertblock}{Consensus Conclusion}
 		Strong-form efficiency remains a theoretical ideal rather than empirical reality
 	\end{alertblock}
@@ -789,7 +791,7 @@
 
 \begin{frame}{Foundations of EMH – Under Challenge}
 	\centering
-	\begin{tikzpicture}[node distance=0.5cm]
+	\begin{tikzpicture}[node distance=0.3cm]
 		\node (pillar1) [rounded corners, fill=blue!15, text width=3.5cm, align=center] {
 			\textbf{Rational Investors} \\
 			\footnotesize Overconfidence, Disposition Effect, Home Bias \\
@@ -1033,6 +1035,7 @@
 		Large-scale market movements not explained by fundamentals suggest correlated investor behavior.
 	\end{block}
 	
+	\footnotesize
 	\begin{itemize}
 		\item \textbf{Crash Example — Black Monday (1987)}:
 		\begin{itemize}
@@ -1050,12 +1053,14 @@
 	\end{itemize}
 	
 	\begin{alertblock}{Conclusion}
+		\footnotesize
 		Crashes and bubbles are macro-level symptoms of correlated behavioral deviations — not independent noise.
 	\end{alertblock}
 	
 \end{frame}
 
 \begin{frame}{China's 2015 Market Crash: A Case of Collective Overreaction}
+	\vspace{-0.3cm}
 	\begin{columns}
 		\begin{column}{0.5\textwidth}
 			\begin{figure}
@@ -1075,7 +1080,7 @@
 		\end{column}
 	\end{columns}
 	
-	\vspace{-0.2cm}
+	\vspace{-0.3cm}
 	\begin{alertblock}{Behavioral Interpretation}
 		The sharp rise and rapid collapse suggest herding behavior, overconfidence, and excessive use of margin trading -- not independent, canceling deviations.
 	\end{alertblock}
@@ -1243,22 +1248,24 @@
 \begin{frame}{Summary: Efficient Markets and Behavioral Challenges}
 	
 	\begin{block}{1. Can Financing Decisions Create Value?}
+		\small
 		\begin{itemize}
 			\item Yes — via market timing, tax arbitrage, or security innovation
 			\item But success depends on market efficiency and persistence of mispricing
 		\end{itemize}
 	\end{block}
-	
+	\vspace{-3mm}
 	\begin{block}{2. EMH — Theory and Empirical Support}
+		\small
 		\begin{itemize}
 			\item Weak-form: Prices follow a random walk
 			\item Semi-strong: Prices incorporate public news quickly (event studies)
 			\item Strong-form: Rarely holds — insiders can earn abnormal returns
 		\end{itemize}
 	\end{block}
-	
-
+	\vspace{-3mm}
 	\begin{block}{3. Behavioral Challenges to EMH}
+		\small
 		\begin{itemize}
 			\item Psychological biases: Overconfidence, disposition, home bias
 			\item Correlated misbeliefs: Crashes, bubbles, herding
