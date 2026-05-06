@@ -1,0 +1,917 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/apasortcite//global/global/global}
+    \entry{baker2002market}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ea81fcdd9f9956f47bcacdcc401eab2d}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Malcolm},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7e0411fd16ab16a3f6e3e2677fbed4e}{%
+           family={Wurgler},
+           familyi={W\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{295d1825bb391d34cb03d80cd64a4b92}
+      \strng{fullhash}{295d1825bb391d34cb03d80cd64a4b92}
+      \strng{fullhashraw}{295d1825bb391d34cb03d80cd64a4b92}
+      \strng{bibnamehash}{295d1825bb391d34cb03d80cd64a4b92}
+      \strng{authorbibnamehash}{295d1825bb391d34cb03d80cd64a4b92}
+      \strng{authornamehash}{295d1825bb391d34cb03d80cd64a4b92}
+      \strng{authorfullhash}{295d1825bb391d34cb03d80cd64a4b92}
+      \strng{authorfullhashraw}{295d1825bb391d34cb03d80cd64a4b92}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{1}
+      \field{title}{Market timing and capital structure}
+      \field{volume}{57}
+      \field{year}{2002}
+      \field{pages}{1\bibrangedash 32}
+      \range{pages}{32}
+    \endentry
+    \entry{bris2006costs}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=76d454658abacc37d9f765fedf4f7189}{%
+           family={Bris},
+           familyi={B\bibinitperiod},
+           given={Arturo},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=600af3451e039948f3a785f4e1c0f14c}{%
+           family={Welch},
+           familyi={W\bibinitperiod},
+           given={Ivo},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d216e7900688aafd93b23d5413cba0a8}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Ning},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4fb4f6646bd28f2d3cfde49e7435ff29}
+      \strng{fullhash}{7ffbe8bd854e2890541759b4c48ab137}
+      \strng{fullhashraw}{7ffbe8bd854e2890541759b4c48ab137}
+      \strng{bibnamehash}{7ffbe8bd854e2890541759b4c48ab137}
+      \strng{authorbibnamehash}{7ffbe8bd854e2890541759b4c48ab137}
+      \strng{authornamehash}{4fb4f6646bd28f2d3cfde49e7435ff29}
+      \strng{authorfullhash}{7ffbe8bd854e2890541759b4c48ab137}
+      \strng{authorfullhashraw}{7ffbe8bd854e2890541759b4c48ab137}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{3}
+      \field{title}{The Costs of Bankruptcy: Chapter 7 Liquidation versus Chapter 11 Reorganization}
+      \field{volume}{61}
+      \field{year}{2006}
+      \field{pages}{1253\bibrangedash 1303}
+      \range{pages}{51}
+      \verb{doi}
+      \verb 10.1111/j.1540-6261.2006.00872.x
+      \endverb
+    \endentry
+    \entry{deangelo2015stability}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f4d52e18a1dd4596068cceb746a40e6f}{%
+           family={DeAngelo},
+           familyi={D\bibinitperiod},
+           given={Harry},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=751bfa7d3d8bacf865d8d98f5afe222b}{%
+           family={Roll},
+           familyi={R\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{0c5a660a9363aef52697ba5d215a5638}
+      \strng{fullhash}{0c5a660a9363aef52697ba5d215a5638}
+      \strng{fullhashraw}{0c5a660a9363aef52697ba5d215a5638}
+      \strng{bibnamehash}{0c5a660a9363aef52697ba5d215a5638}
+      \strng{authorbibnamehash}{0c5a660a9363aef52697ba5d215a5638}
+      \strng{authornamehash}{0c5a660a9363aef52697ba5d215a5638}
+      \strng{authorfullhash}{0c5a660a9363aef52697ba5d215a5638}
+      \strng{authorfullhashraw}{0c5a660a9363aef52697ba5d215a5638}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{1}
+      \field{title}{How stable are corporate capital structures?}
+      \field{volume}{70}
+      \field{year}{2015}
+      \field{pages}{373\bibrangedash 418}
+      \range{pages}{46}
+      \verb{doi}
+      \verb 10.1111/jofi.12163
+      \endverb
+    \endentry
+    \entry{fan2012international}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b01a1c29d282b5ede2a437f6b10d963c}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Joseph\bibnamedelima PH},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b04b73173bde12f6affb3df7b9d475c1}{%
+           family={Titman},
+           familyi={T\bibinitperiod},
+           given={Sheridan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19d7c16b82f808c068aac01257887f16}{%
+           family={Twite},
+           familyi={T\bibinitperiod},
+           given={Garry},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{79e4f55714cedc0c0cb1762e092d458c}
+      \strng{fullhash}{2a0c300b2ccd17535a2ec7ad87429744}
+      \strng{fullhashraw}{2a0c300b2ccd17535a2ec7ad87429744}
+      \strng{bibnamehash}{2a0c300b2ccd17535a2ec7ad87429744}
+      \strng{authorbibnamehash}{2a0c300b2ccd17535a2ec7ad87429744}
+      \strng{authornamehash}{79e4f55714cedc0c0cb1762e092d458c}
+      \strng{authorfullhash}{2a0c300b2ccd17535a2ec7ad87429744}
+      \strng{authorfullhashraw}{2a0c300b2ccd17535a2ec7ad87429744}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Financial and Quantitative Analysis}
+      \field{number}{1}
+      \field{title}{An international comparison of capital structure and debt maturity choices}
+      \field{volume}{47}
+      \field{year}{2012}
+      \field{pages}{23\bibrangedash 56}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1017/S0022109011000597
+      \endverb
+    \endentry
+    \entry{graham2022presidential}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dc7ad92e20cd54def3b43ff5b2f15d56}{%
+           family={Graham},
+           familyi={G\bibinitperiod},
+           given={John\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{dc7ad92e20cd54def3b43ff5b2f15d56}
+      \strng{fullhash}{dc7ad92e20cd54def3b43ff5b2f15d56}
+      \strng{fullhashraw}{dc7ad92e20cd54def3b43ff5b2f15d56}
+      \strng{bibnamehash}{dc7ad92e20cd54def3b43ff5b2f15d56}
+      \strng{authorbibnamehash}{dc7ad92e20cd54def3b43ff5b2f15d56}
+      \strng{authornamehash}{dc7ad92e20cd54def3b43ff5b2f15d56}
+      \strng{authorfullhash}{dc7ad92e20cd54def3b43ff5b2f15d56}
+      \strng{authorfullhashraw}{dc7ad92e20cd54def3b43ff5b2f15d56}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{4}
+      \field{title}{Presidential address: Corporate finance and reality}
+      \field{volume}{77}
+      \field{year}{2022}
+      \field{pages}{1975\bibrangedash 2049}
+      \range{pages}{75}
+      \verb{doi}
+      \verb 10.1111/jofi.13140
+      \endverb
+    \endentry
+    \entry{jensen1986agency}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=db9155adcca41b20795e0ca0bbbc007c}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={Michael\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Economic Association}%
+      }
+      \strng{namehash}{db9155adcca41b20795e0ca0bbbc007c}
+      \strng{fullhash}{db9155adcca41b20795e0ca0bbbc007c}
+      \strng{fullhashraw}{db9155adcca41b20795e0ca0bbbc007c}
+      \strng{bibnamehash}{db9155adcca41b20795e0ca0bbbc007c}
+      \strng{authorbibnamehash}{db9155adcca41b20795e0ca0bbbc007c}
+      \strng{authornamehash}{db9155adcca41b20795e0ca0bbbc007c}
+      \strng{authorfullhash}{db9155adcca41b20795e0ca0bbbc007c}
+      \strng{authorfullhashraw}{db9155adcca41b20795e0ca0bbbc007c}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{2}
+      \field{title}{Agency costs of free cash flow, corporate finance, and takeovers}
+      \field{volume}{76}
+      \field{year}{1986}
+      \field{pages}{323\bibrangedash 329}
+      \range{pages}{7}
+    \endentry
+    \entry{jensen1976theory}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=db9155adcca41b20795e0ca0bbbc007c}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={Michael\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ed0503cf00d1282e3b763ec6e46541b}{%
+           family={Meckling},
+           familyi={M\bibinitperiod},
+           given={William\bibnamedelima H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{29f206b2519a554e376bbe6d9788a822}
+      \strng{fullhash}{29f206b2519a554e376bbe6d9788a822}
+      \strng{fullhashraw}{29f206b2519a554e376bbe6d9788a822}
+      \strng{bibnamehash}{29f206b2519a554e376bbe6d9788a822}
+      \strng{authorbibnamehash}{29f206b2519a554e376bbe6d9788a822}
+      \strng{authornamehash}{29f206b2519a554e376bbe6d9788a822}
+      \strng{authorfullhash}{29f206b2519a554e376bbe6d9788a822}
+      \strng{authorfullhashraw}{29f206b2519a554e376bbe6d9788a822}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Financial Economics}
+      \field{number}{4}
+      \field{title}{Theory of the firm: Managerial behavior, agency costs and ownership structure}
+      \field{volume}{3}
+      \field{year}{1976}
+      \field{pages}{305\bibrangedash 360}
+      \range{pages}{56}
+      \verb{doi}
+      \verb 10.1016/0304-405X(76)90026-X
+      \endverb
+    \endentry
+    \entry{leary2005revolving}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ccef36fb831dd514cdfb9b4220e54641}{%
+           family={Leary},
+           familyi={L\bibinitperiod},
+           given={Mark\bibnamedelima T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=acb3f4afc721fc33da6722f5669c43d4}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Michael\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dd4d3604785fd87355407b4f2fdacb03}
+      \strng{fullhash}{dd4d3604785fd87355407b4f2fdacb03}
+      \strng{fullhashraw}{dd4d3604785fd87355407b4f2fdacb03}
+      \strng{bibnamehash}{dd4d3604785fd87355407b4f2fdacb03}
+      \strng{authorbibnamehash}{dd4d3604785fd87355407b4f2fdacb03}
+      \strng{authornamehash}{dd4d3604785fd87355407b4f2fdacb03}
+      \strng{authorfullhash}{dd4d3604785fd87355407b4f2fdacb03}
+      \strng{authorfullhashraw}{dd4d3604785fd87355407b4f2fdacb03}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{6}
+      \field{title}{Do firms rebalance their capital structures?}
+      \field{volume}{60}
+      \field{year}{2005}
+      \field{pages}{2575\bibrangedash 2619}
+      \range{pages}{45}
+      \verb{doi}
+      \verb 10.1111/j.1540-6261.2005.00811.x
+      \endverb
+    \endentry
+    \entry{myers1984corporate}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c9074b1d43acf1c207553f26fc755441}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Stewart\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54c87b3a3c04fbda71936f66afac0953}{%
+           family={Majluf},
+           familyi={M\bibinitperiod},
+           given={Nicholas\bibnamedelima S.},
+           giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eb7f8440b3a72c7526810cfdf803ca96}
+      \strng{fullhash}{eb7f8440b3a72c7526810cfdf803ca96}
+      \strng{fullhashraw}{eb7f8440b3a72c7526810cfdf803ca96}
+      \strng{bibnamehash}{eb7f8440b3a72c7526810cfdf803ca96}
+      \strng{authorbibnamehash}{eb7f8440b3a72c7526810cfdf803ca96}
+      \strng{authornamehash}{eb7f8440b3a72c7526810cfdf803ca96}
+      \strng{authorfullhash}{eb7f8440b3a72c7526810cfdf803ca96}
+      \strng{authorfullhashraw}{eb7f8440b3a72c7526810cfdf803ca96}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Financial Economics}
+      \field{number}{2}
+      \field{title}{Corporate financing and investment decisions when firms have information that investors do not have}
+      \field{volume}{13}
+      \field{year}{1984}
+      \field{pages}{187\bibrangedash 221}
+      \range{pages}{35}
+      \verb{doi}
+      \verb 10.1016/0304-405X(84)90023-0
+      \endverb
+    \endentry
+    \entry{ross1977signaling}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=98b2227c5a8dba76158ffb9a20138b89}{%
+           family={Ross},
+           familyi={R\bibinitperiod},
+           given={Stephen\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{98b2227c5a8dba76158ffb9a20138b89}
+      \strng{fullhash}{98b2227c5a8dba76158ffb9a20138b89}
+      \strng{fullhashraw}{98b2227c5a8dba76158ffb9a20138b89}
+      \strng{bibnamehash}{98b2227c5a8dba76158ffb9a20138b89}
+      \strng{authorbibnamehash}{98b2227c5a8dba76158ffb9a20138b89}
+      \strng{authornamehash}{98b2227c5a8dba76158ffb9a20138b89}
+      \strng{authorfullhash}{98b2227c5a8dba76158ffb9a20138b89}
+      \strng{authorfullhashraw}{98b2227c5a8dba76158ffb9a20138b89}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Bell Journal of Economics}
+      \field{number}{1}
+      \field{title}{The determination of financial structure: The incentive-signaling approach}
+      \field{volume}{8}
+      \field{year}{1977}
+      \field{pages}{23\bibrangedash 40}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.2307/3003485
+      \endverb
+    \endentry
+    \entry{warner1977bankruptcy}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3277494e16e6ec90c34d689edd095896}{%
+           family={Warner},
+           familyi={W\bibinitperiod},
+           given={Jerold\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3277494e16e6ec90c34d689edd095896}
+      \strng{fullhash}{3277494e16e6ec90c34d689edd095896}
+      \strng{fullhashraw}{3277494e16e6ec90c34d689edd095896}
+      \strng{bibnamehash}{3277494e16e6ec90c34d689edd095896}
+      \strng{authorbibnamehash}{3277494e16e6ec90c34d689edd095896}
+      \strng{authornamehash}{3277494e16e6ec90c34d689edd095896}
+      \strng{authorfullhash}{3277494e16e6ec90c34d689edd095896}
+      \strng{authorfullhashraw}{3277494e16e6ec90c34d689edd095896}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{2}
+      \field{title}{Bankruptcy costs: Some evidence}
+      \field{volume}{32}
+      \field{year}{1977}
+      \field{pages}{337\bibrangedash 347}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1111/j.1540-6261.1977.tb03274.x
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{baker2002market}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ea81fcdd9f9956f47bcacdcc401eab2d}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Malcolm},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7e0411fd16ab16a3f6e3e2677fbed4e}{%
+           family={Wurgler},
+           familyi={W\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{295d1825bb391d34cb03d80cd64a4b92}
+      \strng{fullhash}{295d1825bb391d34cb03d80cd64a4b92}
+      \strng{fullhashraw}{295d1825bb391d34cb03d80cd64a4b92}
+      \strng{bibnamehash}{295d1825bb391d34cb03d80cd64a4b92}
+      \strng{authorbibnamehash}{295d1825bb391d34cb03d80cd64a4b92}
+      \strng{authornamehash}{295d1825bb391d34cb03d80cd64a4b92}
+      \strng{authorfullhash}{295d1825bb391d34cb03d80cd64a4b92}
+      \strng{authorfullhashraw}{295d1825bb391d34cb03d80cd64a4b92}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{1}
+      \field{title}{Market timing and capital structure}
+      \field{volume}{57}
+      \field{year}{2002}
+      \field{pages}{1\bibrangedash 32}
+      \range{pages}{32}
+    \endentry
+    \entry{bris2006costs}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=76d454658abacc37d9f765fedf4f7189}{%
+           family={Bris},
+           familyi={B\bibinitperiod},
+           given={Arturo},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=600af3451e039948f3a785f4e1c0f14c}{%
+           family={Welch},
+           familyi={W\bibinitperiod},
+           given={Ivo},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d216e7900688aafd93b23d5413cba0a8}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Ning},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4fb4f6646bd28f2d3cfde49e7435ff29}
+      \strng{fullhash}{7ffbe8bd854e2890541759b4c48ab137}
+      \strng{fullhashraw}{7ffbe8bd854e2890541759b4c48ab137}
+      \strng{bibnamehash}{7ffbe8bd854e2890541759b4c48ab137}
+      \strng{authorbibnamehash}{7ffbe8bd854e2890541759b4c48ab137}
+      \strng{authornamehash}{4fb4f6646bd28f2d3cfde49e7435ff29}
+      \strng{authorfullhash}{7ffbe8bd854e2890541759b4c48ab137}
+      \strng{authorfullhashraw}{7ffbe8bd854e2890541759b4c48ab137}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{3}
+      \field{title}{The Costs of Bankruptcy: Chapter 7 Liquidation versus Chapter 11 Reorganization}
+      \field{volume}{61}
+      \field{year}{2006}
+      \field{pages}{1253\bibrangedash 1303}
+      \range{pages}{51}
+      \verb{doi}
+      \verb 10.1111/j.1540-6261.2006.00872.x
+      \endverb
+    \endentry
+    \entry{deangelo2015stability}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f4d52e18a1dd4596068cceb746a40e6f}{%
+           family={DeAngelo},
+           familyi={D\bibinitperiod},
+           given={Harry},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=751bfa7d3d8bacf865d8d98f5afe222b}{%
+           family={Roll},
+           familyi={R\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{0c5a660a9363aef52697ba5d215a5638}
+      \strng{fullhash}{0c5a660a9363aef52697ba5d215a5638}
+      \strng{fullhashraw}{0c5a660a9363aef52697ba5d215a5638}
+      \strng{bibnamehash}{0c5a660a9363aef52697ba5d215a5638}
+      \strng{authorbibnamehash}{0c5a660a9363aef52697ba5d215a5638}
+      \strng{authornamehash}{0c5a660a9363aef52697ba5d215a5638}
+      \strng{authorfullhash}{0c5a660a9363aef52697ba5d215a5638}
+      \strng{authorfullhashraw}{0c5a660a9363aef52697ba5d215a5638}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{1}
+      \field{title}{How stable are corporate capital structures?}
+      \field{volume}{70}
+      \field{year}{2015}
+      \field{pages}{373\bibrangedash 418}
+      \range{pages}{46}
+      \verb{doi}
+      \verb 10.1111/jofi.12163
+      \endverb
+    \endentry
+    \entry{fan2012international}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b01a1c29d282b5ede2a437f6b10d963c}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Joseph\bibnamedelima PH},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b04b73173bde12f6affb3df7b9d475c1}{%
+           family={Titman},
+           familyi={T\bibinitperiod},
+           given={Sheridan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19d7c16b82f808c068aac01257887f16}{%
+           family={Twite},
+           familyi={T\bibinitperiod},
+           given={Garry},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{79e4f55714cedc0c0cb1762e092d458c}
+      \strng{fullhash}{2a0c300b2ccd17535a2ec7ad87429744}
+      \strng{fullhashraw}{2a0c300b2ccd17535a2ec7ad87429744}
+      \strng{bibnamehash}{2a0c300b2ccd17535a2ec7ad87429744}
+      \strng{authorbibnamehash}{2a0c300b2ccd17535a2ec7ad87429744}
+      \strng{authornamehash}{79e4f55714cedc0c0cb1762e092d458c}
+      \strng{authorfullhash}{2a0c300b2ccd17535a2ec7ad87429744}
+      \strng{authorfullhashraw}{2a0c300b2ccd17535a2ec7ad87429744}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Financial and Quantitative Analysis}
+      \field{number}{1}
+      \field{title}{An international comparison of capital structure and debt maturity choices}
+      \field{volume}{47}
+      \field{year}{2012}
+      \field{pages}{23\bibrangedash 56}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1017/S0022109011000597
+      \endverb
+    \endentry
+    \entry{graham2022presidential}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dc7ad92e20cd54def3b43ff5b2f15d56}{%
+           family={Graham},
+           familyi={G\bibinitperiod},
+           given={John\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{dc7ad92e20cd54def3b43ff5b2f15d56}
+      \strng{fullhash}{dc7ad92e20cd54def3b43ff5b2f15d56}
+      \strng{fullhashraw}{dc7ad92e20cd54def3b43ff5b2f15d56}
+      \strng{bibnamehash}{dc7ad92e20cd54def3b43ff5b2f15d56}
+      \strng{authorbibnamehash}{dc7ad92e20cd54def3b43ff5b2f15d56}
+      \strng{authornamehash}{dc7ad92e20cd54def3b43ff5b2f15d56}
+      \strng{authorfullhash}{dc7ad92e20cd54def3b43ff5b2f15d56}
+      \strng{authorfullhashraw}{dc7ad92e20cd54def3b43ff5b2f15d56}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{4}
+      \field{title}{Presidential address: Corporate finance and reality}
+      \field{volume}{77}
+      \field{year}{2022}
+      \field{pages}{1975\bibrangedash 2049}
+      \range{pages}{75}
+      \verb{doi}
+      \verb 10.1111/jofi.13140
+      \endverb
+    \endentry
+    \entry{jensen1986agency}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=db9155adcca41b20795e0ca0bbbc007c}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={Michael\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Economic Association}%
+      }
+      \strng{namehash}{db9155adcca41b20795e0ca0bbbc007c}
+      \strng{fullhash}{db9155adcca41b20795e0ca0bbbc007c}
+      \strng{fullhashraw}{db9155adcca41b20795e0ca0bbbc007c}
+      \strng{bibnamehash}{db9155adcca41b20795e0ca0bbbc007c}
+      \strng{authorbibnamehash}{db9155adcca41b20795e0ca0bbbc007c}
+      \strng{authornamehash}{db9155adcca41b20795e0ca0bbbc007c}
+      \strng{authorfullhash}{db9155adcca41b20795e0ca0bbbc007c}
+      \strng{authorfullhashraw}{db9155adcca41b20795e0ca0bbbc007c}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{2}
+      \field{title}{Agency costs of free cash flow, corporate finance, and takeovers}
+      \field{volume}{76}
+      \field{year}{1986}
+      \field{pages}{323\bibrangedash 329}
+      \range{pages}{7}
+    \endentry
+    \entry{jensen1976theory}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=db9155adcca41b20795e0ca0bbbc007c}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={Michael\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ed0503cf00d1282e3b763ec6e46541b}{%
+           family={Meckling},
+           familyi={M\bibinitperiod},
+           given={William\bibnamedelima H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{29f206b2519a554e376bbe6d9788a822}
+      \strng{fullhash}{29f206b2519a554e376bbe6d9788a822}
+      \strng{fullhashraw}{29f206b2519a554e376bbe6d9788a822}
+      \strng{bibnamehash}{29f206b2519a554e376bbe6d9788a822}
+      \strng{authorbibnamehash}{29f206b2519a554e376bbe6d9788a822}
+      \strng{authornamehash}{29f206b2519a554e376bbe6d9788a822}
+      \strng{authorfullhash}{29f206b2519a554e376bbe6d9788a822}
+      \strng{authorfullhashraw}{29f206b2519a554e376bbe6d9788a822}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Financial Economics}
+      \field{number}{4}
+      \field{title}{Theory of the firm: Managerial behavior, agency costs and ownership structure}
+      \field{volume}{3}
+      \field{year}{1976}
+      \field{pages}{305\bibrangedash 360}
+      \range{pages}{56}
+      \verb{doi}
+      \verb 10.1016/0304-405X(76)90026-X
+      \endverb
+    \endentry
+    \entry{leary2005revolving}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ccef36fb831dd514cdfb9b4220e54641}{%
+           family={Leary},
+           familyi={L\bibinitperiod},
+           given={Mark\bibnamedelima T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=acb3f4afc721fc33da6722f5669c43d4}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Michael\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dd4d3604785fd87355407b4f2fdacb03}
+      \strng{fullhash}{dd4d3604785fd87355407b4f2fdacb03}
+      \strng{fullhashraw}{dd4d3604785fd87355407b4f2fdacb03}
+      \strng{bibnamehash}{dd4d3604785fd87355407b4f2fdacb03}
+      \strng{authorbibnamehash}{dd4d3604785fd87355407b4f2fdacb03}
+      \strng{authornamehash}{dd4d3604785fd87355407b4f2fdacb03}
+      \strng{authorfullhash}{dd4d3604785fd87355407b4f2fdacb03}
+      \strng{authorfullhashraw}{dd4d3604785fd87355407b4f2fdacb03}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{6}
+      \field{title}{Do firms rebalance their capital structures?}
+      \field{volume}{60}
+      \field{year}{2005}
+      \field{pages}{2575\bibrangedash 2619}
+      \range{pages}{45}
+      \verb{doi}
+      \verb 10.1111/j.1540-6261.2005.00811.x
+      \endverb
+    \endentry
+    \entry{myers1984corporate}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c9074b1d43acf1c207553f26fc755441}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Stewart\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54c87b3a3c04fbda71936f66afac0953}{%
+           family={Majluf},
+           familyi={M\bibinitperiod},
+           given={Nicholas\bibnamedelima S.},
+           giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eb7f8440b3a72c7526810cfdf803ca96}
+      \strng{fullhash}{eb7f8440b3a72c7526810cfdf803ca96}
+      \strng{fullhashraw}{eb7f8440b3a72c7526810cfdf803ca96}
+      \strng{bibnamehash}{eb7f8440b3a72c7526810cfdf803ca96}
+      \strng{authorbibnamehash}{eb7f8440b3a72c7526810cfdf803ca96}
+      \strng{authornamehash}{eb7f8440b3a72c7526810cfdf803ca96}
+      \strng{authorfullhash}{eb7f8440b3a72c7526810cfdf803ca96}
+      \strng{authorfullhashraw}{eb7f8440b3a72c7526810cfdf803ca96}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Financial Economics}
+      \field{number}{2}
+      \field{title}{Corporate financing and investment decisions when firms have information that investors do not have}
+      \field{volume}{13}
+      \field{year}{1984}
+      \field{pages}{187\bibrangedash 221}
+      \range{pages}{35}
+      \verb{doi}
+      \verb 10.1016/0304-405X(84)90023-0
+      \endverb
+    \endentry
+    \entry{ross1977signaling}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=98b2227c5a8dba76158ffb9a20138b89}{%
+           family={Ross},
+           familyi={R\bibinitperiod},
+           given={Stephen\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{98b2227c5a8dba76158ffb9a20138b89}
+      \strng{fullhash}{98b2227c5a8dba76158ffb9a20138b89}
+      \strng{fullhashraw}{98b2227c5a8dba76158ffb9a20138b89}
+      \strng{bibnamehash}{98b2227c5a8dba76158ffb9a20138b89}
+      \strng{authorbibnamehash}{98b2227c5a8dba76158ffb9a20138b89}
+      \strng{authornamehash}{98b2227c5a8dba76158ffb9a20138b89}
+      \strng{authorfullhash}{98b2227c5a8dba76158ffb9a20138b89}
+      \strng{authorfullhashraw}{98b2227c5a8dba76158ffb9a20138b89}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Bell Journal of Economics}
+      \field{number}{1}
+      \field{title}{The determination of financial structure: The incentive-signaling approach}
+      \field{volume}{8}
+      \field{year}{1977}
+      \field{pages}{23\bibrangedash 40}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.2307/3003485
+      \endverb
+    \endentry
+    \entry{warner1977bankruptcy}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3277494e16e6ec90c34d689edd095896}{%
+           family={Warner},
+           familyi={W\bibinitperiod},
+           given={Jerold\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3277494e16e6ec90c34d689edd095896}
+      \strng{fullhash}{3277494e16e6ec90c34d689edd095896}
+      \strng{fullhashraw}{3277494e16e6ec90c34d689edd095896}
+      \strng{bibnamehash}{3277494e16e6ec90c34d689edd095896}
+      \strng{authorbibnamehash}{3277494e16e6ec90c34d689edd095896}
+      \strng{authornamehash}{3277494e16e6ec90c34d689edd095896}
+      \strng{authorfullhash}{3277494e16e6ec90c34d689edd095896}
+      \strng{authorfullhashraw}{3277494e16e6ec90c34d689edd095896}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{2}
+      \field{title}{Bankruptcy costs: Some evidence}
+      \field{volume}{32}
+      \field{year}{1977}
+      \field{pages}{337\bibrangedash 347}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1111/j.1540-6261.1977.tb03274.x
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

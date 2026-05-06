@@ -1,30 +1,29 @@
+
 \begin{frame}{Capital Structure: What Limits the Use of Debt?}
-	\small
-	\textbf{Beyond Tax Shields -- Why Don't Firms Use 100\% Debt?}
-	\small
-	In this section, we explore factors that challenge the simple tax-based view of optimal capital structure:
-	\vspace{-3mm}
-	
-	\begin{itemize}
-		\item \textbf{Case III: Trade-Off Theory}  
-		Firms weigh the tax benefits of debt against the costs of financial distress.
-		
-		\item \textbf{Signaling Effects}  
-		Capital structure choices can signal private information to investors.
-		\item \textbf{Agency Costs of Equity}  
-		Equity financing may create incentive misalignments between owners and managers.
-		
-		\item \textbf{Pecking Order Theory}  
-		Firms prefer internal funds, then debt, and issue equity only as a last resort.
-		
-		\item \textbf{Real-World Constraints}  
-		Legal, institutional, and industry-specific frictions matter too.
-	\end{itemize}
-	\vspace{-3mm}
-	\begin{alertblock}{Goal of This Section}
-		To understand why real-world firms often choose \textbf{moderate} debt levels -- not extremes.
-	\end{alertblock}
-	
+
+\begin{block}{Starting Point}
+With corporate taxes, debt creates value through interest tax shields:
+\[
+V_L = V_U + T_C B
+\]
+\end{block}
+
+\vspace{0.3cm}
+
+\textbf{But this simple model predicts too much debt.}
+
+\begin{itemize}
+    \item If tax shields were the only force, firms should use almost 100\% debt.
+    \item In reality, most firms choose moderate leverage.
+    \item Therefore, debt must also create costs.
+\end{itemize}
+
+\vfill
+
+\begin{alertblock}{Main Question}
+What costs prevent firms from using extremely high debt levels?
+\end{alertblock}
+
 \end{frame}
 
 \subsection{Costs of Financial Distress}
@@ -103,48 +102,64 @@
 \end{frame}
 
 \begin{frame}{Direct Costs of Financial Distress}
-	
-	\textbf{Legal and Administrative Costs:}
-	\begin{itemize}
-		\item Legal fees during reorganization or liquidation can be substantial.
-		\item Enron: \$1 billion; WorldCom: \$600 million
-		\item These costs are paid before creditors or shareholders receive anything.
-	\end{itemize}
-	
-	\vspace{0.3cm}
-	\textbf{Empirical Estimates:}
-	\begin{itemize}
-		\item \textcite{white1980bankruptcy}: Direct costs $\approx$ 3\% of firm value
-		\item \textcite{warner1977bankruptcy}: Average $\approx$ 1\% of firm value (7 years before bankruptcy)
-	\end{itemize}
-	
-	\vspace{0.3cm}
-	\begin{alertblock}{Key Point}
-		Even small percentage costs can erode tax benefits when distress probability is high.
-	\end{alertblock}
-	
+
+\begin{block}{What Are Direct Costs?}
+Direct costs are the legal, advisory, and administrative expenses paid during
+bankruptcy, liquidation, or restructuring.
+\end{block}
+
+
+\textbf{Examples:}
+\begin{itemize}
+    \item Legal and court fees
+    \item Investment banking and restructuring advisory fees
+    \item Administrative costs during reorganization
+\end{itemize}
+
+
+\textbf{Empirical Evidence:}
+\begin{itemize}
+    \item \textcite{warner1977bankruptcy}: direct bankruptcy costs are economically meaningful but relatively modest.
+    \item \textcite{bris2006costs}: bankruptcy costs vary substantially across firms and procedures.
+\end{itemize}
+
+
+% \begin{alertblock}{Key Point}
+% Direct costs are not usually the largest distress cost, but they reduce the
+% value available to creditors and shareholders.
+% \end{alertblock}
+
 \end{frame}
 
+
 \begin{frame}{Indirect Costs of Financial Distress}
-	
-	\textbf{Harder to Observe -- Still Very Real:}
-	\begin{itemize}
-		\item Loss of customers or suppliers
-		\item Difficulty attracting or retaining talent
-		\item Strategic delays or loss of growth opportunities
-	\end{itemize}
-	
-	\vspace{0.3cm}
-	\textbf{Example: GM \& Chrysler (2008)}
-	\begin{itemize}
-		\item 75\% of surveyed consumers said they wouldn't buy from a bankrupt carmaker.
-		\item Financial distress amplified by loss of confidence.
-	\end{itemize}
-	
-	\vspace{0.3cm}
-	\textbf{Key Feature:}  
-	Difficult to measure -- but can far exceed direct costs.
-	
+\vspace{-0.2cm}
+\begin{block}{Core Idea}
+Financial distress can damage the firm's real operations, not just its
+balance sheet.
+\end{block}
+
+\textbf{Main Channels:}
+\begin{itemize}
+    \item Customers lose confidence.
+    \item Suppliers tighten credit terms.
+    \item Employees leave or demand compensation.
+    \item Managers cut valuable investment.
+\end{itemize}
+
+
+\textbf{Evidence:}
+\begin{itemize}
+    \item \textcite{opler1994financial}: highly leveraged firms lose more
+    market share during industry downturns.
+\end{itemize}
+
+
+\begin{alertblock}{Key Point}
+Indirect distress costs are difficult to observe, but they often matter more
+than direct bankruptcy costs.
+\end{alertblock}
+
 \end{frame}
 
 \subsubsection{Agency Costs: Equity vs. Debt Conflict}
@@ -244,6 +259,32 @@
 	
 \end{frame}
 
+\begin{frame}{Case Discussion: FedEx and ``Gambling for Survival''}
+
+\begin{block}{The Story}
+In the early years of FedEx, the firm reportedly had only about \$5,000 left
+and faced an urgent fuel bill. Founder Fred Smith went to Las Vegas and
+won about \$27,000 playing blackjack.
+\end{block}
+
+\vspace{0.2cm}
+
+\textbf{Why This Case Is Relevant}
+\begin{itemize}
+    \item When the firm is close to failure, downside for equity is already limited.
+    \item A very risky action may look attractive to equityholders.
+    \item Creditors, employees, and suppliers bear much of the downside risk.
+\end{itemize}
+
+\vfill
+
+\begin{alertblock}{Teaching Point}
+Financial distress can distort risk-taking incentives: equityholders may
+prefer a gamble even when the gamble is not optimal for the whole firm.
+\end{alertblock}
+
+{\scriptsize Source: \href{https://priceonomics.com/how-a-lucky-run-in-vegas-saved-fedex/}{Priceonomics (2014)}.}
+\end{frame}
 
 \begin{frame}{Selfish Strategy 2: Underinvestment (Debt Overhang)}
 	
@@ -338,74 +379,109 @@
 \end{frame}
 
 \subsubsection{Mitigating Agency Conflicts Between Shareholders and Creditors}
-\begin{frame}{Mitigating Conflict: Protective Covenants}
-	
-	\textbf{Bond Covenants} are contractual restrictions designed to align stockholder and bondholder interests by reducing agency costs.
-	
-	\begin{block}{Types of Covenants}
-		\begin{itemize}
-			\item \textbf{Negative Covenants:} Prohibit risky actions
-			\begin{itemize}
-				\item No sale or lease of major assets without approval
-				\item No issuance of additional long-term debt
-			\end{itemize}
-			
-			\item \textbf{Positive Covenants:} Require prudent behavior
-			\begin{itemize}
-				\item Maintain minimum levels of working capital
-				\item Provide regular financial statements
-			\end{itemize}
-		\end{itemize}
-	\end{block}
-	
-	\vspace{0.2cm}
-	\textbf{Tradeoff:}  
-	Though they reduce financial flexibility, covenants can lower borrowing costs and increase firm value by protecting creditor claims.
-	
-\end{frame}
-\begin{frame}{Mitigating Conflict: Debt Coordination and Hybrid Claims}
-	
-	\textbf{Debt Consolidation Reduces Conflict Among Creditors}
-	
-	\begin{itemize}
-		\item Bankruptcy costs rise when multiple creditors compete for limited assets.
-		\item Solution: Fewer, centralized creditors $\rightarrow$ Easier negotiation in distress.
-		\item Example: One lead lender finances all long-term debt.
-	\end{itemize}
-	
-	\vspace{0.3cm}
-	\textbf{Blending Stakeholder Roles}
-	
-	\begin{itemize}
-		\item Encourage \textbf{creditor equity ownership}: debt holders also hold shares
-		\item Aligns incentives -- both care about total firm value, not just claim-specific returns
-		\item Common in restructurings, PE-backed LBOs, or convertible bond structures
-	\end{itemize}
-	
-	\vspace{0.2cm}
-	\begin{alertblock}{Goal}
-		Reduce value-destroying conflicts by integrating or coordinating stakeholder interests.
-	\end{alertblock}
-	
+\begin{frame}{Mitigating Shareholder---Creditor Conflicts}
+
+\begin{block}{Core Problem}
+When a firm is highly levered, shareholders may take actions that benefit
+equity but harm creditors and reduce total firm value.
+\end{block}
+
+\vspace{0.3cm}
+
+\textbf{Common mitigation mechanisms:}
+\begin{itemize}
+    \item \textbf{Protective covenants}: restrict value-destroying actions.
+    \item \textbf{Monitoring and reporting}: reduce information asymmetry.
+    \item \textbf{Debt coordination}: reduce conflicts among creditors in distress.
+    \item \textbf{Hybrid claims}: align creditor and shareholder incentives.
+\end{itemize}
+
+\vfill
+
+\begin{alertblock}{Key Idea}
+Contracts cannot eliminate agency conflicts, but they can reduce expected
+losses and lower the cost of debt.
+\end{alertblock}
+
 \end{frame}
 
-\begin{frame}{Looking Ahead: Broader Mechanism Design}
-	
-	While protective covenants and creditor coordination help reduce agency conflicts, modern corporate finance also utilizes other contractual tools:
-	
-	\begin{itemize}
-		\item \textbf{Convertible Bonds}: align incentives by letting creditors participate in upside.
-		\item \textbf{Performance-Based Covenants}: dynamically adjust restrictions based on financial ratios.
-		\item \textbf{Equity Issuance}: may serve as a signal of management confidence -- or distress.
-	\end{itemize}
-	
-	\vspace{0.3cm}
-	\begin{alertblock}{Next}
-		These institutional designs help mitigate the costs of debt, but they do not eliminate them.  
-		We now turn to the broader \textbf{Trade-Off Theory}, which balances benefits (like tax shields) with costs (like financial distress and agency).
-	\end{alertblock}
-	
+\begin{frame}{Negative Covenants: Restrict Risky Actions}
+
+\begin{block}{Definition}
+Negative covenants prohibit actions that may transfer value from creditors
+to shareholders.
+\end{block}
+
+\vspace{0.3cm}
+
+\textbf{Examples:}
+\begin{itemize}
+    \item Do not issue additional senior debt.
+    \item Do not sell major assets without lender approval.
+    \item Do not pay excessive dividends or repurchase shares.
+    \item Do not make large acquisitions without consent.
+\end{itemize}
+
+\vfill
+
+\begin{alertblock}{Economic Role}
+Negative covenants limit risk-shifting, asset substitution, and value
+extraction before default.
+\end{alertblock}
+
 \end{frame}
+
+\begin{frame}{Positive Covenants: Require Prudent Behavior}
+
+\begin{block}{Definition}
+Positive covenants require the borrower to maintain financial discipline
+and provide information to creditors.
+\end{block}
+
+\vspace{0.3cm}
+
+\textbf{Examples:}
+\begin{itemize}
+    \item Maintain minimum working capital or interest coverage.
+    \item Provide regular audited financial statements.
+    \item Maintain insurance on key assets.
+    \item Comply with laws and tax obligations.
+\end{itemize}
+
+\vfill
+
+\begin{alertblock}{Economic Role}
+Positive covenants improve monitoring and help creditors intervene before
+distress becomes too severe.
+\end{alertblock}
+
+\end{frame}
+
+\begin{frame}{Other Mechanisms: Coordination and Hybrid Claims}
+
+\textbf{Debt Coordination}
+\begin{itemize}
+    \item Too many creditors can make restructuring difficult.
+    \item Concentrated lending or a lead bank can reduce coordination costs.
+\end{itemize}
+
+\vspace{0.3cm}
+
+\textbf{Hybrid Claims}
+\begin{itemize}
+    \item Convertible debt lets creditors share upside potential.
+    \item Debt-for-equity swaps can align incentives in restructuring.
+\end{itemize}
+
+\vfill
+
+\begin{alertblock}{Takeaway}
+Covenants control behavior directly; coordination and hybrid claims reduce
+conflict by changing incentives and bargaining structure.
+\end{alertblock}
+
+\end{frame}
+
 
 \subsection{Trade-Off Theory of Capital Structure}
 \begin{frame}{The Static Trade-Off Theory}
@@ -948,31 +1024,99 @@
 \end{frame}
 
 \subsubsection*{Alternative Capital Structure Theory}
-\begin{frame}{Summary: Alternative Capital Structure Theories}
-	
-	\begin{table}[ht]
-		\centering
-		\resizebox{\textwidth}{!}{
-			\begin{tabular}{lllll}
-				\toprule
-				\textbf{Theory} & \textbf{Key Driver} & \textbf{Mechanism} & \textbf{Prediction on Leverage} & \textbf{Notes} \\
-				\midrule
-				Agency Costs of Equity & Ownership-control sep & Equity dilution weakens managerial incentives & Higher debt improves effort alignment & \textcite{jensen1976theory} \\
-				Free Cash Flow & Empire building risk & Debt limits managerial discretion & More debt when cash flow is high & \textcite{jensen1986agency} \\
-				Signaling Theory & Private info asymmetry & High-quality firms use more debt & High debt = high quality signal & \textcite{ross1977signaling} \\
-				Pecking Order Theory & Info asymmetry + cost & Internal > debt > equity & Profitable firms use less debt & \textcite{myers1984corporate} \\
-				Dynamic Rebalancing & Adjustment costs & Partial, slow return to target & D/E drifts over time & \textcite{leary2005revolving} \\
-				Market Timing Theory & Valuation windows & Issue equity when overvalued & Structure reflects timing history & \textcite{baker2002market} \\
-				\bottomrule
-			\end{tabular}
-		}
-	\end{table}
-	
-	\vspace{0.2cm}
-	\textbf{Conclusion:} These theories complement the traditional trade-off framework by incorporating behavior, information, and dynamics.
-	
+\begin{frame}{Alternative Capital Structure Theories I}
+\small
+\begin{table}[ht]
+\centering
+\begin{tabular}{p{3.5cm}p{7.7cm}}
+\toprule
+\textbf{Theory} & \textbf{Core Prediction} \\
+\midrule
+
+\textbf{Agency Costs of Equity} 
+{ \parencite{jensen1976theory}}
+& Debt can discipline managers when equity dilution weakens incentives. \\
+
+\addlinespace[0.35em]
+
+\textbf{Free Cash Flow Theory}
+{ \parencite{jensen1986agency}}
+& Debt reduces managerial discretion and limits overinvestment. \\
+
+\addlinespace[0.35em]
+
+\textbf{Signaling Theory}
+{ \parencite{ross1977signaling}}
+& High-quality firms may use debt to signal confidence. \\
+
+\bottomrule
+\end{tabular}
+\end{table}
+
+\vfill
+
+\begin{block}{Common Theme}
+Debt can mitigate agency problems or convey private information, but it also increases distress risk.
+\end{block}
+
 \end{frame}
 
+\begin{frame}{Alternative Capital Structure Theories II}
+\small
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{p{3.5cm}p{7.7cm}}
+\toprule
+\textbf{Theory} & \textbf{Core Prediction} \\
+\midrule
+
+\textbf{Pecking Order Theory}
+{ \parencite{myers1984corporate}}
+& Firms prefer internal funds, then debt, and issue equity last. \\
+
+\addlinespace[0.35em]
+
+\textbf{Dynamic Rebalancing}
+{ \parencite{leary2005revolving}}
+& Firms adjust leverage slowly toward target ratios. \\
+
+\addlinespace[0.35em]
+
+\textbf{Market Timing Theory}
+{ \parencite{baker2002market}}
+& Capital structure reflects past issuance windows and valuation conditions. \\
+
+\bottomrule
+\end{tabular}
+\end{table}
+
+\vfill
+
+\begin{block}{Common Theme}
+Observed leverage may reflect financing frictions, adjustment costs, and past market conditions.
+\end{block}
+
+\end{frame}
+
+\begin{frame}{Alternative Theories: Main Takeaway}
+
+\begin{itemize}
+    \item \textbf{Trade-off theory} emphasizes taxes versus distress costs.
+    \item \textbf{Agency and signaling theories} emphasize incentive and information problems.
+    \item \textbf{Pecking order theory} emphasizes financing hierarchy under asymmetric information.
+    \item \textbf{Dynamic and market timing theories} emphasize adjustment costs and historical financing windows.
+\end{itemize}
+
+\vfill
+
+\begin{alertblock}{Takeaway}
+No single theory fully explains capital structure. Real-world leverage reflects
+taxes, distress costs, agency conflicts, information asymmetry, adjustment
+costs, and market conditions.
+\end{alertblock}
+
+\end{frame}
 
 \subsection{How Firms Establish Capital Structure in Practice}
 \begin{frame}{Capital Structures Vary Widely Across Countries}
@@ -1028,19 +1172,20 @@
 \end{frame}
 
 \begin{frame}{Capital Structures Differ by Industry}
-	
+	% https://www.fastercapital.com/content/Debt-to-Equity-Ratio--D-E---Debt-Dynamics--The-Debt-to-Equity-Ratio-s-Relevance-in-Stock-Valuation.html	
+
 	\begin{figure}
 		\centering
-		\includegraphics[width=0.9\textwidth]{images/section3/cnderatio.jpg}
+		\includegraphics[width=0.9\textwidth]{images/section3/cnderatio.png}
 	\end{figure}
 	
-	\tiny{Source: Refinitiv / Reuters. Leverage varies based on operating risk and asset type.}
-	
-	\vspace{2mm}
-	\textbf{Example:} Airlines and utilities exhibit high leverage; tech and services often rely more on equity.
+	\begin{block}{Main Idea}
+Optimal leverage differs across industries because firms face different
+operating risk, asset tangibility, and financing needs.
+\end{block}
 \end{frame}
+
 \begin{frame}{What Determines a Firm's Target D/E Ratio?}
-	
 	\begin{itemize}
 		\item \textbf{Taxes:}
 		\begin{itemize}
@@ -1061,8 +1206,8 @@
 	
 	\vspace{2mm}
 	\textbf{Additional factors:} growth opportunities, managerial preferences, macro conditions.
-	
 \end{frame}
+
 \begin{frame}{Empirical Realities of Capital Structure: Key Takeaways}
 	
 	\begin{itemize}
@@ -1085,6 +1230,65 @@
 		\item \textbf{Theory provides a framework}, but real-world capital structure reflects both rational design and practical constraints.
 	\end{itemize}
 	
+\end{frame}
+
+\begin{frame}{What Determines a Firm's Target Leverage?}
+
+\begin{block}{Empirical Regularities}
+Capital structure is systematically related to firm characteristics.
+\end{block}
+
+\begin{itemize}
+    \item \textbf{Profitability}
+    \begin{itemize}
+        \item More profitable firms often use less debt, consistent with pecking order theory.
+        \item \textcite{titman1988determinants}; \textcite{rajan1995what}
+    \end{itemize}
+
+    \item \textbf{Asset tangibility}
+    \begin{itemize}
+        \item Tangible assets serve as collateral and support higher debt capacity.
+        \item \textcite{rajan1995what}; \textcite{frank2009capital}
+    \end{itemize}
+
+    \item \textbf{Growth opportunities and R\&D}
+    \begin{itemize}
+        \item Growth firms rely less on debt because distress costs and debt overhang are higher.
+        \item \textcite{myers1977determinants}; \textcite{titman1988determinants}
+    \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Capital Structure in Practice: Empirical Realities}
+
+\begin{itemize}
+    \item \textbf{Firms appear to have target leverage ratios}
+    \begin{itemize}
+        \item But adjustment is gradual and costly.
+        \item \textcite{leary2005firms}; \textcite{deangelo2015stable}
+    \end{itemize}
+
+    \item \textbf{Institutions matter}
+    \begin{itemize}
+        \item Tax systems, creditor rights, and legal institutions affect leverage choices.
+        \item \textcite{fan2012international}
+    \end{itemize}
+
+    \item \textbf{Capital structure also reflects financing history}
+    \begin{itemize}
+        \item Past market timing and valuation windows can have persistent effects.
+        \item \textcite{baker2002market}
+    \end{itemize}
+\end{itemize}
+
+\vfill
+
+\begin{alertblock}{Takeaway}
+Real-world leverage reflects both firm fundamentals and financing frictions:
+taxes, collateral, growth options, adjustment costs, institutions, and market timing.
+\end{alertblock}
+
 \end{frame}
 
 \subsection*{Summary}
@@ -1112,41 +1316,5 @@
 		\item Leverage varies across \textbf{countries, industries, firm types}
 		\item Capital structure reflects both \textit{rational design} and \textit{practical constraints}
 	\end{itemize}
-	
-\end{frame}
-
-\begin{frame}{Discussion: Which Theory Best Fits China?}
-	
-	\textbf{Question:}  
-	Which capital structure theory best explains the financing behavior of firms in China?
-	
-	\begin{itemize}
-		\item \textbf{Trade-Off Theory}
-		\begin{itemize}
-			\item Does the tax shield dominate firm decisions?
-			\item How important are bankruptcy costs in SOEs vs. private firms?
-		\end{itemize}
-		
-		\item \textbf{Pecking Order Theory}
-		\begin{itemize}
-			\item Do firms avoid equity due to asymmetric information?
-			\item What is the role of internal funds and retained earnings?
-		\end{itemize}
-		
-		\item \textbf{Agency / Free Cash Flow}
-		\begin{itemize}
-			\item How does concentrated ownership affect managerial behavior?
-			\item Are high cash firms more likely to over-invest?
-		\end{itemize}
-		
-		\item \textbf{Market Timing}
-		\begin{itemize}
-			\item Do Chinese firms issue equity in "hot" markets?
-			\item Are IPO waves driven by valuation windows?
-		\end{itemize}
-	\end{itemize}
-	
-	\textbf{Follow-up:}  
-	Can one theory explain all firms? Or do different types (SOEs, tech, exporters) follow different models?
 	
 \end{frame}
