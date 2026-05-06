@@ -2,9 +2,11 @@
 
 Lecture slides for the "Capital Structure and Dividend Policy" course offered at WISE and SOE, Xiamen University (Spring 2026).
 
-## Author
+## Maintainer
 - Wang Youan (王佑安)
+- Affiliation: WISE and SOE, Xiamen University
 - Homepage: [https://wangyouan.github.io/](https://wangyouan.github.io/)
+- Contact: Please reach out via the homepage.
 
 ## Overview
 This repository contains LaTeX source files for lecture slides covering key topics in corporate finance:
@@ -50,3 +52,15 @@ Suggested extensions:
 
 Cloud option:
 - [Overleaf](https://www.overleaf.com/)
+
+## Citation
+If you find these slides useful, please cite this repository as:
+
+```bibtex
+@misc{wang2026csdp,
+   author = {Wang, Youan},
+   title = {Capital Structure and Dividend Policy Lecture Slides},
+   year = {2026},
+   note = {WISE and SOE, Xiamen University}
+}
+```
