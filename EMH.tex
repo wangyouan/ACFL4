@@ -1,43 +1,145 @@
 
 \subsection{Can Financing Decisions Create Value?}
-\begin{frame}{\subsecname}
-	\begin{itemize}
-		\item Previous lectures focused on \textbf{investment decisions} (NPV criterion).
-		\item This lecture shifts to \textbf{financing decisions}:
-		\begin{itemize}
-			\item Debt-equity mix optimization
-			\item Timing of security issuance
-			\item Dividend policy formulation
-		\end{itemize}
-		\item \textbf{Why financing matters}:
-		\begin{itemize}
-			\item Good financing decisions: Act as \textit{financial shock absorbers} (e.g., prevent bankruptcy)
-			\item Poor financing decisions: Can trigger \textit{financial distress spiral} (e.g., Lehman Brothers)
-		\end{itemize}
-	\end{itemize}
-	\vfill
-	\footnotesize\textit{Key Insight: While investments drive growth, financing decisions determine survival.}
+\begin{frame}{Why Start with Market Efficiency?}
+
+\begin{block}{From Investment Decisions to Financing Decisions}
+Previous lectures focused on \textbf{investment decisions}: choosing real assets that generate positive NPV.
+
+This lecture shifts to \textbf{financing and payout decisions}: choosing how to finance assets and how to distribute cash to investors.
+\end{block}
+
+\begin{itemize}
+    \item Investment decisions can create value by changing the firm's real cash flows.
+    \item Financing decisions often only change how cash flows are divided among investors.
+    \item Therefore, the key question is:
+\end{itemize}
+
+\begin{center}
+\large
+\textbf{Can financing choices increase the total value of the firm?}
+\end{center}
+
+% \vfill
+
+% \begin{alertblock}{Connection to EMH}
+% Market efficiency matters because it determines whether firms can create value by exploiting mispricing, timing the market, or designing securities that investors misvalue.
+% \end{alertblock}
+
 \end{frame}
 
+\begin{frame}{The Central Question: Does Financing Change the Size of the Pie?}
+\footnotesize
+\begin{columns}
+    \column{0.52\textwidth}
+    \begin{itemize}
+        \item A firm's value can be written as:
+        \[
+        V = B + S
+        \]
+        where $B$ is debt value and $S$ is equity value.
+        
+        \item Capital structure changes the \textbf{division} between debt and equity.
+        
+        \item But shareholders care about whether financing changes the \textbf{total firm value}, not only the labels of claims.
+    \end{itemize}
 
-\begin{frame}{Three Avenues for Value Creation}
-	\centering
-	\begin{tikzpicture}[node distance=0.3cm]
-		\node (strat1) [rounded corners,fill=blue!15,text width=3.5cm,align=center] {\textbf{Market Timing} \\ {\footnotesize\textit{(e.g., IPO windows)}} \\ \tiny\textcite{baker2002market}  \\ {\tiny $\Delta \text{CAR} = +3\%$}};
-		\node (strat2) [right=of strat1,rounded corners,fill=green!15,text width=3.5cm,align=center] {\textbf{Tax Optimization} \\ {\footnotesize\textit{(e.g., debt shields)}} \\ \tiny\textcite{graham2001payout} \\ {\tiny $\text{NPV} = 7\%-15\%$}};
-		\node (strat3) [right=of strat2,rounded corners,fill=red!15,text width=3.5cm,align=center] {\textbf{Security Design / Green Innovation} \\ {\footnotesize\textit{(e.g., green bonds)}} \\ \tiny\textcite{flammer2021corporate} \\ {\tiny $\text{CAR} = +1.3\%$}};
-	\end{tikzpicture}
+    \column{0.42\textwidth}
+    \begin{block}{Pie Theory}
+    \centering
+    \Large
+    \textbf{Capital structure} \\
+    = slicing the pie
+    \vspace{0.3cm}
+    
+    \textbf{Value creation} \\
+    = expanding the pie
+    \end{block}
+\end{columns}
+
+\vfill
+
+\begin{alertblock}{Key Insight}
+If capital markets are perfect and efficient, changing the mix of debt and equity should not mechanically create value. Value arises only when financing affects taxes, distress costs, agency problems, information asymmetry, or investment flexibility.
+\end{alertblock}
+\end{frame}
+
+\begin{frame}{Three Possible Channels of Financing Value Creation}
+
+\begin{table}[h]
+\centering
+\resizebox{0.9\textwidth}{!}{
+\begin{tabular}{p{3.2cm}p{4.1cm}p{4.8cm}}
+\toprule
+\textbf{Channel} & \textbf{Core Mechanism} & \textbf{Main Question} \\
+\midrule
+\textbf{Market Timing / Mispricing} 
+& Issue overpriced securities or repurchase undervalued securities 
+& Can managers exploit temporary market inefficiency? \\
+
+\textbf{Tax Benefits and Subsidies} 
+& Reduce financing costs through tax shields or subsidized financing 
+& Can financing lower the firm's effective cost of capital? \\
+
+\textbf{Security Design and Contracting} 
+& Create securities that better allocate risk or appeal to investor demand 
+& Can financial innovation reduce frictions or satisfy unmet preferences? \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{block}{Roadmap for This Section}
+We first discuss whether firms can create value through financing choices.  
+Then we introduce the Efficient Market Hypothesis as a benchmark for understanding when such strategies are likely to work.
+\end{block}
+
+\end{frame}
+
+% \begin{frame}{Three Avenues for Value Creation}
+% 	\centering
+% 	\begin{tikzpicture}[node distance=0.3cm]
+% 		\node (strat1) [rounded corners,fill=blue!15,text width=3.5cm,align=center] {\textbf{Market Timing} \\ {\footnotesize\textit{(e.g., IPO windows)}} \\ \tiny\textcite{baker2002market}  \\ {\tiny $\Delta \text{CAR} = +3\%$}};
+% 		\node (strat2) [right=of strat1,rounded corners,fill=green!15,text width=3.5cm,align=center] {\textbf{Tax Optimization} \\ {\footnotesize\textit{(e.g., debt shields)}} \\ \tiny\textcite{graham2001payout} \\ {\tiny $\text{NPV} = 7\%-15\%$}};
+% 		\node (strat3) [right=of strat2,rounded corners,fill=red!15,text width=3.5cm,align=center] {\textbf{Security Design / Green Innovation} \\ {\footnotesize\textit{(e.g., green bonds)}} \\ \tiny\textcite{flammer2021corporate} \\ {\tiny $\text{CAR} = +1.3\%$}};
+% 	\end{tikzpicture}
 	
-	\vspace{0.5cm}
-	\begin{itemize}
-		\item \textcolor{blue}{Short-Term}: Market timing--opportunistic but unsustainable.
-		\item \textcolor{green}{Medium-Term}: Tax arbitrage--structural but exposed to regulatory change.
-		\item \textcolor{red}{Mixed Horizon}: Security innovation--may yield temporary gains unless protected by policy or IP.
-	\end{itemize}
+% 	\vspace{0.5cm}
+% 	\begin{itemize}
+% 		\item \textcolor{blue}{Short-Term}: Market timing--opportunistic but unsustainable.
+% 		\item \textcolor{green}{Medium-Term}: Tax arbitrage--structural but exposed to regulatory change.
+% 		\item \textcolor{red}{Mixed Horizon}: Security innovation--may yield temporary gains unless protected by policy or IP.
+% 	\end{itemize}
+% \end{frame}
+
+\begin{frame}{A Useful Benchmark}
+\footnotesize
+\begin{block}{If Markets Are Efficient}
+Security prices already reflect available information.
+\begin{itemize}
+    \item Firms receive fair prices when issuing securities.
+    \item Investors are difficult to fool systematically.
+    \item Market timing is unlikely to create persistent value.
+\end{itemize}
+\end{block}
+
+\begin{block}{If Markets Are Not Fully Efficient}
+Financing choices may affect value through temporary mispricing or investor demand.
+\begin{itemize}
+    \item Equity issuance may be attractive when shares are overvalued.
+    \item Repurchases may be attractive when shares are undervalued.
+    \item Innovative securities may exploit temporary market segmentation.
+\end{itemize}
+\end{block}
+
+\vfill
+
+\begin{alertblock}{Transition}
+This is why we begin with market efficiency before turning to capital structure theory.
+\end{alertblock}
+
 \end{frame}
 
-
-\begin{frame}{Creating Value through Market Timing: Can Firms Fool Investors?}
+\begin{frame}{Channel 1: Market Timing and Mispricing}
 	\begin{itemize}
 		\item Theory: Firms might create value by \textit{fooling investors} through financing tactics.
 		\item Reality: Sustained deception is difficult in reasonably efficient markets.
@@ -59,25 +161,40 @@
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Why Market Timing Fails: The Enron Case }
-	\begin{columns}
-		\column{0.6\textwidth}
-		\textbf{Mechanics of Collapse\parencite{healy2003fall}}:
-		\begin{itemize}
-			\item Hidden debt via SPEs: \$1.2B off-balance-sheet
-			\item Stock price drop: \$90.75 (2000) $\rightarrow$ \$0.26 (2001)
-		\end{itemize}
-		\column{0.4\textwidth}
-		\includegraphics[width=\textwidth]{images/section1/enron_stock_chart.png}
-	\end{columns}
-	\vspace{0.3cm}
-	\begin{alertblock}{Modern Enforcement \parencite{palantir2023}}
-		AI tools (e.g., Palantir) detect anomalies in real-time. \\
-		{\footnotesize\textcolor{gray}{Source: SEC 2023 Enforcement Report}}
-	\end{alertblock}
+\begin{frame}{The Limits of Fooling Investors: The Enron Case}
+\footnotesize
+\begin{columns}
+    \column{0.58\textwidth}
+    \textbf{What Happened?}
+    \begin{itemize}
+        \item Enron used complex structures to hide debt and inflate performance.
+        \item Hidden debt through SPEs: about \$1.2 billion.
+        \item Stock price fell from \$90.75 in 2000 to \$0.26 in 2001.
+    \end{itemize}
+
+
+    \textbf{Lesson}
+    \begin{itemize}
+        \item Misleading investors may work temporarily.
+        \item But correction can be sudden and destructive.
+    \end{itemize}
+
+    \column{0.38\textwidth}
+    \includegraphics[width=\textwidth]{images/section1/enron_stock_chart.png}
+
+    {\scriptsize Source: \parencite{healy2003fall}.}
+\end{columns}
+
+\vfill
+
+\begin{alertblock}{Implication for Financing Decisions}
+Financing tactics create durable value only when they improve fundamentals,
+not when they merely obscure information.
+\end{alertblock}
+
 \end{frame}
 
-\begin{frame}{Reducing Costs or Increasing Subsidies: A Financing Channel}
+\begin{frame}{Channel 2: Reducing Financing Costs through Subsidies}
 	Certain financing structures offer explicit or implicit subsidies.
 	\begin{block}{Illustration: Subsidized Bond Issuance}
 		Ant Sports Co. applies for a tax-exempt, 5-year, \textyen 2 million industrial bond in Fujian to avoid relocating production to Vietnam.
@@ -103,7 +220,7 @@
  \textbf{Interpretation}: The Fujian government provides an implicit subsidy equal to NPV via below-market rates
 \end{frame}
 
-\begin{frame}{Creating Value through Financial Innovation}
+\begin{frame}{Channel 3: Security Design and Financial Innovation}
 	\begin{block}{Core Idea}
 		\textbf{Firms can create value by issuing new types of securities} that satisfy previously unmet investor preferences or risk-return demands.
 	\end{block}
@@ -151,36 +268,54 @@
 
 \subsection{Efficient Capital Markets}
 
-\begin{frame}{Historical Foundations of the Efficient Market Hypothesis}
-	
-	\begin{columns}[T]
-		\begin{column}{0.52\textwidth}
-			\textbf{Foundational Milestones:}
-			\begin{itemize}
-				\item \textbf{1900}: \textcite{bachelier1900} introduces probabilistic asset price modeling
-				\item \textbf{1965}: \textcite{fama1965random} presents empirical support for price randomness
-				\item \textbf{1970}: \textcite{fama1970efficient} formalizes EMH and classifies it into three forms
-			\end{itemize}
-		\end{column}
-		
-		\begin{column}{0.44\textwidth}
-			\textbf{Further Contributions:}
-			\begin{itemize}
-				\item \textbf{1970s-80s}:
-				\begin{itemize}
-					\item Paul Samuelson -- theoretical validation
-					\item \textcite{jensen1978anomalous} on performance evaluation under EMH
-					\item \textcite{malkiel1973random} popularizes EMH among retail investors
-				\end{itemize}
-				\item \textbf{2013}: Fama receives Nobel Prize for EMH development
-			\end{itemize}
-		\end{column}
-	\end{columns}
-	
-	\begin{block}{Key Milestones Timeline}
-		1900 (Bachelier) $\rightarrow$ 1965 (Fama) $\rightarrow$ 1970 (Formalization) $\rightarrow$ 2013 (Nobel Recognition)
-	\end{block}
-	
+\begin{frame}{Historical Foundations of the EMH}
+
+\begin{block}{Main Question}
+Do prices already reflect available information?
+\end{block}
+
+\begin{center}
+\begin{tikzpicture}[
+    node distance=1.2cm,
+    box/.style={
+        rounded corners,
+        draw,
+        align=center,
+        text width=3.0cm,
+        minimum height=1.25cm
+    }
+]
+    \node[box] (b) {
+        \textbf{1900}\\
+        Bachelier\\
+        {\footnotesize Random price movements}\\
+        {\scriptsize \parencite{bachelier1900}}
+    };
+
+    \node[box, right=of b] (f1) {
+        \textbf{1965}\\
+        Fama\\
+        {\footnotesize Random walk evidence}\\
+        {\scriptsize \parencite{fama1965random}}
+    };
+
+    \node[box, right=of f1] (f2) {
+        \textbf{1970}\\
+        Fama\\
+        {\footnotesize Formal EMH framework}\\
+        {\scriptsize \parencite{fama1970efficient}}
+    };
+
+    \draw[->, thick] (b) -- (f1);
+    \draw[->, thick] (f1) -- (f2);
+\end{tikzpicture}
+\end{center}
+
+\begin{alertblock}{Why It Matters for Corporate Finance}
+EMH provides the benchmark for asking whether financing decisions can
+create value through market timing or security mispricing.
+\end{alertblock}
+{\scriptsize Related contributions: \textcite{malkiel1973random}; \textcite{jensen1978anomalous}.}
 \end{frame}
 
 \begin{frame}{Understanding Efficient Capital Markets}
@@ -273,57 +408,59 @@
 			\end{itemize}
 		\end{itemize}
 	\end{columns}
-	\begin{block}{Interpretation}
-		Each broader form of efficiency \textit{subsumes} the weaker one -- the informational assumptions become stronger as we move outward in the diagram.
-	\end{block}
+\begin{alertblock}{Key Takeaway}
+The three forms are nested. Weak-form efficiency rules out simple price-pattern trading;
+semi-strong efficiency rules out public-information-based abnormal returns;
+strong-form efficiency is rarely met in practice.
+\end{alertblock}
 \end{frame}
 
-\begin{frame}{Comparison of the Three Forms of Market Efficiency}
+% \begin{frame}{Comparison of the Three Forms of Market Efficiency}
 	
-	\begin{table}[h]
-		\centering
-		\resizebox{\textwidth}{!}{
-			\begin{tabular}{lccc}
-				\toprule
-				\textbf{Feature} & \textbf{Weak Form} & \textbf{Semi-Strong Form} & \textbf{Strong Form} \\
-				\midrule
-				\textbf{Information Reflected} 
-				& Past prices and volume 
-				& All publicly available information 
-				& All information (public + private) \\
-				\addlinespace[0.2em]
+% 	\begin{table}[h]
+% 		\centering
+% 		\resizebox{\textwidth}{!}{
+% 			\begin{tabular}{lccc}
+% 				\toprule
+% 				\textbf{Feature} & \textbf{Weak Form} & \textbf{Semi-Strong Form} & \textbf{Strong Form} \\
+% 				\midrule
+% 				\textbf{Information Reflected} 
+% 				& Past prices and volume 
+% 				& All publicly available information 
+% 				& All information (public + private) \\
+% 				\addlinespace[0.2em]
 				
-				\textbf{Implication for Technical Analysis} 
-				& Cannot consistently generate alpha 
-				& Ineffective 
-				& Ineffective \\
+% 				\textbf{Implication for Technical Analysis} 
+% 				& Cannot consistently generate alpha 
+% 				& Ineffective 
+% 				& Ineffective \\
 				
-				\textbf{Implication for Fundamental Analysis} 
-				& May work 
-				& Cannot consistently generate alpha 
-				& Ineffective \\
+% 				\textbf{Implication for Fundamental Analysis} 
+% 				& May work 
+% 				& Cannot consistently generate alpha 
+% 				& Ineffective \\
 				
-				\textbf{Implication for Insider Trading} 
-				& Profitable 
-				& Profitable 
-				& Not profitable \\
+% 				\textbf{Implication for Insider Trading} 
+% 				& Profitable 
+% 				& Profitable 
+% 				& Not profitable \\
 				
-				\textbf{Empirical Support} 
-				& Strong in most markets 
-				& Mixed -- supported in large markets 
-				& Largely rejected \\
+% 				\textbf{Empirical Support} 
+% 				& Strong in most markets 
+% 				& Mixed -- supported in large markets 
+% 				& Largely rejected \\
 				
-				\bottomrule
-			\end{tabular}
-		}
-	\end{table}
+% 				\bottomrule
+% 			\end{tabular}
+% 		}
+% 	\end{table}
 	
-	\vspace{0.3cm}
-	\begin{block}{Key Takeaway}
-		The forms of EMH are nested: each stronger form implies the weaker ones. Strong-form efficiency sets a high bar -- rarely met in reality.
-	\end{block}
+% 	\vspace{0.3cm}
+% 	\begin{block}{Key Takeaway}
+% 		The forms of EMH are nested: each stronger form implies the weaker ones. Strong-form efficiency sets a high bar -- rarely met in reality.
+% 	\end{block}
 	
-\end{frame}
+% \end{frame}
 
 
 \begin{frame}{Common Misconceptions about Market Efficiency}
@@ -351,7 +488,7 @@
 	\vspace{4mm}
 	\begin{block}{Key Insight}
 		\small
-		The Efficient Market Hypothesis does not deny structure or rationality -- it asserts that \textbf{information is rapidly and correctly incorporated into prices}.
+		The Efficient Market Hypothesis does not deny structure or rationality --- it asserts that \textbf{information is rapidly and correctly incorporated into prices}.
 	\end{block}
 	
 \end{frame}
@@ -608,162 +745,121 @@
 \end{frame}
 
 
-
 \subsubsection{Strong-form EMH}
+
 \begin{frame}{Strong-form EMH: Key Points}
-	\begin{block}{Core Proposition}
-		All information (public \& private) reflected in prices $\Rightarrow$ \alert{No insider profits} possible
-	\end{block}
-	\vspace{-3mm}
-	\begin{columns}[T]
-		\begin{column}{0.55\textwidth}
-			Empirical Evidences:
-			\begin{itemize}
-				\item \textcite{bhattacharya2002world}: Weak enforcement $\rightarrow$ 3\%+ alpha
-				\item \textcite{lakonishok2001are}: Insider buys $\rightarrow$ +5\% returns
-				\item \textcite{seyhun1986insiders}: Small firms $\rightarrow$ 12\% edge
-			\end{itemize}
-		\end{column}
-		
-		\begin{column}{0.45\textwidth}
-			Key Implications:
-				\begin{itemize}
-					\item Strong-form efficiency is theoretical
-					\item Regulation critical for fairness
-					\item Small caps more vulnerable
-				\end{itemize}
-		\end{column}
-	\end{columns}
-	\vspace{-3mm}
-	\begin{alertblock}{Consensus Conclusion}
-		Strong-form efficiency remains a theoretical ideal rather than empirical reality
-	\end{alertblock}
+\footnotesize
+\begin{block}{Core Proposition}
+If all public and private information is reflected in prices, 
+\alert{insiders should not earn abnormal profits}.
+\end{block}
+
+\begin{columns}[T]
+    \begin{column}{0.55\textwidth}
+        \textbf{Empirical Evidence}
+        \begin{itemize}
+            \item \textcite{seyhun1986insiders}: insiders earn abnormal profits.
+            \item \textcite{lakonishok2001are}: insider purchases are informative.
+            \item \textcite{bhattacharya2002world}: enforcement of insider trading laws matters.
+        \end{itemize}
+    \end{column}
+    
+    \begin{column}{0.42\textwidth}
+        \textbf{Implications}
+        \begin{itemize}
+            \item Strong-form efficiency is rarely supported.
+            \item Private information can be valuable.
+            \item Regulation affects market fairness.
+        \end{itemize}
+    \end{column}
+\end{columns}
+
+\vfill
+
+\begin{alertblock}{Conclusion}
+Strong-form efficiency is best viewed as a theoretical benchmark, not an empirical description of real markets.
+\end{alertblock}
+
 \end{frame}
 
 \subsubsection{EMH in China}
-\begin{frame}{EMH in China: Weak-Form Efficiency}
-	
-	\begin{block}{What is being tested?}
-		Weak-form efficiency implies that stock returns should not be predictable based on past price or volume information.
-	\end{block}
-	
 
-	\textbf{Evidence from Chinese Markets:}
-	\begin{itemize}
-		\item Early studies using autocorrelation and runs tests:
-		\begin{itemize}
-			\item \textcite{laurence1997weak}, \textcite{luo2022efficiency} find weak evidence of autocorrelation in Shanghai and Shenzhen markets.
-			\item Suggest limited weak-form efficiency in early years.
-		\end{itemize}
-		
-\item Contrasting results:
-        \begin{itemize}
-            \item \textcite{lim2009weak} show episodic serial dependencies and nonlinearity, indicating that weak-form efficiency may not hold uniformly over time in Chinese stock markets.
-        \end{itemize}
+\begin{frame}{EMH in China: Why the Setting Is Different}
 
-	\end{itemize}
-	
+\begin{block}{Main Question}
+Does the Efficient Market Hypothesis apply equally well in China?
+\end{block}
 
-	\begin{alertblock}{Conclusion}
-		The weak-form efficiency of Chinese markets remains inconclusive and time-varying.
-	\end{alertblock}
-	
+\vspace{0.2cm}
+
+China's stock market has several distinctive features:
+
+\begin{itemize}
+    \item \textbf{Retail investor dominance}: high turnover and sentiment-driven trading.
+    \item \textbf{Policy intervention}: regulation and government signals can affect prices.
+    \item \textbf{Disclosure quality}: improved over time, but still uneven across firms.
+    \item \textbf{Limits to arbitrage}: short-sale constraints, liquidity frictions, and ownership restrictions.
+\end{itemize}
+
+\vfill
+
+\begin{alertblock}{Implication}
+Market efficiency in China should be viewed as a developing and time-varying phenomenon.
+\end{alertblock}
+
 \end{frame}
 
-\begin{frame}{Challenges in Testing EMH in China}
-	
-	\begin{itemize}
-		\item Chinese market efficiency is challenged by several structural factors:
-		\begin{itemize}
-			\item \textbf{Retail investor dominance} （散户主导）-- high turnover and sentiment-driven trading
-			\item \textbf{Frequent policy shifts and state intervention}（政策频繁调整，政府干预）
-			\item \textbf{Weak disclosure and governance frameworks}（信息披露制度不完善）
-			\item \textbf{Limits to arbitrage} -- constraints due to liquidity, short selling bans, and ownership restrictions
-		\end{itemize}
-	\end{itemize}
-	
-	\vspace{0.3cm}
-	\begin{block}{Interpretation}
-		Market structure, regulatory conditions, and investor composition complicate the application of EMH in China -- especially in its weak form.
-	\end{block}
-	
+\begin{frame}{EMH in China: Evidence from the Literature}
+
+\begin{block}{A More Nuanced View}
+The evidence does not support a simple ``efficient vs. inefficient'' conclusion.
+\end{block}
+
+\vspace{0.2cm}
+
+\begin{itemize}
+    \item \textcite{lim2011evolution}: market efficiency can evolve over time.
+
+    \item \textcite{lim2009weak}: Chinese stock markets show episodic serial dependence and nonlinear predictability.
+
+    \item \textcite{xiong2019adaptive}: evidence from calendar effects is consistent with the Adaptive Market Hypothesis.
+
+    \item \textcite{chi2013china}: mutual fund outperformance declined over time, while private information still mattered.
+\end{itemize}
+
+\vfill
+
+\begin{alertblock}{Takeaway}
+China is better understood through \textbf{adaptive efficiency} than a static EMH framework.
+\end{alertblock}
+
 \end{frame}
 
+\begin{frame}{China's Market Efficiency: Improving but Incomplete}
+\footnotesize
+\begin{block}{Progress over Time}
+China's market has become more efficient as institutions and regulations have developed.
+\end{block}
 
-\begin{frame}{Toward Adaptive Efficiency in China}
-	
-	\begin{itemize}
-		\item Some researchers propose that efficiency in China is \textit{time-varying} or \textit{adaptive}.
-		
-		\item Supporting evidence:
-		\begin{itemize}
-			\item As reforms progressed, return predictability weakened (suggesting increasing efficiency)
-			\item VR and time-varying parameter models detect gradual evolution toward weak-form efficiency
-		\end{itemize}
-		
-		\item \textcite{lim2011evolution} emphasize that efficiency should be viewed as evolving with market development.
-	\end{itemize}
-	
-	\vspace{0.3cm}
-	\begin{alertblock}{Takeaway}
-		China's markets may be better understood under an \textbf{adaptive efficiency} framework rather than a static EMH view.
-	\end{alertblock}
-	
-\end{frame}
 
-\begin{frame}{Mutual Fund Performance in China: Overview}
-	\begin{itemize}
-		\item Since 1998, China's mutual fund industry has grown rapidly, reaching over RMB 1 trillion AUM by 2012.
-		\item \textbf{\textcite{chi2013china}} documents:
-		\begin{itemize}
-			\item Strong evidence of positive alpha among Chinese mutual funds (up to 9.6\% annually gross)
-			\item Significant skill in stock-picking, confirmed by bootstrap simulations
-			\item Outperformance mostly driven by holdings rather than timing
-		\end{itemize}
-	\end{itemize}
-	
-	\vspace{4mm}
-	\begin{alertblock}{EMH Implication}
-		Results suggest improving semi-strong form efficiency--mutual fund outperformance has diminished over time.
-	\end{alertblock}
-\end{frame}
+\begin{itemize}
+    \item More institutional investors and professional asset managers.
+    \item Better disclosure rules and enforcement.
+    \item Faster information dissemination through digital platforms.
+    \item More sophisticated pricing of public information.
+\end{itemize}
 
-\begin{frame}{Mutual Fund Performance in China: Visual Trends}
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.8\textwidth]{images/section1/chncar}
-	\end{figure}
-	\vspace{-3mm}
-	\tiny{SOURCE: \textcite{chi2013china}}
-\end{frame}
 
-\begin{frame}{China's Evolving Efficiency: 2003-2012}
-	\begin{itemize}
-		\item Mutual fund alpha declined from \textbf{17.8\%} (2003-04) to \textbf{-0.5\%} (2011-12)
-		\item Institutional ownership increased from 12\% to 66\%
-		\item Insider trade abnormal returns decayed faster in later years
-	\end{itemize}
-	
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.8\textwidth]{images/section1/chncar0812}
-	\end{figure}
-	\tiny{SOURCE: \textcite{chi2013china}}
-\end{frame}
+\begin{block}{Remaining Frictions}
+Retail trading, policy uncertainty, short-sale constraints, and private information still limit full efficiency.
+\end{block}
 
-\begin{frame}{Limitations: China and Strong-form Efficiency}
-	\begin{itemize}
-		\item \textcite{chi2013china} documents evidence of \textbf{information asymmetry}:
-		\begin{itemize}
-			\item Large shareholders (e.g., mutual funds) trade in sync with insiders
-			\item Insider trades generate significant abnormal returns (up to 4.5\% over 6 months)
-		\end{itemize}
-		\item These findings contradict the \textbf{strong-form EMH}
-	\end{itemize}
-	
-	\begin{block}{Conclusion}
-		China's stock market exhibits improving semi-strong form efficiency, but strong-form efficiency does not hold.
-	\end{block}
+\vfill
+
+\begin{alertblock}{Bottom Line}
+China's market efficiency has improved, but strong-form efficiency remains too demanding.
+\end{alertblock}
+
 \end{frame}
 
 \subsection{Challenges for EMH}
@@ -1273,5 +1369,5 @@
 			\item Limited arbitrage: Risk, constraints, slow correction
 		\end{itemize}
 	\end{block}
-	
+
 \end{frame}
