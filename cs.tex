@@ -904,98 +904,70 @@
 \end{frame}
 
 \subsection*{Summary: Capital Structure Basics}
-\begin{frame}{Summary: What Does Capital Structure Study?}
-	
-	\textbf{The Capital Structure Question:}
-	\begin{itemize}
-		\item Can a firm increase its total value by changing its mix of debt and equity?
-		\item If yes, what is the optimal debt-to-equity ratio?
-	\end{itemize}
-	
-	\vspace{0.4cm}
-	\textbf{Why It Matters for Shareholders:}
-	\begin{itemize}
-		\item Capital structure affects shareholder value only if it increases total firm value.
-		\item Goal: Find the structure that \textbf{maximizes the size of the "pie"}, not just redistributes it.
-	\end{itemize}
-	
-	\vspace{0.2cm}
-	\begin{alertblock}{Core Idea}
-		Value creation from financing requires increasing total firm value -- not just changing the capital mix.
-	\end{alertblock}
-	
+\begin{frame}{Summary: Capital Structure and Leverage}
+
+\begin{block}{Capital Structure Question}
+Can a firm increase total value by changing its mix of debt and equity?
+\end{block}
+
+\vspace{0.3cm}
+
+\begin{itemize}
+    \item Capital structure changes how the firm's cash flows are divided.
+    \item It creates value only if it increases the total size of the ``pie''.
+    \item Financial leverage amplifies equity returns:
+    \begin{itemize}
+        \item Higher upside when EBIT is high.
+        \item Greater downside when EBIT is low.
+    \end{itemize}
+\end{itemize}
+
+\vfill
+
+\begin{alertblock}{Key Intuition}
+Leverage changes the risk and payoff of equity, but this does not
+automatically mean that firm value increases.
+\end{alertblock}
+
 \end{frame}
 
-\begin{frame}{Summary: Financial Leverage and Firm Value}
-	
-	\textbf{Effects of Leverage:}
-	\begin{itemize}
-		\item Leverage increases the sensitivity of equity returns to operating profits (EBIT).
-		\item It amplifies both upside (EPS ↑) and downside (EPS ↓) outcomes.
-	\end{itemize}
-	
-	\vspace{0.3cm}
-	\textbf{Break-Even EBIT:}
-	\begin{itemize}
-		\item Leverage improves shareholder value only if EBIT exceeds a certain threshold.
-		\item Below that point, interest costs outweigh the benefits of share repurchase.
-	\end{itemize}
-	
-	\vspace{0.3cm}
-	\textbf{Homemade Leverage:}
-	\begin{itemize}
-		\item Investors can replicate leverage themselves if markets are perfect.
-		\item Under ideal conditions, capital structure becomes irrelevant.
-	\end{itemize}
-	
-\end{frame}
+\begin{frame}{Summary: Modigliani--Miller Propositions}
 
-\begin{frame}{Summary: The Basic Modigliani-Miller Model (No Taxes)}
-	
-	\textbf{MM Proposition I: Capital Structure Irrelevance}
-	\[
-	V_L = V_U
-	\]
-	\begin{itemize}
-		\item Firm value depends on its assets and cash flows -- not on how it is financed.
-		\item Capital structure does not create value in a frictionless world.
-	\end{itemize}
-	
-	\vspace{0.3cm}
-	\textbf{MM Proposition II: Cost of Equity Rises with Leverage}
-	\[
-	R_S = R_0 + \frac{B}{S}(R_0 - R_B)
-	\]
-	\begin{itemize}
-		\item As leverage increases, so does equity risk and expected return.
-		\item But WACC remains constant $\rightarrow$ no change in firm value.
-	\end{itemize}
-	
-\end{frame}
+\begin{columns}[T,onlytextwidth]
 
-\begin{frame}{Summary: M\&M with Corporate Taxes}
-	
-	\textbf{Key Result: Debt Creates Value Through Tax Shields}
-	
-	\begin{block}{MM Proposition I (with taxes)}
-		\[
-		V_L = V_U + T_C \times B
-		\]
-		\vspace{-5mm}
-		\begin{itemize}
-			\item The present value of interest tax shields adds to firm value.
-			\item The more permanent debt the firm has, the larger the tax benefit.
-		\end{itemize}
-	\end{block}
-	
-	\textbf{Implications:}
-	\begin{itemize}
-		\item Under this model, the firm's value increases linearly with leverage.
-		\item In a world with only corporate taxes, the \textbf{optimal capital structure is 100\% debt}.
-	\end{itemize}
-	
-	\begin{alertblock}{Next}
-		Realistic capital structure decisions must account for financial distress costs -- this leads us to \textbf{MM Case III}.
-	\end{alertblock}
-	
+\column{0.48\textwidth}
+\begin{block}{No Taxes}
+\[
+V_L = V_U
+\]
+
+\begin{itemize}
+    \item Capital structure is irrelevant.
+    \item Equity risk rises with leverage.
+    \item WACC remains unchanged.
+\end{itemize}
+\end{block}
+
+\column{0.48\textwidth}
+\begin{block}{Corporate Taxes}
+\[
+V_L = V_U + T_C B
+\]
+
+\begin{itemize}
+    \item Debt creates an interest tax shield.
+    \item Firm value increases with permanent debt.
+    \item WACC declines with leverage.
+\end{itemize}
+\end{block}
+
+\end{columns}
+
+\vfill
+
+\begin{alertblock}{Next Step}
+If debt is valuable because of tax shields, why are firms not financed
+entirely with debt? Financial distress costs provide the next answer.
+\end{alertblock}
+
 \end{frame}
