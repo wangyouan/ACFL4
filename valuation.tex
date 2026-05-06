@@ -1,31 +1,31 @@
-\begin{frame}{Valuation and Capital Budgeting for the Levered Firm}
-	
-	\textbf{Core Question:}  
-	How do we value investment projects when the firm uses both debt and equity financing?
-	
-	\vspace{0.3cm}
-	\begin{itemize}
-		\item \textbf{Why It Matters:}  
-		Capital budgeting and valuation must reflect financing choices -- taxes, interest, risk all change with leverage.
-		
-		\item \textbf{Challenges with Leverage:}
-		\begin{itemize}
-			\item Project risk is no longer the same as firm risk
-			\item Discount rates must account for debt usage
-			\item Tax shields and financial distress impact value
-		\end{itemize}
-		
-		\item \textbf{This Section Covers Three Valuation Methods:}
-		\begin{enumerate}
-			\item \textbf{Adjusted Present Value (APV)} -- separates project value from financing side effects
-			\item \textbf{Flow to Equity (FTE)} -- values equity cash flows directly
-			\item \textbf{WACC} -- most commonly used, integrates risk and capital costs
-		\end{enumerate}
-		
-		\item \textbf{Application:}  
-		We’ll also discuss how to estimate discount rates and betas when direct comparables are unavailable.
-	\end{itemize}
-	
+\begin{frame}{Valuing Investment Projects with Leverage}
+
+\begin{block}{Core Question}
+How should we value a project when financing affects taxes, cash flows,
+and risk?
+\end{block}
+
+\textbf{Why leverage complicates valuation:}
+\begin{itemize}
+    \item Debt creates interest tax shields.
+    \item Equity becomes riskier when leverage increases.
+    \item Financing side effects may change project value.
+\end{itemize}
+
+\textbf{Three approaches:}
+\begin{itemize}
+    \item \textbf{APV}: value the project first, then add financing effects.
+    \item \textbf{FTE}: value cash flows paid to equityholders.
+    \item \textbf{WACC}: discount project cash flows using a blended cost of capital.
+\end{itemize}
+
+\vfill
+
+\begin{alertblock}{Key Idea}
+Levered valuation is mostly about matching the right cash flow with the
+right discount rate.
+\end{alertblock}
+
 \end{frame}
 
 \subsection{Adjusted Present Value}
@@ -283,34 +283,35 @@
 	In industry, \textbf{WACC is the most widely used} due to simplicity and convention.
 	
 \end{frame}
+
 \begin{frame}{Summary: APV vs. FTE vs. WACC}
-	
-	\begin{table}
-		\resizebox{\textwidth}{!}{\begin{tabular}{llll}
-				\toprule
-				\textbf{Feature} & \textbf{APV} & \textbf{WACC} & \textbf{FTE} \\
-				\midrule
-				Initial Investment & Total project cost & Total project cost & Equity only \\
-				
-				Cash Flows Used & Unlevered cash flows (UCF) & UCF & Levered cash flows (LCF) \\
-				
-				Discount Rate & \( R_0 \) (unlevered) & \( WACC \) (after-tax) & \( R_S \) (levered equity) \\
-				
-				Tax Shield Treatment & Separate cash flow item (added) & Built into discount rate & Built into LCFs \\
-				
-				Best When & Debt schedule is known & D/V ratio is constant & Focus is on equity returns \\
-				
-				Popularity in Practice & Common in academia & Most used in practice & Less common \\
-				\bottomrule
-		\end{tabular}}
-	
-	\end{table}
-	
-	
-	\vspace{0.3cm}
-	\textbf{Bottom Line:}  
-	All three methods should give the same result if used consistently.
-	
+
+\begin{table}
+\centering
+\begin{tabular}{p{2.4cm}p{5.0cm}p{3.0cm}}
+\toprule
+\textbf{Method} & \textbf{Cash Flow Used} & \textbf{Discount Rate} \\
+\midrule
+\textbf{APV}  & Unlevered CF, plus financing effects separately & $R_0$ \\
+\textbf{WACC} & Unlevered CF & WACC \\
+\textbf{FTE}  & Levered CF to equityholders & $R_S$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\vspace{0.4cm}
+
+\begin{block}{Tax Shield Treatment}
+APV values tax shields separately; WACC builds them into the discount rate;
+FTE embeds them in equity cash flows.
+\end{block}
+
+\vfill
+
+\begin{alertblock}{Bottom Line}
+All three methods should give the same answer if applied consistently.
+\end{alertblock}
+
 \end{frame}
 
 \subsection{Applications of Levered Valuation Techniques}
@@ -585,7 +586,6 @@
 		\end{equation}
 	\end{itemize}
 	
-	\pause
 	\textbf{Where:}
 	\begin{itemize}
 		\item $\beta_0$: unlevered (asset) beta
