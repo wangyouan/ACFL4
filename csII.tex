@@ -1119,7 +1119,7 @@ costs, and market conditions.
 \end{frame}
 
 \subsection{How Firms Establish Capital Structure in Practice}
-\begin{frame}{Capital Structures Vary Widely Across Countries}
+\begin{frame}{Institutions Matter: Leverage Differs Across Countries}
 	
 	\begin{figure}
 		\centering
@@ -1130,7 +1130,100 @@ costs, and market conditions.
 	
 	\textbf{Observation:} Even in the absence of global theory consensus, capital structure is influenced by tax laws, legal protections, and institutional quality.
 \end{frame}
-\begin{frame}{Most Firms Maintain a Target Capital Structure}
+
+
+
+\begin{frame}{Industries Matter: Debt Capacity Is Business-Specific}
+	% https://www.fastercapital.com/content/Debt-to-Equity-Ratio--D-E---Debt-Dynamics--The-Debt-to-Equity-Ratio-s-Relevance-in-Stock-Valuation.html	
+
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.9\textwidth]{images/section3/cnderatio.png}
+	\end{figure}
+	
+\begin{alertblock}{Interpretation}
+Firms with tangible assets and stable cash flows can generally support more
+debt; firms relying on intangible assets or uncertain growth opportunities
+typically have lower debt capacity.
+\end{alertblock}
+\end{frame}
+
+\begin{frame}{Firm Characteristics Matter: Empirical Regularities}
+
+\begin{table}
+\centering
+\begin{tabular}{p{3.0cm}p{1.5cm}p{6.5cm}}
+\toprule
+\textbf{Characteristic} & \textbf{Leverage} & \textbf{Interpretation} \\
+\midrule
+
+\textbf{Tangibility}
+& Higher
+& Collateral reduces expected distress costs and supports borrowing. \\
+
+\addlinespace[0.3em]
+
+\textbf{Growth / R\&D}
+& Lower
+& Intangible assets and debt overhang make debt more costly. \\
+
+\addlinespace[0.3em]
+
+\textbf{Profitability}
+& Often Lower
+& Retained earnings reduce reliance on external financing. \\
+
+\addlinespace[0.3em]
+
+\textbf{Firm Size}
+& Higher
+& Larger firms are generally more diversified and less risky. \\
+
+\bottomrule
+\end{tabular}
+\end{table}
+
+\vfill
+
+{\scriptsize Evidence: \textcite{titman1988determinants}; 
+\textcite{rajan1995what}; \textcite{frank2009capital}.}
+
+\end{frame}
+
+\begin{frame}{What Shapes Capital Structure in Practice?}
+
+\begin{block}{A Three-Level Framework}
+Observed leverage reflects constraints and incentives at multiple levels.
+\end{block}
+
+\vspace{0.25cm}
+
+\begin{itemize}
+    \item \textbf{Institutional environment}
+    \begin{itemize}
+        \item Tax rules, creditor protection, legal enforcement, and financing systems.
+    \end{itemize}
+
+    \item \textbf{Industry characteristics}
+    \begin{itemize}
+        \item Asset tangibility, operating risk, cash-flow stability, and growth opportunities.
+    \end{itemize}
+
+    \item \textbf{Firm characteristics}
+    \begin{itemize}
+        \item Profitability, size, collateral, investment opportunities, and financing history.
+    \end{itemize}
+\end{itemize}
+
+\vfill
+
+\begin{alertblock}{Takeaway}
+Capital structure is not determined by one universal debt ratio. It reflects the institutional environment, industry economics, firm-specific characteristics, and financing frictions.
+\end{alertblock}
+
+\end{frame}
+
+\begin{frame}{Do Firms Maintain Target Leverage Ratios?}
 	
 	\begin{figure}
 		\centering
@@ -1142,7 +1235,8 @@ costs, and market conditions.
 	\vspace{2mm}
 	\textbf{Key Insight:} Most firms (especially large ones) maintain a target debt ratio -- but many adopt flexible or somewhat loose adherence.
 \end{frame}
-\begin{frame}{Firm-Level Capital Structures Are Not Static}
+
+\begin{frame}{Are Capital Structures Stable Over Time?}
 	
 	\begin{columns}
 		% Left: Image
@@ -1159,9 +1253,10 @@ costs, and market conditions.
 			\vspace{0.4cm}
 			\textbf{Why does leverage drift?}
 			\begin{itemize}
-				\item Changes in market equity value (denominator)
-				\item Internal equity financing via retained earnings
-				\item No immediate need to rebalance
+				\item Changes in market equity values
+                \item Retained earnings and internal financing
+                \item Issuance and adjustment costs
+                \item No immediate need to rebalance
 			\end{itemize}
 			
 			\vspace{0.3cm}
@@ -1171,125 +1266,111 @@ costs, and market conditions.
 	
 \end{frame}
 
-\begin{frame}{Capital Structures Differ by Industry}
-	% https://www.fastercapital.com/content/Debt-to-Equity-Ratio--D-E---Debt-Dynamics--The-Debt-to-Equity-Ratio-s-Relevance-in-Stock-Valuation.html	
-
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.9\textwidth]{images/section3/cnderatio.png}
-	\end{figure}
+% \begin{frame}{What Determines a Firm's Target D/E Ratio?}
+% 	\begin{itemize}
+% 		\item \textbf{Taxes:}
+% 		\begin{itemize}
+% 			\item Interest tax shield encourages more debt for profitable firms.
+% 		\end{itemize}
+		
+% 		\item \textbf{Asset Tangibility:}
+% 		\begin{itemize}
+% 			\item Tangible assets provide collateral $\rightarrow$ lower distress costs $\rightarrow$ higher debt capacity.
+% 			\item Firms with intangible assets (e.g., R\&D) favor equity.
+% 		\end{itemize}
+		
+% 		\item \textbf{Earnings Volatility:}
+% 		\begin{itemize}
+% 			\item More volatile EBIT increases risk of distress $\rightarrow$ encourages equity financing.
+% 		\end{itemize}
+% 	\end{itemize}
 	
-	\begin{block}{Main Idea}
-Optimal leverage differs across industries because firms face different
-operating risk, asset tangibility, and financing needs.
-\end{block}
-\end{frame}
+% 	\vspace{2mm}
+% 	\textbf{Additional factors:} growth opportunities, managerial preferences, macro conditions.
+% \end{frame}
 
-\begin{frame}{What Determines a Firm's Target D/E Ratio?}
-	\begin{itemize}
-		\item \textbf{Taxes:}
-		\begin{itemize}
-			\item Interest tax shield encourages more debt for profitable firms.
-		\end{itemize}
-		
-		\item \textbf{Asset Tangibility:}
-		\begin{itemize}
-			\item Tangible assets provide collateral $\rightarrow$ lower distress costs $\rightarrow$ higher debt capacity.
-			\item Firms with intangible assets (e.g., R\&D) favor equity.
-		\end{itemize}
-		
-		\item \textbf{Earnings Volatility:}
-		\begin{itemize}
-			\item More volatile EBIT increases risk of distress $\rightarrow$ encourages equity financing.
-		\end{itemize}
-	\end{itemize}
+% \begin{frame}{Empirical Realities of Capital Structure: Key Takeaways}
 	
-	\vspace{2mm}
-	\textbf{Additional factors:} growth opportunities, managerial preferences, macro conditions.
-\end{frame}
-
-\begin{frame}{Empirical Realities of Capital Structure: Key Takeaways}
+% 	\begin{itemize}
+% 		\item \textbf{Capital structure is context-specific} -- shaped by:
+% 		\begin{itemize}
+% 			\item Institutional environment (e.g., legal systems, taxation)
+% 			\item Industry characteristics (e.g., asset tangibility, volatility)
+% 			\item Firm attributes (e.g., size, profitability, lifecycle stage)
+% 		\end{itemize}
+		
+% 		\item \textbf{Target leverage ratios exist}, but are often flexible bands rather than precise points.
+		
+% 		\item \textbf{Observed capital structure fluctuates} due to:
+% 		\begin{itemize}
+% 			\item Market valuation changes
+% 			\item Internal financing and retained earnings
+% 			\item Timing or adjustment costs
+% 		\end{itemize}
+		
+% 		\item \textbf{Theory provides a framework}, but real-world capital structure reflects both rational design and practical constraints.
+% 	\end{itemize}
 	
-	\begin{itemize}
-		\item \textbf{Capital structure is context-specific} -- shaped by:
-		\begin{itemize}
-			\item Institutional environment (e.g., legal systems, taxation)
-			\item Industry characteristics (e.g., asset tangibility, volatility)
-			\item Firm attributes (e.g., size, profitability, lifecycle stage)
-		\end{itemize}
-		
-		\item \textbf{Target leverage ratios exist}, but are often flexible bands rather than precise points.
-		
-		\item \textbf{Observed capital structure fluctuates} due to:
-		\begin{itemize}
-			\item Market valuation changes
-			\item Internal financing and retained earnings
-			\item Timing or adjustment costs
-		\end{itemize}
-		
-		\item \textbf{Theory provides a framework}, but real-world capital structure reflects both rational design and practical constraints.
-	\end{itemize}
-	
-\end{frame}
+% \end{frame}
 
-\begin{frame}{What Determines a Firm's Target Leverage?}
+% \begin{frame}{What Determines a Firm's Target Leverage?}
 
-\begin{block}{Empirical Regularities}
-Capital structure is systematically related to firm characteristics.
-\end{block}
+% \begin{block}{Empirical Regularities}
+% Capital structure is systematically related to firm characteristics.
+% \end{block}
 
-\begin{itemize}
-    \item \textbf{Profitability}
-    \begin{itemize}
-        \item More profitable firms often use less debt, consistent with pecking order theory.
-        \item \textcite{titman1988determinants}; \textcite{rajan1995what}
-    \end{itemize}
+% \begin{itemize}
+%     \item \textbf{Profitability}
+%     \begin{itemize}
+%         \item More profitable firms often use less debt, consistent with pecking order theory.
+%         \item \textcite{titman1988determinants}; \textcite{rajan1995what}
+%     \end{itemize}
 
-    \item \textbf{Asset tangibility}
-    \begin{itemize}
-        \item Tangible assets serve as collateral and support higher debt capacity.
-        \item \textcite{rajan1995what}; \textcite{frank2009capital}
-    \end{itemize}
+%     \item \textbf{Asset tangibility}
+%     \begin{itemize}
+%         \item Tangible assets serve as collateral and support higher debt capacity.
+%         \item \textcite{rajan1995what}; \textcite{frank2009capital}
+%     \end{itemize}
 
-    \item \textbf{Growth opportunities and R\&D}
-    \begin{itemize}
-        \item Growth firms rely less on debt because distress costs and debt overhang are higher.
-        \item \textcite{myers1977determinants}; \textcite{titman1988determinants}
-    \end{itemize}
-\end{itemize}
+%     \item \textbf{Growth opportunities and R\&D}
+%     \begin{itemize}
+%         \item Growth firms rely less on debt because distress costs and debt overhang are higher.
+%         \item \textcite{myers1977determinants}; \textcite{titman1988determinants}
+%     \end{itemize}
+% \end{itemize}
 
-\end{frame}
+% \end{frame}
 
-\begin{frame}{Capital Structure in Practice: Empirical Realities}
+% \begin{frame}{Capital Structure in Practice: Empirical Realities}
 
-\begin{itemize}
-    \item \textbf{Firms appear to have target leverage ratios}
-    \begin{itemize}
-        \item But adjustment is gradual and costly.
-        \item \textcite{leary2005firms}; \textcite{deangelo2015stable}
-    \end{itemize}
+% \begin{itemize}
+%     \item \textbf{Firms appear to have target leverage ratios}
+%     \begin{itemize}
+%         \item But adjustment is gradual and costly.
+%         \item \textcite{leary2005firms}; \textcite{deangelo2015stable}
+%     \end{itemize}
 
-    \item \textbf{Institutions matter}
-    \begin{itemize}
-        \item Tax systems, creditor rights, and legal institutions affect leverage choices.
-        \item \textcite{fan2012international}
-    \end{itemize}
+%     \item \textbf{Institutions matter}
+%     \begin{itemize}
+%         \item Tax systems, creditor rights, and legal institutions affect leverage choices.
+%         \item \textcite{fan2012international}
+%     \end{itemize}
 
-    \item \textbf{Capital structure also reflects financing history}
-    \begin{itemize}
-        \item Past market timing and valuation windows can have persistent effects.
-        \item \textcite{baker2002market}
-    \end{itemize}
-\end{itemize}
+%     \item \textbf{Capital structure also reflects financing history}
+%     \begin{itemize}
+%         \item Past market timing and valuation windows can have persistent effects.
+%         \item \textcite{baker2002market}
+%     \end{itemize}
+% \end{itemize}
 
-\vfill
+% \vfill
 
-\begin{alertblock}{Takeaway}
-Real-world leverage reflects both firm fundamentals and financing frictions:
-taxes, collateral, growth options, adjustment costs, institutions, and market timing.
-\end{alertblock}
+% \begin{alertblock}{Takeaway}
+% Real-world leverage reflects both firm fundamentals and financing frictions:
+% taxes, collateral, growth options, adjustment costs, institutions, and market timing.
+% \end{alertblock}
 
-\end{frame}
+% \end{frame}
 
 \subsection*{Summary}
 \begin{frame}{Summary: Capital Structure and Its Limits}
