@@ -23,6 +23,7 @@
 *~
 *.bak
 *.backup
+*-SAVE-ERROR
 
 # VS Code settings (if using VS Code)
 .vscode/
