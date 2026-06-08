@@ -1086,6 +1086,7 @@ same as optimal payout.
 
 \begin{frame}[t]{Investor Demand: Dividend ETF Inflows}
 \footnotesize
+\vspace{-0.1cm}
 \begin{figure}
     \centering
     \includegraphics[width=0.64\linewidth]{images/section5/flowintocnde.png}
@@ -1169,7 +1170,6 @@ stronger investor demand for cash returns and defensive equity exposure.
 \end{frame}
 
 \begin{frame}{Dividend Policy: Stylized Facts}
-\footnotesize
 \begin{itemize}
     \item Aggregate corporate payouts (dividends + buybacks) have grown significantly over time.
     \item Dividends are paid primarily by large, mature, and profitable firms.
@@ -1208,192 +1208,109 @@ capacity, financial flexibility, or long-term firm value.
 
 \end{frame}
 
-\subsection{Stock Dividends and Stock Splits}
-\begin{frame}{Stock Dividends and Stock Splits}
-\footnotesize
+\subsection{Non-Cash Payouts: Stock Dividends and Stock Splits}
+
+\begin{frame}{Non-Cash Payouts and Share Count Adjustments}
 \begin{itemize}
-    \item \textbf{Stock Dividends:}
-    \begin{itemize}
-        \item Firm distributes additional shares instead of cash.
-        \item Increases the number of shares outstanding; total firm value remains unchanged.
-    \end{itemize}
+    \item \textbf{Cash dividends:} Transfer cash from the firm to shareholders; firm value falls by the amount distributed.
 
-    \vspace{1mm}
-    \item \textbf{Stock Splits:}
-    \begin{itemize}
-        \item Similar to stock dividends, but expressed as a ratio (e.g., 2-for-1 split).
-        \item Reduces the stock price proportionally, making shares more affordable.
-        \item Common justification: maintain stock within a "desirable trading range."
-    \end{itemize}
+    \item \textbf{Stock dividends:} Distribute additional shares to existing shareholders. No cash leaves the firm.
 
-    \vspace{1mm}
-    \item \textbf{Reverse Splits:}
-    \begin{itemize}
-        \item Consolidates multiple shares into fewer, more valuable shares (e.g., 1-for-10 reverse split).
-        \item Often used to meet minimum listing requirements or reduce shareholder count.
-    \end{itemize}
+    \item \textbf{Stock splits:} Increase the number of shares and mechanically reduce price per share (e.g., a 2-for-1 split doubles share count and halves price).
+
+    \item \textbf{Reverse splits:} Reduce the number of shares and mechanically increase price per share (e.g., a 1-for-10 reverse split).
 \end{itemize}
+
+\vspace{3mm}
+\begin{block}{Key Idea}
+Stock dividends, splits, and reverse splits change share count and per-share figures, but do \textbf{not} directly change total firm value.
+\end{block}
 \end{frame}
 
-\begin{frame}{Stock Dividend Mechanics: Peterson Co. Case Study}
-\footnotesize
-\begin{columns}[T]
-% Left Column: Transaction Details
-\begin{column}{0.48\textwidth}
-\color{blue!80!black}\textbf{Initial Position}
-\begin{itemize}
-    \item Shares outstanding: \color{teal}10,000
-    \item Market price: \color{teal}\$66/share
-    \item Market cap: \color{teal}\$660,000
-    \item Dividend declared: \color{red}10\% stock
-\end{itemize}
+\begin{frame}{Peterson Co.: Stock Dividend Example}
+\small
+\textbf{Setup:} Peterson Co.\ declares a \textbf{10\% stock dividend}. Initial position: 10,000 shares at \$66/share (market cap \$660,000).
 
-\vspace{5mm}
-\color{blue!80!black}\textbf{Corporate Action}
-\begin{itemize}
-    \item New shares issued: \color{red}1,000
-    \item Total shares post-dividend: \color{teal}11,000
-    \item Par value per share: \color{teal}\$1
-\end{itemize}
-\end{column}
-
-% Right Column: Accounting Treatment
-\begin{column}{0.48\textwidth}
-\color{blue!80!black}\textbf{Pre-Dividend Equity}
-\begin{tabular}{lr}
-Common stock (\$1 par) & \$10,000 \\
-Capital surplus & \$200,000 \\
-Retained earnings & \$290,000 \\
-\hline
-\textbf{Total equity} & \textbf{\$500,000} \\
+\vspace{3mm}
+\begin{center}
+\begin{tabular}{lccc}
+\toprule
+ & \textbf{Before} & \textbf{After} & \textbf{Change} \\
+\midrule
+Shares outstanding & 10,000 & 11,000 & $+$1,000 \\
+Price per share & \$66.00 & \$60.00 & $-\$6.00$ \\
+Market capitalization & \$660,000 & \$660,000 & None \\
+\bottomrule
 \end{tabular}
+\end{center}
 
-\vspace{5mm}
-\color{blue!80!black}\textbf{Journal Entries}
+\vspace{2mm}
+{\footnotesize Theoretical ex-price: $\$66 \times \frac{10{,}000}{11{,}000} \approx \$60.00$}
+
+\vspace{2mm}
 \begin{itemize}
-    \item[$\circ$] Retained earnings \hfill (\$66,000)
-    \item[$\circ$] Common stock \hfill +\$1,000
-    \item[$\circ$] Capital surplus \hfill +\$65,000
+    \item Total market value is mechanically unchanged.
+    \item Each shareholder holds more shares, but each share is worth proportionally less.
+    \item Proportional ownership is unchanged; no cash is distributed.
+    \item \textit{Accounting note:} retained earnings are reclassified into paid-in capital --- no net equity change.
 \end{itemize}
-\end{column}
-\end{columns}
 \end{frame}
 
-\begin{frame}{Post-Dividend Balance Sheet Analysis}
-\footnotesize
-\begin{columns}[T]
-% Left Column: Updated Balance Sheet
-\begin{column}{0.48\textwidth}
-\color{blue!80!black}\textbf{Revised Equity Structure}
-\begin{tabular}{lrr}
- & \textbf{Pre} & \textbf{Post} \\
-\rowcolor{gray!10}
-Common stock & \$10k & \color{red}\$11k \\
-Capital surplus & \$200k & \color{red}\$265k \\
-\rowcolor{gray!10}
-Retained earnings & \$290k & \color{red}\$224k \\
-\hline
-\textbf{Total} & \textbf{\$500k} & \textbf{\$500k} \\
+\begin{frame}{Why Do Firms Split Shares?}
+\begin{itemize}
+    \item \textbf{Trading range:} Stocks priced too high may deter small investors. Splits keep the price in a psychologically or institutionally favorable range.
+
+    \item \textbf{Perceived affordability:} A lower nominal price can attract retail investors and improve marketability.
+
+    \item \textbf{Liquidity:} More shares at a lower price may improve bid-ask spreads and trading activity.
+
+    \item \textbf{Reverse splits:} Used to avoid exchange delisting (e.g., Nasdaq's \$1 minimum price rule) or to eliminate administratively small shareholdings.
+\end{itemize}
+
+\vspace{3mm}
+\begin{alertblock}{Caveat}
+Splits are mostly cosmetic in valuation terms. Any lasting valuation effect must come from liquidity, signaling, or investor perception --- not from mechanical share-count changes.
+\end{alertblock}
+\end{frame}
+
+\begin{frame}[t]{Stock Split vs.\ Large Stock Dividend}
+\small
+\begin{center}
+\begin{tabular}{@{} l >{\raggedright\arraybackslash}p{3.6cm} >{\raggedright\arraybackslash}p{3.6cm} @{}}
+\toprule
+ & \textbf{Stock Split} & \textbf{Large Stock Dividend ($\geq 20\%$)} \\
+\midrule
+Share count      & Increases (e.g., $2\times$)  & Increases (e.g., $2\times$)  \\[2pt]
+Price per share  & Falls proportionally          & Falls proportionally          \\[2pt]
+Cash flow        & None                          & None                          \\[2pt]
+Accounting       & Par value per share reduced; retained earnings unchanged & Retained earnings reclassified to paid-in capital (at par value) \\[2pt]
+Total firm value & Unchanged                     & Unchanged                     \\
+\bottomrule
 \end{tabular}
+\end{center}
 
-\vspace{5mm}
-\color{blue!80!black}\textbf{Per Share Impact}
-\begin{itemize}
-    \item New shares: \color{teal}11,000
-    \item Theoretical ex-price: \$60 \\
-    {\footnotesize \color{gray}$\$66 \times \frac{10k}{11k}$}
-\end{itemize}
-\end{column}
-
-% Right Column: Key Implications
-\begin{column}{0.48\textwidth}
-\begin{tcolorbox}[colback=green!5!white,colframe=green!75!black,title=Key Observations]
-\begin{itemize}
-    \item[\faBalanceScale] \textbf{No dilution}: Proportional ownership unchanged
-    \item[\faChartLine] \textbf{Signaling effect}: Management confidence
-    \item[\faDollarSign] \textbf{Tax efficiency}: Deferred capital gains
-\end{itemize}
-\end{tcolorbox}
-\begin{tcolorbox}[colback=orange!5!white,colframe=orange!50!black,title=Caveats]
-\begin{itemize}
-    \item[\faExclamationTriangle] Market reaction not guaranteed
-    \item[\faPercentage] Opportunity cost of retained earnings
-\end{itemize}
-\end{tcolorbox}
-\end{column}
-\end{columns}
+\vspace{3mm}
+\footnotesize \textbf{Example:} A 100\% stock dividend (one new share issued per share held) and a 2-for-1 split are economically equivalent --- the difference lies only in accounting treatment.
 \end{frame}
 
-\begin{frame}{Example: Stock Split}
-\footnotesize
-\textbf{Scenario: Peterson Co.}
-\begin{itemize}
-    \item Firm declares a \textbf{2-for-1 stock split}:
-    \begin{itemize}
-        \item Shares outstanding double from 10,000 to 20,000
-        \item Par value per share is halved from \$1.00 to \$0.50
-    \end{itemize}
+\begin{frame}{Stock Dividends and Splits: Main Takeaway}
+\begin{block}{}
+\centering
+Stock dividends and stock splits change the number of shares outstanding, but do \textbf{not} directly change total firm value.
+\end{block}
 
-    \vspace{2mm}
-    \item \textbf{Key point:} No change in total ownership or value -- purely a cosmetic adjustment.
+\vspace{3mm}
+\begin{itemize}
+    \item \textbf{Cash dividends:} Distribute cash to shareholders; firm value falls.
+    \item \textbf{Stock dividends:} Distribute shares; no cash leaves the firm.
+    \item \textbf{Stock splits:} Mechanically lower price per share by increasing share count.
+    \item \textbf{Reverse splits:} Mechanically raise price per share by reducing share count.
 \end{itemize}
 
-\vspace{2mm}
-\textbf{Post-split equity accounts:}
-\begin{itemize}
-    \item Common stock (\$0.50 par, 20,000 shares): \hfill \$10,000
-    \item Capital in excess of par: \hfill \$200,000
-    \item Retained earnings: \hfill \$290,000
-    \item \textbf{Total owners' equity:} \hfill \textbf{\$500,000}
-\end{itemize}
-
-\vspace{2mm}
-\textbf{Implication:} The balance sheet remains unchanged in total -- only the \textit{number of shares} and \textit{par value} are updated.
-\end{frame}
-\begin{frame}{Example: Large Stock Dividend}
-\footnotesize
-\textbf{Scenario:} 100\% stock dividend declared by Peterson Co.
-\begin{itemize}
-    \item 10,000 new shares distributed $\rightarrow$ shares outstanding double from 10,000 to 20,000.
-    \item Par value = \$1 per share.
-    \item Common stock account increases by \$10,000 (from \$10,000 to \$20,000).
-    \item Retained earnings reduced by same amount (\$10,000).
-\end{itemize}
-
-\vspace{2mm}
-\textbf{Post-dividend equity accounts:}
-\begin{itemize}
-    \item Common stock (\$1 par, 20,000 shares): \hfill \$20,000
-    \item Capital in excess of par: \hfill \$200,000
-    \item Retained earnings: \hfill \$280,000
-    \item \textbf{Total owners' equity:} \hfill \textbf{\$500,000}
-\end{itemize}
-
-\vspace{2mm}
-\textbf{Note:} Like small stock dividends, no cash is paid out. However, large stock dividends (typically \(\geq 20\%\)) are accounted for using par value rather than market value.
-\end{frame}
-
-
-\begin{frame}{Rationale Behind Splits and Reverse Splits}
-\footnotesize
-\begin{itemize}
-    \item \textbf{Maintaining a Popular Trading Range:}
-    \begin{itemize}
-        \item Stocks priced too high may deter small investors.
-        \item Stocks priced too low may signal financial distress or poor quality.
-        \item Splits adjust the stock price to stay within a psychologically or institutionally favorable range.
-    \end{itemize}
-
-    \vspace{2mm}
-    \item \textbf{Reverse Splits -- Common Motivations:}
-    \begin{itemize}
-        \item \textbf{Exchange compliance:} Avoid delisting by meeting minimum price thresholds (e.g., Nasdaq's \$1 minimum).
-        \item \textbf{Shareholder consolidation:} Reduce the number of shareholders by rounding small holdings to zero.
-    \end{itemize}
-
-    \vspace{2mm}
-    \item \textbf{Key Insight:} While stock splits have no direct impact on firm value, they can affect investor perception and liquidity.
-\end{itemize}
+\vspace{3mm}
+\begin{alertblock}{Practical Relevance}
+These actions are mostly cosmetic in valuation terms, but they may matter for \textbf{liquidity}, \textbf{investor perception}, and \textbf{exchange listing requirements}.
+\end{alertblock}
 \end{frame}
 
 \subsection*{Summary}
